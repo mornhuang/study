@@ -27,10 +27,7 @@
 *.positions
 tags
 .settings
-.classpath
-.project
-.cproject
-.pydevproject
+
 
 
 
