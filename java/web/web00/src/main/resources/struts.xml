@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+<!-- Struts配置文件 -->
+<struts>
+	<!-- <constant name="struts.custom.i18n.resources" value="MessageResource" /> -->
+
+	<package name="base" extends="struts-default">
+
+        <action name="Login" class="com.huang.study.action.LoginAction3">
+            <result name="error">/jsp/error.jsp</result>
+            <result name="success">/jsp/showJasper.jsp</result>
+            <result name="input">/jsp/login.jsp</result>
+        </action>
+
+<!-- 
+        <interceptors>
+            <interceptor name="mysimple"
+                class="com.huang.study.action.IntpAction">
+                <param name="name">简单拦截器</param>
+            </interceptor>
+        </interceptors>
+
+		<action name="Login2" class="com.huang.study.action.LoginAction2">
+			<result name="error">/jsp/error.jsp</result>
+			<result name="success" type="chain">GetBooks</result>
+			<result name="input">/jsp/login2.jsp</result>
+
+			<interceptor-ref name="defaultStack" />
+			<interceptor-ref name="mysimple">
+				<param name="name">改名后的拦截器</param>
+			</interceptor-ref>
+		</action>
+
+		<action name="GetBooks" class="com.huang.study.action.GetBookAction">
+			<result name="success">/jsp/showBook2.jsp</result>
+			<result name="login">/jsp/login.jsp</result>
+		</action>
+
+		<action name="Upload" class="com.huang.study.action.UploadAction">
+			<interceptor-ref name="fileUpload">
+				<param name="allowedType">image/bmp, image/png, image/gif, image/jpeg</param>
+				<param name="maximumSize">2000</param>
+			</interceptor-ref>
+			<interceptor-ref name="defaultStack" />
+			<param name="savePath">../../upload</param>
+			<result>/jsp/succ.jsp</result>
+			<result name="input">/html/upload.html</result>
+		</action>
+ -->		
+	</package>
+  
+    <package name="jspr" extends="jasperreports-default">
+	    <action name="JsprHtml" class="com.huang.study.action.JasperAction">
+			<result name="success" type="jasper">
+			  <param name="location">/reports/report1.jasper</param>
+			  <param name="dataSource">rptData</param>
+			  <param name="reportParameters">rptConf</param>
+			  <param name="format">HTML</param>
+			  <param name="exportParameters">expConf</param>
+			</result>
+
+<!-- 			
+			<result name="exportHTML" type="jasper">
+			  <param name="location">/reports/check_pesons_result2.jasper</param>
+			  <param name="dataSource">listObj</param>
+			  <param name="format">HTML</param>
+			  <param name="reportParameters">map</param>
+			  <param name="contentDisposition">attachment</param>
+			  <param name="documentName">myreport</param>
+
+			  <param name="exportParameters">
+			    <key>IS_WHITE_PAGE_BACKGROUND</key>
+			    <value>TRUE</value>
+			  </param>
+ 			  
+			</result>
+			<result name="showJsp" type="dispatcher">
+			  <param name="location">/jsp/showJsp.jsp</param>
+			</result>
+-->			
+	    </action>
+    </package>  
+  
+</struts>
