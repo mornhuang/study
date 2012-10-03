@@ -1,6 +1,6 @@
-package com.learn.basic;
+package com.huang.study.utils;
 
-public class MyThread implements Runnable {
+public class TestThread implements Runnable {
 	private int x;
 	private int y;
 	
@@ -14,7 +14,7 @@ public class MyThread implements Runnable {
 	}
 	
 	public static void main(String[] args) {
-		MyThread r = new MyThread();
+		TestThread r = new TestThread();
 		new Thread(r).run();
 		new Thread(r).run();
 	}

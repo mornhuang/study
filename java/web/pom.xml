@@ -6,9 +6,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>web</name>
-  <modules>
-    <module>web00</module>
-  </modules>
   <dependencies>
   	<dependency>
   		<groupId>junit</groupId>
@@ -17,4 +14,7 @@
   		<scope>test</scope>
   	</dependency>
   </dependencies>
+  <modules>
+  	<module>web00</module>
+  </modules>
 </project>

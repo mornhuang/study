@@ -1,4 +1,4 @@
-package com.huang.study.util;
+package com.huang.study.utils;
 
 import java.util.Arrays;
 import java.util.HashSet;
