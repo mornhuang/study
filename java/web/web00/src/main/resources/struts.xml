@@ -3,6 +3,7 @@
 <!-- Struts配置文件 -->
 <struts>
 	<!-- <constant name="struts.custom.i18n.resources" value="MessageResource" /> -->
+    <constant name="struts.action.extension" value="action"/> 
 
 	<package name="base" extends="struts-default">
 
@@ -56,7 +57,7 @@
 			  <param name="dataSource">rptData</param>
 			  <param name="reportParameters">rptConf</param>
 			  <param name="format">HTML</param>
-			  <param name="exportParameters">expConf</param>
+			  <param name="exportParameters">htmlExpConf</param>
 			</result>
 
 <!-- 			

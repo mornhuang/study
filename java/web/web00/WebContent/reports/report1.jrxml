@@ -3,8 +3,7 @@
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
-	<style name="style1" isDefault="true" mode="Transparent"/>
-	<parameter name="imageFileName" class="java.lang.String"/>
+	<parameter name="image1" class="java.lang.String"/>
 	<parameter name="isShowImage" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
 	</parameter>
@@ -33,8 +32,11 @@
 	<pageHeader>
 		<band height="23" splitType="Stretch">
 			<image>
-				<reportElement uuid="1140f11c-fb5d-4d96-a1ba-e760f377ef53" x="509" y="0" width="35" height="23"/>
-				<imageExpression><![CDATA[$P{imageFileName}]]></imageExpression>
+				<reportElement uuid="1140f11c-fb5d-4d96-a1ba-e760f377ef53" x="509" y="0" width="35" height="23">
+					<printWhenExpression><![CDATA[Boolean.valueOf($P{isShowImage})]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{image1}]]></imageExpression>
+				<anchorNameExpression><![CDATA["www.csdn.net"]]></anchorNameExpression>
 			</image>
 		</band>
 	</pageHeader>
@@ -48,7 +50,9 @@
 					<bottomPen lineWidth="1.0"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14"/>
+				</textElement>
 				<text><![CDATA[name]]></text>
 			</staticText>
 			<staticText>
@@ -59,7 +63,9 @@
 					<bottomPen lineWidth="1.0"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14"/>
+				</textElement>
 				<text><![CDATA[sex]]></text>
 			</staticText>
 			<staticText>
@@ -70,7 +76,9 @@
 					<bottomPen lineWidth="1.0"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14"/>
+				</textElement>
 				<text><![CDATA[age]]></text>
 			</staticText>
 			<staticText>
@@ -81,7 +89,9 @@
 					<bottomPen lineWidth="1.0"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14"/>
+				</textElement>
 				<text><![CDATA[class]]></text>
 			</staticText>
 			<staticText>
@@ -92,7 +102,9 @@
 					<bottomPen lineWidth="1.0"/>
 					<rightPen lineWidth="1.0"/>
 				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14"/>
+				</textElement>
 				<text><![CDATA[id]]></text>
 			</staticText>
 		</band>
