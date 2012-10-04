@@ -7,6 +7,7 @@
 	<parameter name="isShowImage" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
 	</parameter>
+	<parameter name="image1Link" class="java.lang.String"/>
 	<queryString language="SQL">
 		<![CDATA[select * from test.test_ireport]]>
 	</queryString>
@@ -31,12 +32,13 @@
 	</title>
 	<pageHeader>
 		<band height="23" splitType="Stretch">
-			<image>
+			<image hyperlinkType="Reference" hyperlinkTarget="Blank">
 				<reportElement uuid="1140f11c-fb5d-4d96-a1ba-e760f377ef53" x="509" y="0" width="35" height="23">
 					<printWhenExpression><![CDATA[Boolean.valueOf($P{isShowImage})]]></printWhenExpression>
 				</reportElement>
 				<imageExpression><![CDATA[$P{image1}]]></imageExpression>
-				<anchorNameExpression><![CDATA["www.csdn.net"]]></anchorNameExpression>
+				<hyperlinkReferenceExpression><![CDATA[$P{image1Link}]]></hyperlinkReferenceExpression>
+				<hyperlinkTooltipExpression><![CDATA["导出"]]></hyperlinkTooltipExpression>
 			</image>
 		</band>
 	</pageHeader>
