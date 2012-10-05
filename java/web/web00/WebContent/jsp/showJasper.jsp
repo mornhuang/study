@@ -2,6 +2,7 @@
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+String imgPath = basePath + "skin/en_US/img/";
 %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -20,7 +21,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 </head>
 
-<body bgcolor="#F0F0F0">
+<body bgcolor="gray">
 	<div>
 		<IFRAME id="jsprFrame" style="width:100%; height:100%; filter:chroma(color=#ffffff)"
 			src="JsprHtml.action" frameBorder="no" scrolling="no">
