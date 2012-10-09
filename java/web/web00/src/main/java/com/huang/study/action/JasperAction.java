@@ -59,8 +59,8 @@ public class JasperAction extends ActionSupport implements ServletContextAware {
 				context.getRealPath("skin/en_US/img"));
 		htmlExpConf.put(JRHtmlExporterParameter.IMAGES_URI,
 				context.getContextPath() + "/skin/en_US/img/");
-		htmlExpConf.put(JRHtmlExporterParameter.SIZE_UNIT,        //解决生成HTML报表缩小问题
-				"pt"); 
+//		htmlExpConf.put(JRHtmlExporterParameter.SIZE_UNIT,        //解决生成HTML报表缩小问题
+//				"pt"); 
 //		htmlExpConf.put(JRHtmlExporterParameter.ZOOM_RATIO,
 //				(float) 1.5);
 		
