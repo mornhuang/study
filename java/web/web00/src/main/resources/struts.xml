@@ -53,42 +53,24 @@
     <package name="jspr" extends="jasperreports-default">
 	    <action name="JsprHtml" class="com.huang.study.action.JasperAction">
 			<result name="success" type="jasper">
-			  <param name="location">/reports/report1.jasper</param>
-			  <param name="dataSource">rptData</param>
-			  <param name="reportParameters">htmlRptConf</param>
 			  <param name="format">HTML</param>
+			  <param name="location">/reports/report1.jasper</param>
+			  <param name="dataSource">htmlRptData</param>
+			  <param name="reportParameters">htmlRptConf</param>
 			  <param name="exportParameters">htmlExpConf</param>
 			</result>
         </action>
         
         <action name="JsprXls" class="com.huang.study.action.JasperAction" method="exportXls">
             <result name="success" type="jasper">
-              <param name="location">/reports/report1.jasper</param>
-              <param name="dataSource">rptData</param>
-              <param name="reportParameters">xlsRptConf</param>
               <param name="format">XLS</param>
+              <param name="documentName">xlsFileName</param>
+              <param name="location">/reports/report1.jasper</param>
+              <param name="dataSource">xlsRptData</param>
+              <param name="reportParameters">xlsRptConf</param>
               <param name="exportParameters">xlsExpConf</param>
             </result>
         </action>
-<!-- 			
-			<result name="exportHTML" type="jasper">
-			  <param name="location">/reports/check_pesons_result2.jasper</param>
-			  <param name="dataSource">listObj</param>
-			  <param name="format">HTML</param>
-			  <param name="reportParameters">map</param>
-			  <param name="contentDisposition">attachment</param>
-			  <param name="documentName">myreport</param>
-
-			  <param name="exportParameters">
-			    <key>IS_WHITE_PAGE_BACKGROUND</key>
-			    <value>TRUE</value>
-			  </param>
- 			  
-			</result>
-			<result name="showJsp" type="dispatcher">
-			  <param name="location">/jsp/showJsp.jsp</param>
-			</result>
--->			
 
     </package>  
   
