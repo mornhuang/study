@@ -1,4 +1,4 @@
-package com.huang.study.action;
+package com.huang.web.action;
 
 import java.io.File;
 import java.io.FileInputStream;

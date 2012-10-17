@@ -1,6 +1,6 @@
-package com.huang.study.action;
+package com.huang.web.action;
 
-import com.huang.study.service.BookService;
+import com.huang.web.service.BookService;
 import com.opensymphony.xwork2.Action;
 import com.opensymphony.xwork2.ActionContext;
 

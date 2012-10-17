@@ -1,4 +1,4 @@
-package com.huang.study.action;
+package com.huang.web.action;
 
 import com.opensymphony.xwork2.Action;
 import com.opensymphony.xwork2.ActionContext;

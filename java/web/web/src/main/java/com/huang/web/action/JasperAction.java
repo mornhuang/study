@@ -1,4 +1,4 @@
-package com.huang.study.action;
+package com.huang.web.action;
 
 import java.io.File;
 import java.util.HashMap;
@@ -12,9 +12,9 @@ import net.sf.jasperreports.engine.export.JRXlsExporterParameter;
 
 import org.apache.struts2.util.ServletContextAware;
 
-import com.huang.study.model.IIreportDao;
-import com.huang.study.model.Ireport;
-import com.huang.study.utils.BeanContainer;
+import com.huang.web.model.IIreportDao;
+import com.huang.web.model.Ireport;
+import com.huang.web.utils.BeanContainer;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 

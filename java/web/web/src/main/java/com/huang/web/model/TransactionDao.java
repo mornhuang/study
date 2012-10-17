@@ -1,4 +1,4 @@
-package com.huang.study.model;
+package com.huang.web.model;
 
 import javax.sql.DataSource;
 

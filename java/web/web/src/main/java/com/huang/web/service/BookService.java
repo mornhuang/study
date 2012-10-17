@@ -1,4 +1,4 @@
-package com.huang.study.service;
+package com.huang.web.service;
 
 public class BookService {
 	private String[] books = new String[] {

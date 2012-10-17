@@ -1,4 +1,4 @@
-package com.huang.study.action;
+package com.huang.web.action;
 
 public class LoginAction {
 	private String username;
