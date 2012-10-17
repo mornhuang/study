@@ -16,5 +16,6 @@
   </dependencies>
   <modules>
   	<module>web00</module>
+    <module>android</module>
   </modules>
 </project>
