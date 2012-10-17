@@ -30,6 +30,7 @@ public class IreportDao extends HibernateDaoSupport implements IIreportDao {
 
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<Ireport> getAll() {
 		return (List<Ireport>)getHibernateTemplate().find("from Ireport");

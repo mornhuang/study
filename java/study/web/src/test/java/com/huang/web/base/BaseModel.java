@@ -14,7 +14,15 @@ public class BaseModel<T> {
 			System.out.println(((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0]);
 			entityClass = (Class<T>) ((ParameterizedType) getClass()
 					.getGenericSuperclass()).getActualTypeArguments()[0];
-			entityClassName = entityClass.getSimpleName();
+			setEntityClassName(entityClass.getSimpleName());
 		}
+	}
+
+	public String getEntityClassName() {
+		return entityClassName;
+	}
+
+	public void setEntityClassName(String entityClassName) {
+		this.entityClassName = entityClassName;
 	}
 }

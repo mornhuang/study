@@ -9,6 +9,11 @@ public class Ireport extends AbsIreport implements
 
 	// Constructors
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	/** default constructor */
 	public Ireport() {
 	}

@@ -48,6 +48,7 @@ public class UploadAction extends ActionSupport {
 		this.uploadFileName = uploadFileName;
 	}
 
+	@SuppressWarnings("deprecation")
 	public String getSavePath() throws Exception {
 		return ServletActionContext.getRequest().getRealPath(savePath);
 	}

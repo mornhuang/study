@@ -7,6 +7,7 @@ public class TimeBook implements ITimeBook {
 		System.out.println("进行审核！");
 	}
 
+	@SuppressWarnings("unused")
 	public void doThrow() {
 		System.out.println("抛异常");
 		int i = 1/0;
