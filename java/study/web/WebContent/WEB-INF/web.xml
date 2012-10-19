@@ -52,7 +52,7 @@
   <context-param>
     <description>Default locale setting</description>
     <param-name>BIRT_VIEWER_LOCALE</param-name>
-    <param-value>en-US</param-value>
+    <param-value>zh-CN</param-value>
   </context-param>
   <context-param>
     <description>Max cube fetch columns levels limit for report preview (Only used when previewing a report design file using the preview pattern). Defaults to return all levels</description>
