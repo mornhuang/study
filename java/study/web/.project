@@ -37,6 +37,7 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
 		<nature>com.genuitec.eclipse.reporting.reportnature</nature>
 		<nature>com.genuitec.eclipse.hibernate.hibernatenature</nature>
 		<nature>com.genuitec.eclipse.springframework.springnature</nature>
