@@ -174,7 +174,7 @@
     <url-pattern>/output</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
-    <welcome-file>/jsp/showJasper.jsp</welcome-file>
+    <welcome-file>/html/report.html</welcome-file>
   </welcome-file-list>
   <jsp-config>
     <taglib>
