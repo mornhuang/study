@@ -26,17 +26,6 @@
 					<argLine>-Dfile.encoding=UTF-8</argLine>
 				</configuration>
 			</plugin>
-
-			<plugin>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>2.1.1</version>
-				<configuration>
-					<!-- <webxml>${basedir}/WebContent/WEB-INF/web.xml</webxml> -->
-					<warSourceDirectory>${basedir}/WebContent</warSourceDirectory>
-					<!-- <failOnMissingWebXml>false</failOnMissingWebXml> -->
-				</configuration>
-			</plugin>
-
 		</plugins>
 	</build>
 	<dependencies>
@@ -105,6 +94,18 @@
 			<groupId>axis</groupId>
 			<artifactId>axis</artifactId>
 			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>2.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>3.0-alpha-1</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
