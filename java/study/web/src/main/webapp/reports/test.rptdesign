@@ -81,7 +81,7 @@
                 </structure>
             </list-property>
             <xml-property name="queryText"><![CDATA[select *
-from test.test_ireport ]]></xml-property>
+from test.report ]]></xml-property>
         </oda-data-set>
     </data-sets>
     <styles>

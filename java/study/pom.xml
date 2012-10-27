@@ -14,8 +14,9 @@
   	</dependency>
   </dependencies>
   <modules>
-  	<module>web</module>
+  	
     <module>android</module>
+    <module>web</module>
   </modules>
   <name>study</name>
 </project>

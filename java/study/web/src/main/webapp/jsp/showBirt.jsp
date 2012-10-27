@@ -1,3 +1,4 @@
+<%@ page language="java" pageEncoding="utf-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -11,6 +12,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</head>
   
 	<body>
-	<a href="<%= path + "/frameset?__report=reports/report1.rptdesign&__format=HTML" %>">View Report (reports/report1.rptdesign)</a>
+	<a href="<%= path + "/frameset?__report=reports/test.rptdesign&__format=HTML" %>">View Report (reports/test.rptdesign)</a>
  	</body>
 </html>
