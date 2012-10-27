@@ -54,7 +54,7 @@
 	    <action name="JsprHtml" class="com.huang.web.action.JasperAction">
 			<result name="success" type="jasper">
 			  <param name="format">HTML</param>
-			  <param name="location">/reports/report1.jasper</param>
+			  <param name="location">/reports/test.jasper</param>
 			  <param name="dataSource">htmlRptData</param>
 			  <param name="reportParameters">htmlRptConf</param>
 			  <param name="exportParameters">htmlExpConf</param>
@@ -65,7 +65,7 @@
             <result name="success" type="jasper">
               <param name="format">XLS</param>
               <param name="documentName">xlsFileName</param>
-              <param name="location">/reports/report1.jasper</param>
+              <param name="location">/reports/test.jasper</param>
               <param name="dataSource">xlsRptData</param>
               <param name="reportParameters">xlsRptConf</param>
               <param name="exportParameters">xlsExpConf</param>
