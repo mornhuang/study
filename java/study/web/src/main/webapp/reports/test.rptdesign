@@ -7,8 +7,7 @@
     <property name="bidiLayoutOrientation">ltr</property>
     <property name="imageDPI">96</property>
     <data-sources>
-        <oda-data-source extensionID="com.genuitec.eclipse.reporting.oda" name="test" id="248">
-            <property name="meDriver">mysql</property>
+        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="test" id="248">
             <property name="odaDriverClass">com.mysql.jdbc.Driver</property>
             <property name="odaURL">jdbc:mysql://localhost/test</property>
             <property name="odaUser">test</property>
@@ -120,6 +119,12 @@ from test.report ]]></xml-property>
     </styles>
     <page-setup>
         <simple-master-page name="Simple MasterPage" id="2">
+            <property name="backgroundImage">webcontent/birt/images/bg_report.gif</property>
+            <page-header>
+                <label id="265">
+                    <text-property name="text">我在测试下</text-property>
+                </label>
+            </page-header>
             <page-footer>
                 <text id="3">
                     <property name="contentType">html</property>
@@ -134,7 +139,7 @@ from test.report ]]></xml-property>
             <property name="fontSize">x-large</property>
             <property name="fontWeight">bold</property>
             <property name="textAlign">center</property>
-            <text-property name="text">Customer Listing</text-property>
+            <text-property name="text">报表测试</text-property>
         </label>
         <table id="163">
             <property name="width">7.979166666666667in</property>
@@ -263,15 +268,6 @@ from test.report ]]></xml-property>
                     </cell>
                 </row>
             </detail>
-            <footer>
-                <row id="175">
-                    <cell id="176"/>
-                    <cell id="177"/>
-                    <cell id="178"/>
-                    <cell id="252"/>
-                    <cell id="256"/>
-                </row>
-            </footer>
         </table>
     </body>
 </report>
