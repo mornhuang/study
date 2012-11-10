@@ -87,6 +87,8 @@ from test.report ]]></xml-property>
         <style name="report" id="110">
             <property name="fontFamily">sans-serif</property>
             <property name="fontSize">10pt</property>
+            <property name="textAlign">center</property>
+            <property name="verticalAlign">middle</property>
         </style>
         <style name="crosstab-cell" id="246">
             <property name="borderBottomColor">#CCCCCC</property>

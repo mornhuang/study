@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>script.html</title>
+
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="this is my page">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+<script type="text/javascript">
+var precision = 2;
+function calRate(nowData, lastData) {
+    var res = "--";
+    if (lastData != null && (lastData != "" || lastData != 0))
+    {
+        var val = (nowData - lastData)/lastData*100;
+        var val = val.toFixed(precision);
+        if (val > 0) {
+            res = "<font color='red'>+" + val + "</font>";
+        } else if (val < 0) {
+            res = "<font color='green'>" + val + "</font>";
+        } else {
+            res = val;
+        }
+    }
+
+    return res;
+}
+
+function getLastDate(nowDate) {
+    var Nowdate=new Date(nowDate);
+    var lastMonth = new Date(Nowdate.getFullYear(), Nowdate.getMonth()-1, 1);
+    return lastMonth;
+}
+
+</script>
+</head>
+
+<body>
+  This is my HTML page. <br>
+
+<script type="text/javascript">
+    document.write(calRate(10, 15));
+    document.write("</br>");
+    document.write(calRate(15, 5));
+    document.write("</br>");
+    document.write(calRate(5, 5));
+    document.write("</br>");
+    document.write(getLastDate('2010-10-10'));
+    document.write("</br>");
+</script>
+
+</body>
+</html>

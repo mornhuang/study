@@ -34,10 +34,10 @@ public class BirtAction extends ActionSupport {
 			// 设置Engine并且启动报表平台
 			config = new EngineConfig();
 			config.setEngineHome("C:/birt-runtime-2_1_1/birt-runtime-2_1_1/ReportEngine");
-			
+
 			// 设置报表日志保存的位置和等级( null, Level ) 如果你不需要日志可以设置为null
 			config.setLogConfig("c:/birt/logs", Level.FINE);
-			
+
 			// 平台初始化，启用
 			Platform.startup(config);
 			IReportEngineFactory factory = (IReportEngineFactory) Platform
@@ -54,7 +54,7 @@ public class BirtAction extends ActionSupport {
 		emitterConfig.setActionHandler(new HTMLActionHandler());
 		HTMLServerImageHandler imageHandler = new HTMLServerImageHandler();
 		emitterConfig.setImageHandler(imageHandler);
-		config.getEmitterConfigs().put("html", emitterConfig); //$NON-NLS-1$  
+		config.getEmitterConfigs().put("html", emitterConfig); //$NON-NLS-1$
 
 		IReportRunnable design = null;
 
@@ -67,28 +67,28 @@ public class BirtAction extends ActionSupport {
 
 		// 设置报表的路径和图片显示的路径
 		HTMLRenderContext renderContext = new HTMLRenderContext();
-		
+
 		// 为所有的actions设置Base URL，这个不写就是默认服务器URL的
 		renderContext.setBaseURL("http://localhost/");
-		
+
 		// 设置所有图片显示的URL - 如果之前没有emitterConfig.setImageHandler( imageHandler
 		// );的话会造成显示的URL是本地的绝对路径，其实http://localhost不写也是可以的，
 		// 会自动添加服务器的URL
 		renderContext.setBaseImageURL("http://localhost/myimages");
-		
+
 		// 设置所有图片存放的位置，最好使用context.getRealPath();
 		renderContext.setImageDirectory("C:/xampplite/htdocs/myimages");
-		
+
 		// 设置图片支持的格式，据官方说必须有SVG，我没写也没出错
 		renderContext.setSupportedImageFormats("JPG;PNG;BMP;SVG");
 		HashMap<String, HTMLRenderContext> contextMap = new HashMap<String, HTMLRenderContext>();
 		contextMap.put(EngineConstants.APPCONTEXT_HTML_RENDER_CONTEXT,
 				renderContext);
 		task.setAppContext(contextMap);
-		
+
 		// 设置参数
 		task.setParameterValues(parameters);
-		
+
 		// 要所有的参数一条一条的写入
 		// 例如： task.setParameterValue("Top Count", new Integer(12));
 		task.validateParameters();
@@ -98,7 +98,7 @@ public class BirtAction extends ActionSupport {
 		// ProcessFilter pf = new ProcessFilter();
 		// task.addScriptableJavaObject("pFilter", pf);
 
-		// 设置rendering操作  
+		// 设置rendering操作
 		// 例如file or stream output, output format, whether it is embeddable, etc
 		HTMLRenderOption options = new HTMLRenderOption();
 
@@ -118,7 +118,7 @@ public class BirtAction extends ActionSupport {
 		task.close();
 		engine.shutdown();
 		Platform.shutdown();
-		
+
 		return SUCCESS;
 	}
 }
