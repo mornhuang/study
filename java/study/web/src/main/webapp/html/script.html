@@ -13,17 +13,24 @@
 var precision = 2;
 function calRate(nowData, lastData) {
     var res = "--";
-    if (lastData != null && (lastData != "" || lastData != 0))
-    {
-        var val = (nowData - lastData)/lastData*100;
-        var val = val.toFixed(precision);
-        if (val > 0) {
-            res = "<font color='red'>+" + val + "</font>";
-        } else if (val < 0) {
-            res = "<font color='green'>" + val + "</font>";
-        } else {
-            res = val;
-        }
+    if (nowData == null || lastData == null || nowData === "") {
+        return res;
+    }
+
+    var nowDataNum = Number(nowData);
+    var lastDataNum = Number(lastData);
+    if (isNaN(lastDataNum) == true || isNaN(nowDataNum) == true || lastDataNum == 0) {
+        return res;
+    }
+
+    var val = (nowDataNum - lastDataNum)/lastDataNum*100;
+    var val = val.toFixed(precision);
+    if (val > 0) {
+        res = "<font color='red'>+" + val + "</font>";
+    } else if (val < 0) {
+        res = "<font color='green'>" + val + "</font>";
+    } else {
+        res = val;
     }
 
     return res;
@@ -42,12 +49,37 @@ function getLastDate(nowDate) {
   This is my HTML page. <br>
 
 <script type="text/javascript">
-    document.write(calRate(10, 15));
+    document.write("calRate(10, 15) = "     + calRate(10, 15));
     document.write("</br>");
-    document.write(calRate(15, 5));
+    document.write("calRate(15, 5) = "      + calRate(15, 5));
     document.write("</br>");
-    document.write(calRate(5, 5));
+    document.write("calRate(5, 5) = "       + calRate(5, 5));
     document.write("</br>");
+
+    document.write("calRate(0, 1) = "       + calRate(0, 1));
+    document.write("</br>");
+    document.write("calRate('0', 1) = "     + calRate("0", 1));
+    document.write("</br>");
+    document.write("calRate('', 1) = "      + calRate("", 1));
+    document.write("</br>");
+
+    document.write("calRate(1, 0) = "       + calRate(1, 0));
+    document.write("</br>");
+    document.write("calRate(1, '0') = "     + calRate(1, "0"));
+    document.write("</br>");
+    document.write("calRate(1, '') = "      + calRate(1, ""));
+    document.write("</br>");
+
+    document.write("calRate('te', 1) = "    + calRate("te", 1));
+    document.write("</br>");
+    document.write("calRate(1, 'tt') = "    + calRate(1, "tt"));
+    document.write("</br>");
+
+    document.write("calRate(null, 3) = "    + calRate(null, 3));
+    document.write("</br>");
+    document.write("calRate(3, null) = "    + calRate(3, null));
+    document.write("</br>");
+
     document.write(getLastDate('2010-10-10'));
     document.write("</br>");
 </script>
