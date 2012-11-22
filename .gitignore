@@ -27,7 +27,12 @@
 *.positions
 tags
 .settings
-
+.checkstyle
+.myhibernatedata
+.mymetadata
+.mystrutsdata
+.myeclipse
+.springBeans
 
 
 

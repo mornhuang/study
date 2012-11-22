@@ -271,5 +271,55 @@ from test.report ]]></xml-property>
                 </row>
             </detail>
         </table>
+        <grid id="266">
+            <structure name="toc"/>
+            <column id="267"/>
+            <column id="268"/>
+            <column id="269"/>
+            <row id="270">
+                <cell id="271">
+                    <data id="282">
+                        <property name="dataSet">test</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">id</property>
+                                <text-property name="displayName">id</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["id"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                        </list-property>
+                        <property name="resultSetColumn">id</property>
+                    </data>
+                </cell>
+                <cell id="272">
+                    <data id="283">
+                        <property name="dataSet">test</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">name</property>
+                                <text-property name="displayName">name</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["name"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                        </list-property>
+                        <property name="resultSetColumn">name</property>
+                    </data>
+                </cell>
+                <cell id="273">
+                    <data id="284">
+                        <property name="dataSet">test</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">sex</property>
+                                <text-property name="displayName">sex</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["sex"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                        </list-property>
+                        <property name="resultSetColumn">sex</property>
+                    </data>
+                </cell>
+            </row>
+        </grid>
     </body>
 </report>
