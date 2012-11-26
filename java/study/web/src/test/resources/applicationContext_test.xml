@@ -11,10 +11,10 @@
 	<bean id="timeBook" class="com.huang.web.service.TimeBook" />
 
 	<!-- 手动代理 -->
-	<!-- <bean id="logProxy" class="org.springframework.aop.framework.ProxyFactoryBean"> 
-		<property name="proxyInterfaces"> <value>com.huang.web.service.ITimeBook</value> 
-		</property> <property name="target"> <ref bean="timeBook" /> </property> 
-		<property name="interceptorNames"> <list> <value>logBefore</value> <value>logAround</value> 
+	<!-- <bean id="logProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces"> <value>com.huang.web.service.ITimeBook</value>
+		</property> <property name="target"> <ref bean="timeBook" /> </property>
+		<property name="interceptorNames"> <list> <value>logBefore</value> <value>logAround</value>
 		<value>logAfter</value> <value>logThrow</value> </list> </property> </bean> -->
 
 	<!-- 自动代理 -->
@@ -27,7 +27,7 @@
 			<ref bean="logBefore" />
 		</property>
 		<property name="patterns">
-			<value>do.*</value>
+			<value>.*do.*</value>
 		</property>
 	</bean>
 

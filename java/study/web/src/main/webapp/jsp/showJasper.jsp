@@ -21,7 +21,7 @@ String imgPath = basePath + "skin/en_US/img/";
 
 </head>
 
-<body bgcolor="gray">
+<body>
 	<div>
 		<IFRAME id="jsprFrame" style="width:100%; height:100%; filter:chroma(color=#ffffff)"
 			src="JsprHtml.action" frameBorder="no" scrolling="no">

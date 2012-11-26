@@ -17,17 +17,17 @@ public class LogAopTest {
 	}
 
 	public void test1() {
-		System.out.println("手动方式");
+		System.out.println("测试用例1:手动方式\n");
 		ApplicationContext actx = new ClassPathXmlApplicationContext("applicationContext_test.xml");
 		ITimeBook timeBookProxy = (ITimeBook)actx.getBean("logProxy");
 		timeBookProxy.doAudit();
 		timeBookProxy.doCheck();
 		timeBookProxy.doThrow();
 	}
-	
+
 	@Test
 	public void test2() {
-		System.out.println("自动方式");
+		System.out.println("测试用例2:自动方式\n");
 		ApplicationContext actx = new ClassPathXmlApplicationContext("applicationContext_test.xml");
 		ITimeBook timeBookProxy = (ITimeBook)actx.getBean("timeBook");
 		timeBookProxy.doAudit();

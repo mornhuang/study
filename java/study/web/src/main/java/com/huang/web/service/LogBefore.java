@@ -8,11 +8,11 @@ import org.springframework.aop.MethodBeforeAdvice;
 
 public class LogBefore implements MethodBeforeAdvice {
 	private Logger logger = Logger.getLogger(this.getClass().getName());
-	
+
 	@Override
 	public void before(Method method, Object[] args, Object target)
 			throws Throwable {
-		logger.log(Level.INFO, "开始审核数据+++++" + method.toString());
+		logger.log(Level.INFO, "------调用AOP的before-------\n拦截：" + method.toString());
 	}
 
 }

@@ -29,6 +29,8 @@
 	                <configuration>
 	                    <url>http://localhost:8080/manager/html</url>
 	                    <server>tomcat</server>
+		                <username>admin</username>
+                        <password>123456</password>
 	                </configuration>
 	            </plugin>
 	        </plugins>

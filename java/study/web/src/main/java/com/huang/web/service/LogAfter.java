@@ -8,11 +8,11 @@ import org.springframework.aop.AfterReturningAdvice;
 
 public class LogAfter implements AfterReturningAdvice {
 	private Logger logger = Logger.getLogger(this.getClass().getName());
-	
+
 	@Override
 	public void afterReturning(Object returnValue, Method method,
 			Object[] args, Object target) throws Throwable {
-		logger.log(Level.INFO, "审核数据结束++++" + method.toString());
+		logger.log(Level.INFO, "--------调用AOP的afterReturning-------\n拦截：" + method.toString() + "\n");
 	}
 
 }
