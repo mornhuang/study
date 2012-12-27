@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:bpmn="http://stp.eclipse.org/bpmn" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_P5FE0DnyEeK4btJAFbuUJA" type="Bpmn" name="test.bpmn_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_P7m0YDnyEeK4btJAFbuUJA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_P8p9QDnyEeK4btJAFbuUJA" type="4008"/>
+    <children xmi:type="notation:Node" xmi:id="_P8zHMDnyEeK4btJAFbuUJA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_P8zHNTnyEeK4btJAFbuUJA" type="2001">
+        <children xmi:type="notation:Node" xmi:id="_P8zHOznyEeK4btJAFbuUJA" type="4001"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_P8zHNjnyEeK4btJAFbuUJA" fontName="Arial"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_P8zHNznyEeK4btJAFbuUJA"/>
+        <styles xmi:type="notation:FillStyle" xmi:id="_P8zHODnyEeK4btJAFbuUJA"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_P8zHOTnyEeK4btJAFbuUJA" lineColor="0"/>
+        <element xmi:type="bpmn:Activity" href="test.bpmn#_P7KvgTnyEeK4btJAFbuUJA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P8zHPDnyEeK4btJAFbuUJA" x="55" y="70" width="111" height="61"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_P8zHMTnyEeK4btJAFbuUJA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_P8zHMjnyEeK4btJAFbuUJA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_P8zHMznyEeK4btJAFbuUJA"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_P7m0YTnyEeK4btJAFbuUJA" fontName="Arial"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_P7m0YjnyEeK4btJAFbuUJA"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_P7m0YznyEeK4btJAFbuUJA" fillColor="16771304"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_P7m0ZDnyEeK4btJAFbuUJA" lineColor="11119017"/>
+    <element xmi:type="bpmn:Pool" href="test.bpmn#_P6HmoTnyEeK4btJAFbuUJA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P8zHNDnyEeK4btJAFbuUJA" x="16" y="16" width="1500" height="200"/>
+  </children>
+  <styles xmi:type="notation:PageStyle" xmi:id="_P5FE0TnyEeK4btJAFbuUJA"/>
+  <styles xmi:type="notation:GuideStyle" xmi:id="_P5FE0jnyEeK4btJAFbuUJA"/>
+  <styles xmi:type="notation:DescriptionStyle" xmi:id="_P5FE0znyEeK4btJAFbuUJA"/>
+  <element xmi:type="bpmn:BpmnDiagram" href="test.bpmn#_P4CjAjnyEeK4btJAFbuUJA"/>
+</notation:Diagram>
