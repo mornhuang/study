@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
-<!-- eric5 project file for project QTLearn -->
-<!-- Saved: 2013-02-28, 14:16:14 -->
+<!-- eric5 project file for project Basic -->
+<!-- Saved: 2013-02-28, 14:36:23 -->
 <!-- Copyright (C) 2013 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
-  <Hash>2920ea0e5a8ed918b570a537ffaeea41171b9ad5</Hash>
+  <Hash>dece04cb3b2502efb9a7326c8dcc6a20ab5233eb</Hash>
   <ProgLanguage mixed="0">Python3</ProgLanguage>
   <ProjectType>Qt4</ProjectType>
   <Description></Description>
@@ -13,14 +13,16 @@
   <Author></Author>
   <Email></Email>
   <Sources>
-    <Source>src/alert.pyw</Source>
-    <Source>src/caculate.py</Source>
-    <Source>src/main.py</Source>
-    <Source>src/ui_hello.py</Source>
+    <Source>src/generate_grid.py</Source>
+    <Source>src/grepword.py</Source>
+    <Source>src/mtloop.py</Source>
+    <Source>src/mtsleep3.py</Source>
+    <Source>src/mtsleep4.py</Source>
+    <Source>src/mtsleep5.py</Source>
+    <Source>src/sum1.py</Source>
+    <Source>src/__init__.py</Source>
   </Sources>
-  <Forms>
-    <Form>src/hello.ui</Form>
-  </Forms>
+  <Forms/>
   <Translations/>
   <Resources/>
   <Interfaces/>

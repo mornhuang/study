@@ -17,8 +17,8 @@
 	                <artifactId>tomcat6-maven-plugin</artifactId>
 	                <version>2.0</version>
 	                <configuration>
-	                    <url>http://localhost:8080/manager</url>
-	                    <server>mysvr</server>
+	                    <url>http://localhost:8080/manager/html</url>
+	                    <server>tomcat</server>
 	                </configuration>
 	            </plugin>
 	            <plugin>
@@ -26,8 +26,8 @@
 	                <artifactId>tomcat7-maven-plugin</artifactId>
 	                <version>2.0</version>
 	                <configuration>
-	                    <url>http://localhost:8080/manager</url>
-	                    <server>mysvr</server>
+	                    <url>http://localhost:8080/manager/html</url>
+	                    <server>tomcat</server>
 	                </configuration>
 	            </plugin>
 	            <plugin>
@@ -36,7 +36,7 @@
                     <version>1.1</version>
                     <configuration>
                         <url>http://localhost:8080/manager/text</url>
-                        <server>mysvr</server>
+                        <server>tomcat</server>
                     </configuration>
                 </plugin>
  	        </plugins>
