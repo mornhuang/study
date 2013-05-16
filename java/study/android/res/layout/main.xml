@@ -9,4 +9,19 @@
     android:layout_height="wrap_content" 
     android:text="@string/hello"
     />
+
+<TextView
+    android:id="@+id/textView1"
+    android:text="@string/text_name" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="@color/blue_text"
+    />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="" />
+
 </LinearLayout>

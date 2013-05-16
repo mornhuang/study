@@ -2,4 +2,6 @@
 <resources>
     <string name="hello">Hello android!</string>
     <string name="app_name">android</string>
+    <string name="text_name">测试颜色资源，红色背景，蓝色文字</string>
+    <string name="dynamic_txt">动态文本</string>
 </resources>
