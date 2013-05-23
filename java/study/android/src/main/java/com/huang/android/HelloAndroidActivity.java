@@ -4,11 +4,13 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
+import android.widget.Button;
 
 public class HelloAndroidActivity extends Activity {
 
     private static String TAG = "android";
     private TextView myTextView;
+    private Button myBtn;
     
     /**
      * Called when the activity is first created.
@@ -21,18 +23,22 @@ public class HelloAndroidActivity extends Activity {
 		Log.i(TAG, "onCreate");
 	
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        
+        setContentView(R.layout.test_dim);
+        
+        myBtn = (Button)findViewById(R.id.button1);
+        
         
         // 引用颜色资源，设置背景色为红色
 //        getWindow().setBackgroundDrawableResource(R.color.red_bg);
         
-        myTextView = (TextView)findViewById(R.id.textView2);
+/*        myTextView = (TextView)findViewById(R.id.textView2);
         String str = getString(R.string.dynamic_txt).toString();
         myTextView.setText(str);
         
         int i = R.layout.main;
         System.out.println(i);
-    }
+*/    }
 
 }
 

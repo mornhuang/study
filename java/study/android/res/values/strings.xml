@@ -4,4 +4,6 @@
     <string name="app_name">android</string>
     <string name="text_name">测试颜色资源，红色背景，蓝色文字</string>
     <string name="dynamic_txt">动态文本</string>
+    <string name="test_dim">测试尺寸</string>
+    <string name="test_btn">测试尺寸按钮</string>
 </resources>
