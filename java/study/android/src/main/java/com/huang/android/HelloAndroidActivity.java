@@ -1,10 +1,11 @@
 package com.huang.android;
 
 import android.app.Activity;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.TextView;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class HelloAndroidActivity extends Activity {
 
@@ -28,6 +29,11 @@ public class HelloAndroidActivity extends Activity {
         
         myBtn = (Button)findViewById(R.id.button1);
         
+        Resources r = this.getResources();
+        float btn_h = r.getDimension(R.dimen.btn_height);
+        float btn_w = r.getDimension(R.dimen.btn_width);
+        myBtn.setWidth((int)btn_w);
+        myBtn.setHeight((int)btn_h);
         
         // 引用颜色资源，设置背景色为红色
 //        getWindow().setBackgroundDrawableResource(R.color.red_bg);
