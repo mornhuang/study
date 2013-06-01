@@ -4,11 +4,11 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<!-- AOP示例 -->
-	<bean id="logAround" class="com.huang.web.service.LogAround" />
-	<bean id="logBefore" class="com.huang.web.service.LogBefore" />
-	<bean id="logAfter" class="com.huang.web.service.LogAfter" />
-	<bean id="logThrow" class="com.huang.web.service.LogThrow" />
-	<bean id="timeBook" class="com.huang.web.service.TimeBook" />
+	<bean id="logAround" class="com.huang.study.web.service.LogAround" />
+	<bean id="logBefore" class="com.huang.study.web.service.LogBefore" />
+	<bean id="logAfter" class="com.huang.study.web.service.LogAfter" />
+	<bean id="logThrow" class="com.huang.study.web.service.LogThrow" />
+	<bean id="timeBook" class="com.huang.study.web.service.TimeBook" />
 
 	<!-- 手动代理 -->
 	<!-- <bean id="logProxy" class="org.springframework.aop.framework.ProxyFactoryBean">

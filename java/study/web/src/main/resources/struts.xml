@@ -7,7 +7,7 @@
 
 	<package name="base" extends="struts-default">
 
-        <action name="Login" class="com.huang.web.action.LoginAction3">
+        <action name="Login" class="com.huang.study.web.action.LoginAction3">
             <result name="error">/jsp/error.jsp</result>
             <result name="success">/jsp/showJasper.jsp</result>
             <result name="input">/jsp/login.jsp</result>
@@ -16,12 +16,12 @@
 <!-- 
         <interceptors>
             <interceptor name="mysimple"
-                class="com.huang.web.action.IntpAction">
+                class="com.huang.study.web.action.IntpAction">
                 <param name="name">简单拦截器</param>
             </interceptor>
         </interceptors>
 
-		<action name="Login2" class="com.huang.web.action.LoginAction2">
+		<action name="Login2" class="com.huang.study.web.action.LoginAction2">
 			<result name="error">/jsp/error.jsp</result>
 			<result name="success" type="chain">GetBooks</result>
 			<result name="input">/jsp/login2.jsp</result>
@@ -32,12 +32,12 @@
 			</interceptor-ref>
 		</action>
 
-		<action name="GetBooks" class="com.huang.web.action.GetBookAction">
+		<action name="GetBooks" class="com.huang.study.web.action.GetBookAction">
 			<result name="success">/jsp/showBook2.jsp</result>
 			<result name="login">/jsp/login.jsp</result>
 		</action>
 
-		<action name="Upload" class="com.huang.web.action.UploadAction">
+		<action name="Upload" class="com.huang.study.web.action.UploadAction">
 			<interceptor-ref name="fileUpload">
 				<param name="allowedType">image/bmp, image/png, image/gif, image/jpeg</param>
 				<param name="maximumSize">2000</param>
@@ -51,7 +51,7 @@
 	</package>
   
     <package name="jspr" extends="jasperreports-default">
-	    <action name="JsprHtml" class="com.huang.web.action.JasperAction">
+	    <action name="JsprHtml" class="com.huang.study.web.action.JasperAction">
 			<result name="success" type="jasper">
 			  <param name="format">HTML</param>
 			  <param name="location">/reports/test.jasper</param>
@@ -61,7 +61,7 @@
 			</result>
         </action>
         
-        <action name="JsprXls" class="com.huang.web.action.JasperAction" method="exportXls">
+        <action name="JsprXls" class="com.huang.study.web.action.JasperAction" method="exportXls">
             <result name="success" type="jasper">
               <param name="format">XLS</param>
               <param name="documentName">xlsFileName</param>

@@ -20,7 +20,7 @@
 		org.hibernate.dialect.MySQLDialect
 	</property>
 
-    <mapping resource="com/huang/web/model/Ireport.hbm.xml" />
+    <mapping resource="com/huang/study/web/model/Ireport.hbm.xml" />
 
 </session-factory>
 
