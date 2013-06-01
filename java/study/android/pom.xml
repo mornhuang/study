@@ -10,7 +10,7 @@
 	<artifactId>android</artifactId>
 	<packaging>apk</packaging>
 	<name>android</name>
-
+    
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<platform.version>2.3.3</platform.version>
@@ -26,6 +26,7 @@
 		</dependency>
 	</dependencies>
 	<build>
+	   <directory>bin</directory>
 		<finalName>${project.artifactId}</finalName>
 		<pluginManagement>
 			<plugins>
