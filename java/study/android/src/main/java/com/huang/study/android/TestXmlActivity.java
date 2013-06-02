@@ -35,6 +35,7 @@ public class TestXmlActivity extends Activity {
 				StringBuilder sb = new StringBuilder("");
 				Resources r = getResources();
 				XmlResourceParser xrp = r.getXml(R.xml.test);
+				Log.i(TAG, xrp.toString());
 				try {
 					while (xrp.getEventType() != XmlResourceParser.END_DOCUMENT) {
 						if (xrp.getEventType() == XmlResourceParser.START_TAG) {
@@ -51,7 +52,7 @@ public class TestXmlActivity extends Activity {
 						} else if (xrp.getEventType() == XmlResourceParser.TEXT) {
 						}
 						
-						xrp.nextTag();
+						xrp.next();
 					}
 					
 					myTextView.setText(sb.toString());

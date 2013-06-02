@@ -1,4 +1,6 @@
-package com.huang.study.android;
+package com.huang.study.android.test;
+
+import com.huang.study.android.TestXmlActivity;
 
 import android.test.ActivityInstrumentationTestCase2;
 

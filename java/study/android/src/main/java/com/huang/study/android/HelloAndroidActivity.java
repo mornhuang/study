@@ -5,12 +5,11 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class HelloAndroidActivity extends Activity {
 
     private static String TAG = "android";
-    private TextView myTextView;
+//    private TextView myTextView;
     private Button myBtn;
     
     /**

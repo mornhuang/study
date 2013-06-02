@@ -1,10 +1,10 @@
-package com.huang.study.android;
+package com.huang.study.android.test;
 
 import junit.framework.Assert;
 import android.test.AndroidTestCase;
 
 public class AndroidTest extends AndroidTestCase {
-	private static final String Tag = "MyTest";
+//	private static final String Tag = "MyTest";
 
 	public void testSave() throws Throwable
 	{
@@ -13,6 +13,7 @@ public class AndroidTest extends AndroidTestCase {
 	}
 
 	public void testSomethingElse() throws Throwable {
-		Assert.assertTrue(1 + 1 == 2);
+		int i = 1 + 1;
+		Assert.assertTrue(i == 2);
 	}
 }
