@@ -27,7 +27,7 @@ public class HelloAndroidActivity extends Activity {
         
         setContentView(R.layout.test_dim);
         
-        myBtn = (Button)findViewById(R.id.button1);
+        myBtn = (Button)findViewById(R.id.button101);
         
         Resources r = this.getResources();
         float btn_h = r.getDimension(R.dimen.btn_height);

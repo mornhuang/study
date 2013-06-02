@@ -24,7 +24,19 @@
 			<version>${platform.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>android-test</artifactId>
+            <version>${platform.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <scope>provided</scope>
+        </dependency>
 	</dependencies>
+	
 	<build>
 	   <directory>bin</directory>
 		<finalName>${project.artifactId}</finalName>
@@ -46,7 +58,8 @@
 					<sdk>
 						<platform>10</platform>
 					</sdk>
-									</configuration>
+					<undeployBeforeDeploy>true</undeployBeforeDeploy>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
