@@ -15,13 +15,13 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class TestXmlActivity extends Activity {
-	private static final String TAG = "安卓学习";
 	private TextView myTextView;
 	private Button myButton;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		Log.i(TAG, "onCreate");
+		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
+		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.test_xml);
 		
@@ -35,7 +35,6 @@ public class TestXmlActivity extends Activity {
 				StringBuilder sb = new StringBuilder("");
 				Resources r = getResources();
 				XmlResourceParser xrp = r.getXml(R.xml.test);
-				Log.i(TAG, xrp.toString());
 				try {
 					while (xrp.getEventType() != XmlResourceParser.END_DOCUMENT) {
 						if (xrp.getEventType() == XmlResourceParser.START_TAG) {
@@ -63,7 +62,6 @@ public class TestXmlActivity extends Activity {
 				}
 			}
 		});
-		
 	}
 	
 }

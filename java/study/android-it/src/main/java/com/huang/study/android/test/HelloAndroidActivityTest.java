@@ -3,14 +3,14 @@ package com.huang.study.android.test;
 import android.test.ActivityInstrumentationTestCase2;
 import com.huang.study.android.*;
 
-public class HelloAndroidActivityTest extends ActivityInstrumentationTestCase2<HelloAndroidActivity> {
+public class HelloAndroidActivityTest extends ActivityInstrumentationTestCase2<TestDimActivity> {
 
     public HelloAndroidActivityTest() {
-        super(HelloAndroidActivity.class); 
+        super(TestDimActivity.class); 
     }
 
     public void testActivity() {
-        HelloAndroidActivity activity = getActivity();
+        TestDimActivity activity = getActivity();
         assertNotNull(activity);
     }
 }

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ImageView;
 
 public class TestBitmapActivity extends Activity {
@@ -11,6 +12,7 @@ public class TestBitmapActivity extends Activity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		Log.i(LogUtil._FILE_(), LogUtil._FUNC_());
 		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.test_bitmap);

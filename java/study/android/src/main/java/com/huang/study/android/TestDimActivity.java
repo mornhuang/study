@@ -5,11 +5,10 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
+import android.widget.TextView;
 
-public class HelloAndroidActivity extends Activity {
-
-    private static String TAG = "android";
-//    private TextView myTextView;
+public class TestDimActivity extends Activity {
+    private TextView myTextView;
     private Button myBtn;
     
     /**
@@ -20,10 +19,9 @@ public class HelloAndroidActivity extends Activity {
      */
     @Override
     public void onCreate(Bundle savedInstanceState) {
-		Log.i(TAG, "onCreate");
+		Log.i(LogUtil._FILE_(), LogUtil._FUNC_());
 	
         super.onCreate(savedInstanceState);
-        
         setContentView(R.layout.test_dim);
         
         myBtn = (Button)findViewById(R.id.button101);
@@ -35,15 +33,12 @@ public class HelloAndroidActivity extends Activity {
         myBtn.setHeight((int)btn_h);
         
         // 引用颜色资源，设置背景色为红色
-//        getWindow().setBackgroundDrawableResource(R.color.red_bg);
+        getWindow().setBackgroundDrawableResource(R.color.red_bg);
         
-/*        myTextView = (TextView)findViewById(R.id.textView2);
+        myTextView = (TextView)findViewById(R.id.textView101);
         String str = getString(R.string.dynamic_txt).toString();
         myTextView.setText(str);
-        
-        int i = R.layout.main;
-        System.out.println(i);
-*/    }
+    }
 
 }
 
