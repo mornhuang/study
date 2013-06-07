@@ -34,7 +34,7 @@ public abstract class LogUtil {
 	// 当前类名
 	public static String _CLASS_() {
 		StackTraceElement traceElement = ((new Exception()).getStackTrace())[1];
-		return traceElement.getClassName();
+		return traceElement.getFileName().split("\\.")[0];
 	}
 
 	// 当前方法名

@@ -11,12 +11,13 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         
-        <activity android:name="TestMenuActivity" >
+        <activity android:name="TestWidgetActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="TestWidgetRlstActivity"></activity>
     </application>
     
 </manifest>

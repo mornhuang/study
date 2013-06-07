@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/id701TableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:collapseColumns="3"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:id="@+id/id701tableRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/id701TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="用户名称" />
+            
+            <EditText 
+                android:text=""
+                android:id="@+id/id701username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/id702tableRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView 
+                android:text="用户密码"
+                android:id="@+id/id702TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            
+            <EditText 
+                android:text=""
+                android:id="@+id/id702password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:password="true"/>
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/id703tableRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/id703TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal"
+                android:text="性        别" />
+            
+            <RadioGroup 
+                android:id="@+id/id703gender_g"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                
+                <RadioButton 
+                    android:text="男"
+                    android:id="@+id/id7031male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                
+                <RadioButton 
+                    android:text="女"
+                    android:id="@+id/id7032female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/id704tableRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/id704TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="婚        否" />
+            
+            <ToggleButton 
+                android:text="@+id/id704ToggleButton"
+                android:id="@+id/id704marriged"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/id705tableRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/id705hobby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="爱        好" />
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            
+	            <CheckBox
+	                android:id="@+id/id705reading"
+	                android:text="阅读" 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"/>
+	            
+	            <CheckBox 
+	                android:id="@+id/id705swimming"
+	                android:text="游泳" 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/id706tableRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/id706hobby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="职        务" />
+            
+            <Spinner 
+                android:id="@+id/id706position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />"
+            
+        </TableRow>
+            
+        <TableRow
+            android:id="@+id/id707tableRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+<!--             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            
+ -->	            <Button 
+	                android:id="@+id/id707register"
+	                android:text="注册"
+	                android:layout_height="wrap_content"
+	                android:layout_width="wrap_content"/>
+	            
+	            <Button 
+	                android:id="@+id/id707cancle"
+	                android:text="取消"
+	                android:layout_height="wrap_content"
+	                android:layout_width="wrap_content"/>
+<!--             </LinearLayout> -->
+            
+        </TableRow>
+        
+    </TableLayout>
+
+</LinearLayout>

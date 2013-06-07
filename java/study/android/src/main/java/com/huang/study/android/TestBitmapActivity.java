@@ -12,12 +12,12 @@ public class TestBitmapActivity extends Activity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		Log.i(LogUtil._FILE_(), LogUtil._FUNC_());
+		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
 		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.test_bitmap);
 		
-		myImageView = (ImageView)findViewById(R.id.imageView302);
+		myImageView = (ImageView)findViewById(R.id.id302imageView);
 		
 		Resources r = getResources();
 		Drawable d = r.getDrawable(R.drawable.moto);

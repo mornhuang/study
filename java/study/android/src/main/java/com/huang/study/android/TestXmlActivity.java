@@ -25,8 +25,8 @@ public class TestXmlActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.test_xml);
 		
-		myTextView = (TextView)findViewById(R.id.textView201);
-		myButton = (Button)findViewById(R.id.button201);
+		myTextView = (TextView)findViewById(R.id.id201textView);
+		myButton = (Button)findViewById(R.id.id201button);
 		myButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {

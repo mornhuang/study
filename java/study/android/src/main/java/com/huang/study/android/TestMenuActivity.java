@@ -38,11 +38,11 @@ public class TestMenuActivity extends Activity {
 		
 		mi = new MenuInflater(this);
 		
-		myTV = (TextView)findViewById(R.id.menuTextView);
+		myTV = (TextView)findViewById(R.id.id501menuTextView);
 		registerForContextMenu(myTV);
 		
-		btn1 = (Button)findViewById(R.id.button501);
-		btn2 = (Button)findViewById(R.id.button502);
+		btn1 = (Button)findViewById(R.id.id501button);
+		btn2 = (Button)findViewById(R.id.id502button);
 		
 		final int l = Toast.LENGTH_LONG;
 		final int s = Toast.LENGTH_SHORT;

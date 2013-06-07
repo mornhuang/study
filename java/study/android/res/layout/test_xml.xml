@@ -5,13 +5,13 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/button201"
+        android:id="@+id/id201button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="获得XML内容" />
 
     <TextView
-        android:id="@+id/textView201"
+        android:id="@+id/id201textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="" />

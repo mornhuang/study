@@ -6,7 +6,7 @@
     >
 
     <TextView
-        android:id="@+id/textView101"
+        android:id="@+id/id101textView"
         android:text="@string/test_dim"
         android:layout_width="@dimen/text_width"
         android:layout_height="@dimen/text_height"
@@ -14,7 +14,7 @@
         />
 
     <Button
-        android:id="@+id/button101"
+        android:id="@+id/id101button"
         android:text="@string/test_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

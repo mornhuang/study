@@ -6,18 +6,18 @@
     
     <TextView 
         android:text="测试菜单资源"
-        android:id="@+id/menuTextView"
+        android:id="@+id/id501menuTextView"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"/>
     
     <Button
-        android:id="@+id/button501"
+        android:id="@+id/id501button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Long" />
     
     <Button
-        android:id="@+id/button502"
+        android:id="@+id/id502button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Short" />
