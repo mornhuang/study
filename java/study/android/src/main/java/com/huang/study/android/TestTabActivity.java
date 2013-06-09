@@ -15,9 +15,9 @@ public class TestTabActivity extends TabActivity{
 
         TabHost th = getTabHost();
 
-        LayoutInflater.from(this).inflate(R.layout.test_tab, th.getTabContentView(), true);
-        th.addTab(th.newTabSpec("all").setIndicator("所有通话记录").setContent(R.id.textView91));
-        th.addTab(th.newTabSpec("ok").setIndicator("已接来电").setContent(R.id.textView92));
-        th.addTab(th.newTabSpec("cancel").setIndicator("示接来电").setContent(R.id.textView93));
+        LayoutInflater.from(this).inflate(R.layout.l09_tab, th.getTabContentView(), true);
+        th.addTab(th.newTabSpec("all").setIndicator("所有通话记录").setContent(R.id.l0901_textView));
+        th.addTab(th.newTabSpec("ok").setIndicator("已接来电").setContent(R.id.l0902_textView));
+        th.addTab(th.newTabSpec("cancel").setIndicator("示接来电").setContent(R.id.l0903_textView));
     }
 }

@@ -11,7 +11,7 @@ public class TestLayoutActivity extends Activity {
 		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
 		
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.test_layout);
+		setContentView(R.layout.l05_layout);
 		
 	}
 

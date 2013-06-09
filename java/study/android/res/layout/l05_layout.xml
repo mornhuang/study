@@ -11,13 +11,13 @@
 
         <TableRow>
             <TextView
-                android:id="@+id/id401textView"
+                android:id="@+id/l0500_textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="测试Layout" />
 
             <EditText
-                android:id="@+id/id401editText"
+                android:id="@+id/l0501_editText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="" >
@@ -26,7 +26,7 @@
 
         <TableRow android:gravity="right" >
             <Button
-                android:id="@+id/id401button"
+                android:id="@+id/l0502_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Test" />

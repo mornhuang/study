@@ -22,9 +22,9 @@ public class TestDimActivity extends Activity {
 		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
 	
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.test_dim);
+        setContentView(R.layout.l04_dim);
         
-        myBtn = (Button)findViewById(R.id.id101button);
+        myBtn = (Button)findViewById(R.id.l0401_button);
         
         Resources r = this.getResources();
         float btn_h = r.getDimension(R.dimen.btn_height);
@@ -35,7 +35,7 @@ public class TestDimActivity extends Activity {
         // 引用颜色资源，设置背景色为红色
         getWindow().setBackgroundDrawableResource(R.color.red_bg);
         
-        myTextView = (TextView)findViewById(R.id.id101textView);
+        myTextView = (TextView)findViewById(R.id.l0400_textView);
         String str = getString(R.string.dynamic_txt).toString();
         myTextView.setText(str);
     }

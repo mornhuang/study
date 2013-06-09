@@ -27,22 +27,22 @@ public class TestWidgetActivity extends Activity {
 		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
 		
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.test_widget);
+		setContentView(R.layout.l10_widget);
 		
-		username = (EditText)findViewById(R.id.id701username);
-		password = (EditText)findViewById(R.id.id702password);
-		male = (RadioButton)findViewById(R.id.id7031male);
-		female = (RadioButton)findViewById(R.id.id7032female);
-		reading = (CheckBox)findViewById(R.id.id705reading);
-		swimming = (CheckBox)findViewById(R.id.id705swimming);
+		username = (EditText)findViewById(R.id.l1003_username);
+		password = (EditText)findViewById(R.id.l1006_password);
+		male = (RadioButton)findViewById(R.id.l1010_male);
+		female = (RadioButton)findViewById(R.id.l1011_female);
+		reading = (CheckBox)findViewById(R.id.l1017_reading);
+		swimming = (CheckBox)findViewById(R.id.l1018_swimming);
 		marriged = (ToggleButton)findViewById(R.id.id704marriged);
 		
-		position = (Spinner)findViewById(R.id.id706position);
+		position = (Spinner)findViewById(R.id.l1021_position);
 		String[] str = {"CEO", "CFO", "PM"};
 		ArrayAdapter aa = new ArrayAdapter(this, android.R.layout.simple_spinner_item, str);
 		position.setAdapter(aa);
 		
-		register = (Button)findViewById(R.id.id707register);
+		register = (Button)findViewById(R.id.l1023_register);
 		register.setOnClickListener(new OnClickListener() {
 			
 			@Override

@@ -18,9 +18,9 @@ public class TestWidgetRlstActivity extends Activity {
 		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
 		
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.test_widget2);
+		setContentView(R.layout.l11_widget);
 		
-		listView = (ListView)findViewById(R.id.id801listView);
+		listView = (ListView)findViewById(R.id.l1100_listView);
 		
 		Intent intent = this.getIntent();
 		Bundle b = intent.getBundleExtra("data");

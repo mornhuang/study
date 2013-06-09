@@ -5,19 +5,19 @@
     android:orientation="vertical" >
 
     <TableLayout
-        android:id="@+id/id701TableLayout"
+        android:id="@+id/l1000_TableLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:collapseColumns="3"
         android:stretchColumns="1" >
 
         <TableRow
-            android:id="@+id/id701tableRow"
+            android:id="@+id/l1001_tableRow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
             
             <TextView
-                android:id="@+id/id701TextView"
+                android:id="@+id/l1002_TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -25,25 +25,25 @@
             
             <EditText 
                 android:text=""
-                android:id="@+id/id701username"
+                android:id="@+id/l1003_username"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </TableRow>
 
         <TableRow
-            android:id="@+id/id702tableRow"
+            android:id="@+id/l1004_tableRow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
             
             <TextView 
                 android:text="用户密码"
-                android:id="@+id/id702TextView"
+                android:id="@+id/l1005_TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             
             <EditText 
                 android:text=""
-                android:id="@+id/id702password"
+                android:id="@+id/l1006_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:password="true"/>
@@ -51,12 +51,12 @@
         </TableRow>
 
         <TableRow
-            android:id="@+id/id703tableRow"
+            android:id="@+id/l1007_tableRow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
             
             <TextView
-                android:id="@+id/id703TextView"
+                android:id="@+id/l1008_TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -64,20 +64,20 @@
                 android:text="性        别" />
             
             <RadioGroup 
-                android:id="@+id/id703gender_g"
+                android:id="@+id/l1009_gender_g"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 
                 <RadioButton 
                     android:text="男"
-                    android:id="@+id/id7031male"
+                    android:id="@+id/l1010_male"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 
                 <RadioButton 
                     android:text="女"
-                    android:id="@+id/id7032female"
+                    android:id="@+id/l1011_female"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 
@@ -85,19 +85,19 @@
         </TableRow>
 
         <TableRow
-            android:id="@+id/id704tableRow"
+            android:id="@+id/l1012_tableRow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
             
             <TextView
-                android:id="@+id/id704TextView"
+                android:id="@+id/l1013_TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:text="婚        否" />
             
             <ToggleButton 
-                android:text="@+id/id704ToggleButton"
+                android:text="@+id/l1014_ToggleButton"
                 android:id="@+id/id704marriged"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -105,12 +105,12 @@
         </TableRow>
         
         <TableRow
-            android:id="@+id/id705tableRow"
+            android:id="@+id/l1015_tableRow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
             
             <TextView
-                android:id="@+id/id705hobby"
+                android:id="@+id/l1016_hobby"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center_horizontal"
@@ -122,13 +122,13 @@
                 android:orientation="horizontal" >
             
 	            <CheckBox
-	                android:id="@+id/id705reading"
+	                android:id="@+id/l1017_reading"
 	                android:text="阅读" 
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"/>
 	            
 	            <CheckBox 
-	                android:id="@+id/id705swimming"
+	                android:id="@+id/l1018_swimming"
 	                android:text="游泳" 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
@@ -137,26 +137,26 @@
         </TableRow>
         
         <TableRow
-            android:id="@+id/id706tableRow"
+            android:id="@+id/l1019_tableRow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
             
             <TextView
-                android:id="@+id/id706hobby"
+                android:id="@+id/l1020_hobby"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:text="职        务" />
             
             <Spinner 
-                android:id="@+id/id706position"
+                android:id="@+id/l1021_position"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />"
             
         </TableRow>
             
         <TableRow
-            android:id="@+id/id707tableRow"
+            android:id="@+id/l1022_tableRow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
             
@@ -166,13 +166,13 @@
                 android:orientation="horizontal" >
             
  -->	            <Button 
-	                android:id="@+id/id707register"
+	                android:id="@+id/l1023_register"
 	                android:text="注册"
 	                android:layout_height="wrap_content"
 	                android:layout_width="wrap_content"/>
 	            
 	            <Button 
-	                android:id="@+id/id707cancle"
+	                android:id="@+id/l1024_cancle"
 	                android:text="取消"
 	                android:layout_height="wrap_content"
 	                android:layout_width="wrap_content"/>

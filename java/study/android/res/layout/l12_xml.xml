@@ -3,24 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
-    <TextView 
-        android:text="测试菜单资源"
-        android:id="@+id/id501menuTextView"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"/>
-    
+
     <Button
-        android:id="@+id/id501button"
+        android:id="@+id/l1200_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Long" />
-    
-    <Button
-        android:id="@+id/id502button"
+        android:text="获得XML内容" />
+
+    <TextView
+        android:id="@+id/l1201_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Short" />
-    
-    
+        android:text="" />
+
 </LinearLayout>

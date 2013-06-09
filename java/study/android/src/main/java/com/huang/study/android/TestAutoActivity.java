@@ -14,9 +14,9 @@ public class TestAutoActivity extends Activity {
 		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
 		
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.test_auto);
+		setContentView(R.layout.l01_auto);
 	
-		atv = (AutoCompleteTextView)findViewById(R.id.AutoTextView901);
+		atv = (AutoCompleteTextView)findViewById(R.id.l0100_TextView);
 		String[] strs = {"abc", "bcd", "abcd", "bcde"};
 		ArrayAdapter ad = new ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, strs);
 		atv.setAdapter(ad);

@@ -34,15 +34,15 @@ public class TestMenuActivity extends Activity {
 		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
 		
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.test_menu);
+		setContentView(R.layout.l07_menu);
 		
 		mi = new MenuInflater(this);
 		
-		myTV = (TextView)findViewById(R.id.id501menuTextView);
+		myTV = (TextView)findViewById(R.id.l0700_menuTextView);
 		registerForContextMenu(myTV);
 		
-		btn1 = (Button)findViewById(R.id.id501button);
-		btn2 = (Button)findViewById(R.id.id502button);
+		btn1 = (Button)findViewById(R.id.l0701_button);
+		btn2 = (Button)findViewById(R.id.l0702_button);
 		
 		final int l = Toast.LENGTH_LONG;
 		final int s = Toast.LENGTH_SHORT;
@@ -85,7 +85,7 @@ public class TestMenuActivity extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
 		
-		mi.inflate(R.menu.file_menu, menu);
+		mi.inflate(R.menu.m01_menu, menu);
 		return true;
 		
 	}

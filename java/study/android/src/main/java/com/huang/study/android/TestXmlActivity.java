@@ -23,10 +23,10 @@ public class TestXmlActivity extends Activity {
 		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
 		
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.test_xml);
+		setContentView(R.layout.l12_xml);
 		
-		myTextView = (TextView)findViewById(R.id.id201textView);
-		myButton = (Button)findViewById(R.id.id201button);
+		myTextView = (TextView)findViewById(R.id.l1201_textView);
+		myButton = (Button)findViewById(R.id.l1200_button);
 		myButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -34,7 +34,7 @@ public class TestXmlActivity extends Activity {
 				
 				StringBuilder sb = new StringBuilder("");
 				Resources r = getResources();
-				XmlResourceParser xrp = r.getXml(R.xml.test);
+				XmlResourceParser xrp = r.getXml(R.xml.x01_test);
 				try {
 					while (xrp.getEventType() != XmlResourceParser.END_DOCUMENT) {
 						if (xrp.getEventType() == XmlResourceParser.START_TAG) {

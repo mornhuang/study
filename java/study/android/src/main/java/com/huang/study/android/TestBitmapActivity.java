@@ -15,12 +15,12 @@ public class TestBitmapActivity extends Activity {
 		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
 		
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.test_bitmap);
+		setContentView(R.layout.l02_bitmap);
 		
-		myImageView = (ImageView)findViewById(R.id.id302imageView);
+		myImageView = (ImageView)findViewById(R.id.l0200_imageView);
 		
 		Resources r = getResources();
-		Drawable d = r.getDrawable(R.drawable.moto);
+		Drawable d = r.getDrawable(R.drawable.d07_moto);
 		
 		myImageView.setImageDrawable(d);
 	}
