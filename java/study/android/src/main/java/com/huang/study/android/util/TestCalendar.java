@@ -1,5 +1,6 @@
 package com.huang.study.android.util;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 
 /**
@@ -13,5 +14,15 @@ public class TestCalendar {
     public static void main(String[] args) {
         Calendar c = Calendar.getInstance();
         System.out.println(c.get(Calendar.HOUR));
+
+        ArrayList<String> test = new ArrayList<String>();
+        test.add("test");
+        test.add("test2");
+
+        String[] a = test.toArray(new String[test.size()]);
+
+        for (int i = 0; i < a.length; i++) {
+            System.out.println(a[i]);
+        }
     }
 }
