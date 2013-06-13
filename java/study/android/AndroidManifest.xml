@@ -9,7 +9,7 @@
         android:icon="@drawable/d06_launcher"
         android:label="@string/app_name" >
         
-        <activity android:name=".TestListActivity">
+        <activity android:name=".TestGridViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
