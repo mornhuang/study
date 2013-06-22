@@ -9,12 +9,26 @@
         android:icon="@drawable/d06_launcher"
         android:label="@string/app_name" >
         
-        <activity android:name=".TestGallaryActivity">
+        <activity android:name=".TestAllActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".TestAutoActivity" />
+        <activity android:name=".TestBitmapActivity" />
+        <activity android:name=".TestDateActivity" />
+        <activity android:name=".TestDimActivity" />
+        <activity android:name=".TestGallaryActivity" />
+        <activity android:name=".TestGridViewActivity" />
+        <activity android:name=".TestLayoutActivity" />
+        <activity android:name=".TestListActivity" />
+        <activity android:name=".TestMenuActivity" />
+        <activity android:name=".TestProgressActivity" />
+        <activity android:name=".TestTabActivity" />
+        <activity android:name=".TestWidgetActivity" />
+        <activity android:name=".TestWidgetRlstActivity" />
+        <activity android:name=".TestXmlActivity" />
     </application>
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="10" />

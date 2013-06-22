@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
+import com.huang.study.android.util.LogUtil;
 
 public class TestDimActivity extends Activity {
     private TextView myTextView;

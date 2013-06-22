@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import com.huang.study.android.util.LogUtil;
 
 public class TestWidgetRlstActivity extends Activity {
 	private ListView listView;

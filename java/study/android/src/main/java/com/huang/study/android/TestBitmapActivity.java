@@ -6,6 +6,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ImageView;
+import com.huang.study.android.util.LogUtil;
 
 public class TestBitmapActivity extends Activity {
 	private ImageView myImageView;

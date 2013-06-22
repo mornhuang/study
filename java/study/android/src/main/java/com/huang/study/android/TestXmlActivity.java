@@ -2,6 +2,7 @@ package com.huang.study.android;
 
 import java.io.IOException;
 
+import com.huang.study.android.util.LogUtil;
 import org.xmlpull.v1.XmlPullParserException;
 
 import android.app.Activity;

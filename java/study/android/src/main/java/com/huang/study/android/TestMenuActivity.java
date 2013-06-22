@@ -16,6 +16,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.huang.study.android.util.LogUtil;
 
 public class TestMenuActivity extends Activity {
 	private MenuInflater mi;

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import com.huang.study.android.util.LogUtil;
 
 public class TestAutoActivity extends Activity {
 	private AutoCompleteTextView atv;

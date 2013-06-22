@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.ToggleButton;
+import com.huang.study.android.util.LogUtil;
 
 public class TestWidgetActivity extends Activity {
 	private Button register, cancle;

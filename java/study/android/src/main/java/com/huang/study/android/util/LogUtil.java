@@ -1,4 +1,4 @@
-package com.huang.study.android;
+package com.huang.study.android.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
