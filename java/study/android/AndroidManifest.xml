@@ -29,6 +29,9 @@
         <activity android:name=".TestWidgetActivity" />
         <activity android:name=".TestWidgetRlstActivity" />
         <activity android:name=".TestXmlActivity" />
+        <activity android:name=".TestNext1Activity"/>
+        <activity android:name=".TestNext2Activity"/>
+        <activity android:name=".TestLifeCycleActivity"/>
     </application>
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="10" />

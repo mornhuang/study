@@ -1,19 +1,16 @@
 package com.huang.study.android;
 
-import java.io.IOException;
-
-import com.huang.study.android.util.LogUtil;
-import org.xmlpull.v1.XmlPullParserException;
-
 import android.app.Activity;
 import android.content.res.Resources;
 import android.content.res.XmlResourceParser;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
 
 public class TestXmlActivity extends Activity {
 	private TextView myTextView;
@@ -21,8 +18,6 @@ public class TestXmlActivity extends Activity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
-		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.l12_xml);
 		

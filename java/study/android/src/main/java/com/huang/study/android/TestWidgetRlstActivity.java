@@ -1,23 +1,19 @@
 package com.huang.study.android;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import com.huang.study.android.util.LogUtil;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class TestWidgetRlstActivity extends Activity {
 	private ListView listView;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
-		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.l11_widget);
 		

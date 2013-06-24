@@ -5,18 +5,12 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.ContextMenu;
+import android.view.*;
 import android.view.ContextMenu.ContextMenuInfo;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.huang.study.android.util.LogUtil;
 
 public class TestMenuActivity extends Activity {
 	private MenuInflater mi;
@@ -32,8 +26,6 @@ public class TestMenuActivity extends Activity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
-		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.l07_menu);
 		
@@ -74,8 +66,6 @@ public class TestMenuActivity extends Activity {
 	@Override
 	public void onCreateContextMenu(ContextMenu menu, View v,
 			ContextMenuInfo menuInfo) {
-		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
-		
 		menu.add(0, ITEM1, 0, "红色背景");
 		menu.add(0, ITEM2, 0, "绿色背景");
 		menu.add(0, ITEM3, 0, "白色背景");
@@ -84,8 +74,6 @@ public class TestMenuActivity extends Activity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
-		
 		mi.inflate(R.menu.m01_menu, menu);
 		return true;
 		
@@ -93,8 +81,6 @@ public class TestMenuActivity extends Activity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
-		
 		switch(item.getItemId()) {
 		case R.id.about:
 			aboutAlert("演示菜单");
@@ -107,8 +93,6 @@ public class TestMenuActivity extends Activity {
 	}
 
 	private void exitAlert(String msg) {
-		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
-		
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		
 		builder.setMessage(msg)
@@ -134,8 +118,6 @@ public class TestMenuActivity extends Activity {
 	}
 
 	private void aboutAlert(String msg) {
-		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
-		
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		
 		builder.setMessage(msg)
@@ -154,8 +136,6 @@ public class TestMenuActivity extends Activity {
 
 	@Override
 	public boolean onContextItemSelected(MenuItem item) {
-		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
-		
 		switch (item.getItemId()) {
 		case ITEM1:
 			myTV.setBackgroundColor(Color.RED);

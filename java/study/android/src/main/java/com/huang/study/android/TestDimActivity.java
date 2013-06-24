@@ -3,10 +3,8 @@ package com.huang.study.android;
 import android.app.Activity;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
-import com.huang.study.android.util.LogUtil;
 
 public class TestDimActivity extends Activity {
     private TextView myTextView;
@@ -20,8 +18,6 @@ public class TestDimActivity extends Activity {
      */
     @Override
     public void onCreate(Bundle savedInstanceState) {
-		Log.i(LogUtil._CLASS_(), LogUtil._FUNC_());
-	
         super.onCreate(savedInstanceState);
         setContentView(R.layout.l04_dim);
         
