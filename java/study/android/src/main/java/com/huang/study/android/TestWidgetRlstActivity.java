@@ -30,7 +30,7 @@ public class TestWidgetRlstActivity extends Activity {
 		list.add(b.getString("hobby"));
 		list.add(b.getString("marriged"));
 		
-		ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_checked,list);
+		ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_checked, list);
 		listView.setAdapter(adapter);
 	}
 
