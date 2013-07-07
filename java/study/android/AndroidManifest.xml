@@ -42,6 +42,7 @@
         <activity android:name=".TestCallActivity"/>
         <activity android:name=".TestServiceActivity"/>
         <activity android:name=".TestRemoteActivity"/>
+        <activity android:name=".TestBroadCastActivity"/>
         <service android:name=".SvrSimpleService">
             <intent-filter>
                 <action android:name="com.huang.study.android.MY_SIMPLE_SERVICE" />
@@ -52,6 +53,11 @@
                 <action android:name="com.huang.study.android.REMOTE_SERVICE" />
             </intent-filter>
         </service>
+        <receiver android:name=".RevMyRecieve" >
+            <intent-filter>
+                <action android:name="com.huang.study.android.MY_ACTION" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

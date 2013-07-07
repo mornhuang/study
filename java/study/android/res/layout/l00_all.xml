@@ -120,5 +120,10 @@
                 android:layout_height="wrap_content"
                 android:text="Remote"
                 android:id="@+id/l0018_button" android:layout_column="3"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BroadCast"
+                android:id="@+id/l0019_button" android:layout_column="4"/>
     </TableRow>
 </TableLayout>
