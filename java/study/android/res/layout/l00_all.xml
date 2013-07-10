@@ -126,4 +126,23 @@
                 android:text="BroadCast"
                 android:id="@+id/l0019_button" android:layout_column="4"/>
     </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notify"
+                android:id="@+id/l0020_button" android:layout_column="1"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alarm"
+                android:id="@+id/l0021_button" android:layout_column="2"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DataP"
+                android:id="@+id/l0022_button" android:layout_column="3"/>
+    </TableRow>
 </TableLayout>

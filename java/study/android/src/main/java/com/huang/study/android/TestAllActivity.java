@@ -174,5 +174,26 @@ public class TestAllActivity extends Activity {
                 startActivity(intent);
             }
         });
+       ((Button) findViewById(R.id.l0020_button)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(TestAllActivity.this, TestNotifyActivity.class);
+                startActivity(intent);
+            }
+        });
+       ((Button) findViewById(R.id.l0021_button)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(TestAllActivity.this, TestAlarmActivity.class);
+                startActivity(intent);
+            }
+        });
+       ((Button) findViewById(R.id.l0022_button)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(TestAllActivity.this, TestDataPActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
