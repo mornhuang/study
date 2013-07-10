@@ -144,5 +144,10 @@
                 android:layout_height="wrap_content"
                 android:text="DataP"
                 android:id="@+id/l0022_button" android:layout_column="3"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="File"
+                android:id="@+id/l0023_button" android:layout_column="4"/>
     </TableRow>
 </TableLayout>

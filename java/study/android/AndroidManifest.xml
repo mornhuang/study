@@ -46,6 +46,7 @@
         <activity android:name=".TestNotifyActivity"/>
         <activity android:name=".TestAlarmActivity"/>
         <activity android:name=".TestDataPActivity"/>
+        <activity android:name=".TestFileActivity"/>
         <service android:name=".SvrSimpleService">
             <intent-filter>
                 <action android:name="com.huang.study.android.MY_SIMPLE_SERVICE" />

@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 /**
  * Created by User : Morn
@@ -16,7 +15,7 @@ public class TestAllActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.l00_all);
 
-        ((Button) findViewById(R.id.l0000_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0000_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestAutoActivity.class);
@@ -24,7 +23,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0001_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0001_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestBitmapActivity.class);
@@ -32,7 +31,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0002_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0002_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestDateActivity.class);
@@ -40,7 +39,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0003_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0003_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestDimActivity.class);
@@ -48,7 +47,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0004_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0004_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestGallaryActivity.class);
@@ -56,7 +55,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0005_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0005_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestGridViewActivity.class);
@@ -64,7 +63,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0006_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0006_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestLayoutActivity.class);
@@ -72,7 +71,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0007_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0007_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestListActivity.class);
@@ -80,7 +79,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0008_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0008_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestMenuActivity.class);
@@ -88,7 +87,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0009_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0009_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestProgressActivity.class);
@@ -96,7 +95,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0010_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0010_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestTabActivity.class);
@@ -104,7 +103,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0011_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0011_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestWidgetActivity.class);
@@ -112,7 +111,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0012_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0012_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestXmlActivity.class);
@@ -120,7 +119,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0013_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0013_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestNext1Activity.class);
@@ -128,7 +127,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-        ((Button) findViewById(R.id.l0014_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0014_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestLifeCycleActivity.class);
@@ -136,8 +135,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-
-        ((Button) findViewById(R.id.l0015_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0015_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestActionActivity.class);
@@ -145,7 +143,7 @@ public class TestAllActivity extends Activity {
             }
         });
 
-       ((Button) findViewById(R.id.l0016_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0016_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestCallActivity.class);
@@ -153,45 +151,58 @@ public class TestAllActivity extends Activity {
             }
         });
 
-       ((Button) findViewById(R.id.l0017_button)).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.l0017_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestServiceActivity.class);
                 startActivity(intent);
             }
         });
-       ((Button) findViewById(R.id.l0018_button)).setOnClickListener(new View.OnClickListener() {
+
+        findViewById(R.id.l0018_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestRemoteActivity.class);
                 startActivity(intent);
             }
         });
-       ((Button) findViewById(R.id.l0019_button)).setOnClickListener(new View.OnClickListener() {
+
+        findViewById(R.id.l0019_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestBroadCastActivity.class);
                 startActivity(intent);
             }
         });
-       ((Button) findViewById(R.id.l0020_button)).setOnClickListener(new View.OnClickListener() {
+
+        findViewById(R.id.l0020_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestNotifyActivity.class);
                 startActivity(intent);
             }
         });
-       ((Button) findViewById(R.id.l0021_button)).setOnClickListener(new View.OnClickListener() {
+
+        findViewById(R.id.l0021_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestAlarmActivity.class);
                 startActivity(intent);
             }
         });
-       ((Button) findViewById(R.id.l0022_button)).setOnClickListener(new View.OnClickListener() {
+
+        findViewById(R.id.l0022_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestAllActivity.this, TestDataPActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.l0023_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(TestAllActivity.this, TestFileActivity.class);
                 startActivity(intent);
             }
         });
