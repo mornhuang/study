@@ -11,11 +11,9 @@ import android.widget.SimpleCursorAdapter;
 import java.util.ArrayList;
 
 /**
- * Created with IntelliJ IDEA.
- * User: Morn
- * Date: 13-6-12
- * Time: 上午11:28
- * To change this template use File | Settings | File Templates.
+ * Created By User : Morn
+ * Created DateTime: 13-6-12 上午11:28
+ * Descriptions    :
  */
 public class TestListActivity extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {

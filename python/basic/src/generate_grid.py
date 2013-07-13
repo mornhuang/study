@@ -1,8 +1,8 @@
-'''
+"""
 Created on 2011-10-5
 
 @author: IBM
-'''
+"""
 #!/usr/bin/env python
 #-*- encoding:utf-8 -*-
 

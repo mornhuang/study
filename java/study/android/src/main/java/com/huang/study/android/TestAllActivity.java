@@ -206,5 +206,13 @@ public class TestAllActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+        findViewById(R.id.l0024_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(TestAllActivity.this, TestSqlliteActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

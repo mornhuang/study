@@ -47,6 +47,8 @@
         <activity android:name=".TestAlarmActivity"/>
         <activity android:name=".TestDataPActivity"/>
         <activity android:name=".TestFileActivity"/>
+        <activity android:name=".TestSqlliteActivity"/>
+        <activity android:name=".TestQueryActivity"/>
         <service android:name=".SvrSimpleService">
             <intent-filter>
                 <action android:name="com.huang.study.android.MY_SIMPLE_SERVICE" />
