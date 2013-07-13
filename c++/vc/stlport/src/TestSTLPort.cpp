@@ -2,10 +2,11 @@
 //
 
 #include "stdafx.h"
-
 #include <iostream> 
 #include <rope> 
+
 using namespace std; 
+
 int main() 
 { 
     // crope就是容纳char类型字符的rope容器 
