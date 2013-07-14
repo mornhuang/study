@@ -5,6 +5,8 @@
 [Cc]lasses
 [Tt]arget
 [Bb]in
+[Gg]en
+[Oo]ut
 *.[Ll]og
 *.out
 *.ilk
@@ -35,5 +37,6 @@ tags
 .springBeans
 .externalToolBuilders
 .idea
+
 
 
