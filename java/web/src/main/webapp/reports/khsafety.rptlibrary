@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.22" id="1">
+    <property name="author">HuangMeng</property>
+    <property name="createdBy">MyEclipse Report Designer Version 10.0</property>
+    <property name="units">in</property>
+    <list-property name="propertyBindings">
+        <structure>
+            <property name="name">queryText</property>
+            <property name="id">25</property>
+        </structure>
+        <structure>
+            <property name="name">queryTimeOut</property>
+            <property name="id">25</property>
+        </structure>
+        <structure>
+            <property name="name">rowFetchSize</property>
+            <property name="id">25</property>
+        </structure>
+    </list-property>
+    <parameters>
+        <scalar-parameter name="rptDate" id="22">
+            <property name="valueType">static</property>
+            <property name="dataType">date</property>
+            <property name="distinct">true</property>
+            <list-property name="selectionList"/>
+            <property name="paramType">simple</property>
+            <property name="controlType">text-box</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+        </scalar-parameter>
+        <scalar-parameter name="organCode" id="23">
+            <property name="valueType">static</property>
+            <property name="dataType">string</property>
+            <property name="distinct">true</property>
+            <list-property name="selectionList"/>
+            <property name="paramType">simple</property>
+            <property name="controlType">text-box</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+        </scalar-parameter>
+    </parameters>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="khData" id="5">
+            <property name="odaDriverClass">oracle.jdbc.driver.OracleDriver</property>
+            <property name="odaURL">jdbc:oracle:thin:@192.168.0.178:1521:safe</property>
+            <property name="odaUser">safe</property>
+            <encrypted-property name="odaPassword" encryptionID="base64">a2VoYW8=</encrypted-property>
+        </oda-data-source>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="com.genuitec.eclipse.reporting.oda.dataSet" name="organValue" id="25">
+            <property name="nullsOrdering">nulls lowest</property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">NAME</property>
+                    <property name="analysis">attribute</property>
+                    <text-property name="displayName">ORGAN_NAME</text-property>
+                </structure>
+            </list-property>
+            <list-property name="filter">
+                <structure>
+                    <property name="operator">eq</property>
+                    <expression name="expr" type="javascript">row["ORGAN_CODE"]</expression>
+                    <simple-property-list name="value1">
+                        <value>params["organCode"].value</value>
+                    </simple-property-list>
+                </structure>
+            </list-property>
+            <list-property name="parameters"/>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">ORGAN_CODE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">NAME</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">khData</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">ORGAN_CODE</property>
+                    <property name="nativeName">ORGAN_CODE</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">NAME</property>
+                    <property name="nativeName">NAME</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[select ORGAN_CODE, NAME 
+from ORGAN_VIEW ]]></xml-property>
+        </oda-data-set>
+    </data-sets>
+    <themes>
+        <theme name="tblTheme" id="17">
+            <styles>
+                <style name="table" id="18">
+                    <property name="backgroundColor">#FFFCF4</property>
+                    <property name="borderBottomColor">#CCCCCC</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#CCCCCC</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#CCCCCC</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#CCCCCC</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                </style>
+                <style name="table-detail-cell" id="19">
+                    <property name="borderBottomColor">#CCCCCC</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#CCCCCC</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#CCCCCC</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#CCCCCC</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                    <property name="paddingTop">2pt</property>
+                    <property name="paddingLeft">2pt</property>
+                    <property name="paddingBottom">2pt</property>
+                    <property name="paddingRight">2pt</property>
+                    <property name="textAlign">center</property>
+                    <property name="verticalAlign">middle</property>
+                </style>
+                <style name="table-header-cell" id="20">
+                    <property name="backgroundAttachment">scroll</property>
+                    <property name="backgroundImage">webcontent/birt/images/bg_tbl_header.jpg</property>
+                    <property name="backgroundRepeat">repeat-x</property>
+                    <property name="fontFamily">"微软雅黑"</property>
+                    <property name="fontSize">15px</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="color">#FFFFFF</property>
+                    <property name="borderBottomColor">#CCCCCC</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#CCCCCC</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#CCCCCC</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#CCCCCC</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                    <property name="paddingTop">0pt</property>
+                    <property name="paddingLeft">0pt</property>
+                    <property name="paddingBottom">0pt</property>
+                    <property name="paddingRight">0pt</property>
+                    <property name="textAlign">center</property>
+                    <property name="verticalAlign">middle</property>
+                </style>
+                <style name="report" id="39">
+                    <property name="textAlign">center</property>
+                    <property name="verticalAlign">middle</property>
+                </style>
+            </styles>
+        </theme>
+    </themes>
+    <page-setup>
+        <simple-master-page name="Month" id="26">
+            <property name="type">a4</property>
+            <property name="fontFamily">sans-serif</property>
+            <property name="fontSize">10pt</property>
+            <page-header>
+                <grid id="27">
+                    <property name="textAlign">center</property>
+                    <property name="width">7.84375in</property>
+                    <column id="28">
+                        <property name="width">0.8020833333333334in</property>
+                    </column>
+                    <column id="29">
+                        <property name="width">7.041666666666667in</property>
+                    </column>
+                    <row id="30">
+                        <property name="fontFamily">"微软雅黑"</property>
+                        <property name="fontSize">22px</property>
+                        <property name="fontWeight">bold</property>
+                        <property name="color">#3770BB</property>
+                        <cell id="31">
+                            <property name="colSpan">2</property>
+                            <property name="rowSpan">1</property>
+                            <text-data id="32">
+                                <expression name="valueExpr" type="javascript">BirtDateTime.year(params["rptDate"].value) + "年" + BirtDateTime.month(params["rptDate"].value) + "月" + " " + "你的报表名称"</expression>
+                                <property name="contentType">html</property>
+                            </text-data>
+                        </cell>
+                    </row>
+                    <row id="33">
+                        <property name="fontFamily">"微软雅黑"</property>
+                        <property name="fontSize">15px</property>
+                        <property name="fontWeight">bold</property>
+                        <property name="color">#535353</property>
+                        <cell id="34">
+                            <property name="textAlign">right</property>
+                            <label id="35">
+                                <text-property name="text">企业名称：</text-property>
+                            </label>
+                        </cell>
+                        <cell id="36">
+                            <property name="textAlign">left</property>
+                            <data id="37">
+                                <property name="dataSet">organValue</property>
+                                <list-property name="boundDataColumns">
+                                    <structure>
+                                        <property name="name">ORGAN_CODE</property>
+                                        <expression name="expression" type="javascript">dataSetRow["ORGAN_CODE"]</expression>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="name">NAME</property>
+                                        <expression name="expression" type="javascript">dataSetRow["NAME"]</expression>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                </list-property>
+                                <property name="resultSetColumn">NAME</property>
+                            </data>
+                        </cell>
+                    </row>
+                </grid>
+            </page-header>
+        </simple-master-page>
+        <simple-master-page name="Year" id="40">
+            <page-header>
+                <grid id="41">
+                    <property name="textAlign">center</property>
+                    <property name="width">7.84375in</property>
+                    <column id="42">
+                        <property name="width">0.8020833333333334in</property>
+                    </column>
+                    <column id="43">
+                        <property name="width">7.041666666666667in</property>
+                    </column>
+                    <row id="44">
+                        <property name="fontFamily">"微软雅黑"</property>
+                        <property name="fontSize">22px</property>
+                        <property name="fontWeight">bold</property>
+                        <property name="color">#3770BB</property>
+                        <cell id="45">
+                            <property name="colSpan">2</property>
+                            <property name="rowSpan">1</property>
+                            <text-data id="46">
+                                <expression name="valueExpr" type="javascript">BirtDateTime.year(params["rptDate"].value) + "年" + " " + "你的报表名称"</expression>
+                                <property name="contentType">html</property>
+                            </text-data>
+                        </cell>
+                    </row>
+                    <row id="47">
+                        <property name="fontFamily">"微软雅黑"</property>
+                        <property name="fontSize">15px</property>
+                        <property name="fontWeight">bold</property>
+                        <property name="color">#535353</property>
+                        <cell id="48">
+                            <property name="textAlign">right</property>
+                            <label id="49">
+                                <text-property name="text">企业名称：</text-property>
+                            </label>
+                        </cell>
+                        <cell id="50">
+                            <property name="textAlign">left</property>
+                            <data id="51">
+                                <property name="dataSet">organValue</property>
+                                <list-property name="boundDataColumns">
+                                    <structure>
+                                        <property name="name">ORGAN_CODE</property>
+                                        <expression name="expression" type="javascript">dataSetRow["ORGAN_CODE"]</expression>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="name">NAME</property>
+                                        <expression name="expression" type="javascript">dataSetRow["NAME"]</expression>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                </list-property>
+                                <property name="resultSetColumn">NAME</property>
+                            </data>
+                        </cell>
+                    </row>
+                </grid>
+            </page-header>
+        </simple-master-page>
+    </page-setup>
+</library>

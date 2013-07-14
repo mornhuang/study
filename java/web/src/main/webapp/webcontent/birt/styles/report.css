@@ -1,0 +1,20 @@
+BODY {
+	BACKGROUND-IMAGE:  url(../images/bg_report.gif);
+}
+
+.listTable{
+	BORDER-RIGHT-WIDTH: 0px;
+	WIDTH: 100%;
+	BORDER-TOP-WIDTH: 0px;
+	BORDER-BOTTOM-WIDTH: 0px;
+	BORDER-LEFT-WIDTH: 0px;
+	BORDER:0px;
+}
+
+.listTdTitle{
+font-family:"Microsoft YaHei";
+	FONT-SIZE: 22px;
+	FONT-WEIGHT: bold;
+	text-align:center;
+}
+
