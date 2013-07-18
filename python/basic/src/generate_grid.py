@@ -3,12 +3,18 @@ Created on 2011-10-5
 
 @author: IBM
 """
+
 #!/usr/bin/env python
 #-*- encoding:utf-8 -*-
 
-import random
-
 def get_int(msg, minimum, default):
+    """
+
+    :param msg:
+    :param minimum:
+    :param default:
+    :return:
+    """
     while True:
         try:
             line = input(msg)
