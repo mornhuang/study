@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="空的测试输入\n你说呢"
+            android:id="@+id/textView0" style="@style/line_space"/>
+    <view android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          class="com.huang.android.ch05.BorderTextView" android:id="@+id/view7" android:text="测试下吧"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="中华人民共合国之创世纪开发过程，你说呢？我也不知道。"
+            android:id="@+id/textView10" android:singleLine="true" android:ellipsize="marquee" android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"/>
+</LinearLayout>
