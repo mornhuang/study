@@ -59,8 +59,7 @@ public class BirtAction extends ActionSupport {
 		IReportRunnable design = null;
 
 		// 打开设计好的报表，取绝对路径，最好使用context.getRealPath();这种方法实现，官方这个比较呆
-		design = engine
-				.openReportDesign("C:/test/2.1/executereport/test.rptdesign");
+		design = engine.openReportDesign("C:/test/2.1/executereport/test.rptdesign");
 
 		// 创建报表任务
 		IRunAndRenderTask task = engine.createRunAndRenderTask(design);

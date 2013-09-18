@@ -12,5 +12,9 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textview2" android:autoLink="all" android:padding="2dp" android:textSize="20sp"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"/>
 </LinearLayout>
 

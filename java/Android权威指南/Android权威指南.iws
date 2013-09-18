@@ -25,18 +25,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86570654-d925-43f5-a7b1-8a83bf68923b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../python/basic/src/generate_grid.py" afterPath="$PROJECT_DIR$/../../python/basic/src/generate_grid.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../python/basic/src/mtloop.py" afterPath="$PROJECT_DIR$/../../python/basic/src/mtloop.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android权威指南.ipr" afterPath="$PROJECT_DIR$/Android权威指南.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ch05/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android权威指南.iws" afterPath="$PROJECT_DIR$/Android权威指南.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch02/src/com/huang/android/ch02/first/Main.java" afterPath="$PROJECT_DIR$/ch02/src/com/huang/android/ch02/first/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android/android.iml" afterPath="$PROJECT_DIR$/../android/android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch02/res/layout/main.xml" afterPath="$PROJECT_DIR$/ch02/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/src/com/huang/android/ch05/MyActivity.java" afterPath="$PROJECT_DIR$/ch05/src/com/huang/android/ch05/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/res/layout/main.xml" afterPath="$PROJECT_DIR$/ch05/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/res/values/strings.xml" afterPath="$PROJECT_DIR$/ch05/res/values/strings.xml" />
     </list>
     <ignored path="Android权威指南.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374116975845" ignored="false" />
-    <file path="/fragment.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374109345554" ignored="false" />
+    <file path="/Dummy.txt" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1375437922406" ignored="false" />
+    <file path="/fragment.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374911945959" ignored="false" />
     <file path="/Main.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1373966434455" ignored="false" />
     <file path="/CircleCanvas.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1373790468132" ignored="false" />
     <file path="$PROJECT_DIR$/../web/src/main/webapp/html/calculator.html" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1373868030371" ignored="false" />
@@ -48,8 +46,50 @@
     <file path="/MyActivity2.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1373938718588" ignored="false" />
     <file path="/MyActivity4.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1373957086828" ignored="false" />
     <file path="/activity4.xml" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1373957723032" ignored="false" />
-    <file path="$PROJECT_DIR$/ch05/res/values/strings.xml" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374108254022" ignored="false" />
-    <file path="/MyActivity.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374109324891" ignored="false" />
+    <file path="/MyActivity.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374475560862" ignored="false" />
+    <file path="/Span.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374485371122" ignored="false" />
+    <file path="/Overridden Method Body.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374478379573" ignored="false" />
+    <file path="/New Method Body.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374478729355" ignored="false" />
+    <file path="/Implemented Method Body.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374478770942" ignored="false" />
+    <file path="/ActionScript File Header.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374478826467" ignored="false" />
+    <file path="/JavaScript File.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374478878190" ignored="false" />
+    <file path="/AMD JavaScript File.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374478890707" ignored="false" />
+    <file path="/TypeScript File.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374478902441" ignored="false" />
+    <file path="/ColdFusion File.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374478919534" ignored="false" />
+    <file path="/ColdFusion Tag Component.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374478940483" ignored="false" />
+    <file path="/ColdFusion Tag Interface.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374478954322" ignored="false" />
+    <file path="/ColdFusion Script Component.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374478992324" ignored="false" />
+    <file path="/ColdFusion Script Interface.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374479000330" ignored="false" />
+    <file path="/Flex 3 Component.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374479026830" ignored="false" />
+    <file path="/Flex 4 Component.txt.ft" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374479033436" ignored="false" />
+    <file path="/Activity1.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374480583696" ignored="false" />
+    <file path="/Activity2.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374480597795" ignored="false" />
+    <file path="/ColorSpan.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374485232357" ignored="false" />
+    <file path="/BorderTextView.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374538998927" ignored="false" />
+    <file path="/strings.xml" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374541148608" ignored="false" />
+    <file path="/test.xml" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374837261197" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/android应用开发详解/05/Chapter05_Activity_StartActivity/gen/com/amaker/test/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853392927" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_tab/gen/mobile/android/ch05/tab/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652317" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_gridview/gen/mobile/android/ch05/gridview/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652317" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_vertical_scroll_text/gen/mobile/android/ch05/vertical/scroll/text/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652317" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_radiobutton/gen/mobile/android/ch05/radiobutton/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652317" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_imageswitcher/gen/mobile/android/ch05/imageswitcher/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652317" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_clock/gen/mobile/android/ch05/clock/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_ratingbar/gen/mobile/android/ch05/ratingbar/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_bordertextview/gen/mobile/android/ch05/border/textview/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_imageview/gen/mobile/android/ch05/imageview/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_linespace/gen/mobile/android/ch05/line/space/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_edittext_face/gen/mobile/android/ch05/edittext/face/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_ignore_text/gen/mobile/android/ch05/ignore/text/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853658724" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_imagetextbutton/gen/mobile/android/ch05/image/text/button/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_resize_round_image/gen/mobile/android/ch05/resize/round/image/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_rectimageview/gen/mobile/android/ch05/rect/imageview/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_colorlistview/gen/mobile/android/ch05/color/listview/R.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853652318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_radiobutton/gen/mobile/android/ch05/radiobutton/BuildConfig.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853842981" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_imagetextbutton/src/mobile/android/ch05/image/text/button/Main.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374853884744" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_text_image/src/mobile/android/ch05/text/image/Main.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374854787569" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_resize_round_image/src/mobile/android/ch05/resize/round/image/Main.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374855599653" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../example/java/Android开发权威指南源代码/src/ch05/ch05_progressbar/src/mobile/android/ch05/progressbar/Main.java" changelist="86570654-d925-43f5-a7b1-8a83bf68923b" time="1374893332040" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +114,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -111,6 +150,7 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -120,19 +160,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch05/src/com/huang/android/ch05/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="54" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.6345178">
+            <state line="56" column="76" selection-start="2181" selection-end="2194" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch05/res/layout/main.xml">
+      <file leaf-file-name="ColorSpan.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch05/src/com/huang/android/ch05/ColorSpan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="10" column="13" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Span.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch05/src/com/huang/android/ch05/Span.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="95" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch05/res/layout/test.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="67" selection-start="781" selection-end="781" vertical-scroll-proportion="0.5435169">
               <folding />
             </state>
           </provider>
@@ -159,20 +217,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ch02/src/com/huang/android/ch02/first/CircleCanvas.java" />
-        <option value="$PROJECT_DIR$/ch02/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/ch02/src/com/huang/android/ch02/first/Main.java" />
-        <option value="$PROJECT_DIR$/ch04/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/ch04/res/layout/activity2.xml" />
-        <option value="$PROJECT_DIR$/ch04/src/com/huang/android/ch04/show/activity/MyActivity2.java" />
-        <option value="$PROJECT_DIR$/ch04/src/com/huang/android/ch04/transmit/data/Data.java" />
-        <option value="$PROJECT_DIR$/ch04/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/ch04/src/com/huang/android/ch04/show/activity/MyActivity4.java" />
         <option value="$PROJECT_DIR$/ch04/res/layout/activity4.xml" />
         <option value="$PROJECT_DIR$/ch04/src/com/huang/android/ch04/show/activity/Main.java" />
         <option value="$PROJECT_DIR$/ch04/res/layout/study.xml" />
         <option value="$PROJECT_DIR$/ch05/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/ch05/src/com/huang/android/ch05/MyActivity.java" />
+        <option value="$PROJECT_DIR$/ch05/res/layout/span.xml" />
+        <option value="$PROJECT_DIR$/ch05/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/ch05/src/com/huang/android/ch05/Activity1.java" />
+        <option value="$PROJECT_DIR$/ch05/src/com/huang/android/ch05/Activity2.java" />
+        <option value="$PROJECT_DIR$/ch05/src/com/huang/android/ch05/ColorSpan.java" />
+        <option value="$PROJECT_DIR$/ch05/src/com/huang/android/ch05/Span.java" />
+        <option value="dbtable:/Android权威指南c0133f48/079ba293-c32c-46b4-b2af-79afa05cbf94/study..report" />
+        <option value="$PROJECT_DIR$/ch05/src/com/huang/android/ch05/BorderTextView.java" />
+        <option value="$PROJECT_DIR$/ch05/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/ch05/res/layout/test.xml" />
       </list>
     </option>
   </component>
@@ -211,8 +271,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,68 +279,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android权威指南" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch05" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android权威指南" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch05" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch05" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android权威指南" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch05" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android权威指南" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch05" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,16 +294,18 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="fileTemplates" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../workfile/khsafety" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="Database.TableEditor.Splitter" value="0.71905696" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -417,6 +419,12 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -472,7 +480,7 @@
     <configuration default="false" name="ch05" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="ch05" />
       <option name="ACTIVITY_CLASS" value="com.huang.android.ch05.MyActivity" />
-      <option name="MODE" value="specific_activity" />
+      <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="PREFERRED_AVD" value="WVGA_2.3.3" />
@@ -482,7 +490,7 @@
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="CLEAR_LOGCAT" value="true" />
       <RunnerSettings RunnerId="AndroidDebugRunner" />
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
@@ -525,34 +533,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42810985" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47819063" sideWeight="0.49959382" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47819063" sideWeight="0.50040615" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28733766" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47819063" sideWeight="0.4991883" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47819063" sideWeight="0.5008117" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44911146" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3060065" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3060065" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24269481" sideWeight="0.5218094" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24269481" sideWeight="0.5218094" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918832" sideWeight="0.5218094" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24837662" sideWeight="0.5218094" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24188311" sideWeight="0.5218094" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24107143" sideWeight="0.5218094" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.453958" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4361874" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
@@ -626,68 +634,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch02/src/com/huang/android/ch02/first/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="524" selection-end="524" vertical-scroll-proportion="0.121157326" />
+    <entry file="file://$PROJECT_DIR$/ch05/res/layout/test.xml">
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
-    </entry>
-    <entry file="jar://D:/Software (x86)/develop/android-sdk/platforms/android-10/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="62" selection-start="184" selection-end="203" vertical-scroll-proportion="0.1559792" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch04/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="69" selection-end="69" vertical-scroll-proportion="0.06101695" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch02/src/com/huang/android/ch02/first/CircleCanvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="475" selection-end="485" vertical-scroll-proportion="0.42711863" />
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software (x86)/develop/android-sdk/platforms/android-10/android.jar!/android/view/View.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch04/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="59" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch04/src/com/huang/android/ch04/transmit/data/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="229" selection-end="229" vertical-scroll-proportion="0.30456853" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch04/src/com/huang/android/ch04/show/activity/MyActivity2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="851" selection-end="851" vertical-scroll-proportion="0.2994924" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch04/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="26" column="36" selection-start="1104" selection-end="1111" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch04/res/layout/activity2.xml">
-      <provider editor-type-id="text-editor">
-        <state line="10" column="37" selection-start="400" selection-end="408" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch04/res/layout/study.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch04/src/com/huang/android/ch04/show/activity/Main.java">
@@ -701,26 +661,83 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch04/res/layout/activity4.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="20" selection-start="60" selection-end="60" vertical-scroll-proportion="0.06394316" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/res/layout/span.xml">
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="547" selection-end="547" vertical-scroll-proportion="-9.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch05/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="131" selection-end="184" vertical-scroll-proportion="0.1220339" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/src/com/huang/android/ch05/Activity1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="7" selection-start="327" selection-end="358" vertical-scroll-proportion="0.36610168" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="89" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.73220336">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/src/com/huang/android/ch05/BorderTextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="35" selection-start="625" selection-end="625" vertical-scroll-proportion="0.579661" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/src/com/huang/android/ch05/Activity2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="43" selection-start="358" selection-end="358" vertical-scroll-proportion="0.36610168" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/src/com/huang/android/ch05/ColorSpan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch05/src/com/huang/android/ch05/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="54" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.6345178">
+        <state line="56" column="76" selection-start="2181" selection-end="2194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/src/com/huang/android/ch05/Span.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="95" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/res/layout/test.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="67" selection-start="781" selection-end="781" vertical-scroll-proportion="0.5435169">
           <folding />
         </state>
       </provider>

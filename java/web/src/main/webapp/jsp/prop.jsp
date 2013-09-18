@@ -12,7 +12,7 @@
 	BufferedReader br = new BufferedReader(new InputStreamReader(is));
 	String buf = null;
 	while( (buf = br.readLine()) != null) {
-		out.println(buf + "<br>");
+		out.println(buf + "<br/>");
 	}
 %>
 </body>

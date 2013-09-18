@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.3.dtd" >
 <!-- Struts配置文件 -->
 <struts>
-	<!-- <constant name="struts.custom.i18n.resources" value="MessageResource" /> -->
-    <constant name="struts.action.extension" value="action"/> 
+	<constant name="struts.custom.i18n.resources" value="MessageResource" />
 
-	<package name="base" extends="struts-default">
-
-        <action name="Login" class="com.huang.study.web.action.LoginAction3">
+    <!-- 测试使用namespace -->
+	<package name="base" extends="struts-default" namespace="/base">
+        <action name="Login3" class="com.huang.study.web.action.LoginAction3">
             <result name="error">/jsp/error.jsp</result>
-            <result name="success">/jsp/showJasper.jsp</result>
-            <result name="input">/jsp/login.jsp</result>
+            <result name="success">/jsp/welcome.jsp</result>
+            <result name="input">/jsp/login3.jsp</result>
         </action>
+    </package>
 
-<!-- 
+    <package name="second" extends="struts-default">
         <interceptors>
             <interceptor name="mysimple"
                 class="com.huang.study.web.action.IntpAction">
@@ -34,7 +34,7 @@
 
 		<action name="GetBooks" class="com.huang.study.web.action.GetBookAction">
 			<result name="success">/jsp/showBook2.jsp</result>
-			<result name="login">/jsp/login.jsp</result>
+			<result name="login">/jsp/login2.jsp</result>
 		</action>
 
 		<action name="Upload" class="com.huang.study.web.action.UploadAction">
@@ -47,7 +47,6 @@
 			<result>/jsp/succ.jsp</result>
 			<result name="input">/html/upload.html</result>
 		</action>
- -->		
 	</package>
   
     <package name="jspr" extends="jasperreports-default">

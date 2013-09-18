@@ -7,6 +7,9 @@ import javax.naming.directory.SearchControls;
 import javax.naming.ldap.InitialLdapContext;
 import javax.naming.ldap.LdapContext;
 
+/*
+ * Description: 测试LDAP
+ */
 public class LdapTest {
 
 	/**

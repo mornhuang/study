@@ -1,6 +1,10 @@
 package com.huang.study.web.action;
 
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
+import org.apache.struts2.ServletActionContext;
+
+import javax.servlet.http.Cookie;
 
 public class LoginAction3 extends ActionSupport {
 	private static final long serialVersionUID = 3585525634319258691L;
@@ -26,13 +30,17 @@ public class LoginAction3 extends ActionSupport {
 
 	@Override
 	public String execute() throws Exception {
-		/*
+        ActionContext.getContext().getSession().put("user", getUsername());
+
 		if (getUsername().equals("scott") && getPassword().equals("tiger")) {
+            Cookie c = new Cookie("user", getUsername());
+            c.setMaxAge(60 * 60);
+            ServletActionContext.getResponse().addCookie(c);
+
 			return SUCCESS;
 		} else {
 			return ERROR;
-		}*/
-		return SUCCESS;
+		}
 	}
 	
 	public void validate() {

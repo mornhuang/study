@@ -7,12 +7,18 @@
 <hibernate-configuration>
 
 <session-factory>
-	<property name="myeclipse.connection.profile">MySQL5.1</property>
+	<property name="myeclipse.connection.profile">
+        MySQL5.1
+    </property>
 	<property name="connection.url">
-		jdbc:mysql://localhost/study
-	</property>
-	<property name="connection.username">test</property>
-	<property name="connection.password">test</property>
+        jdbc:mysql://localhost/study
+    </property>
+	<property name="connection.username">
+        test
+    </property>
+	<property name="connection.password">
+        test
+    </property>
 	<property name="connection.driver_class">
 		com.mysql.jdbc.Driver
 	</property>

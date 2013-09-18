@@ -2,6 +2,9 @@ package com.kehao.utils;
 
 import java.sql.*;
 
+/*
+ * Description: 测试数据库连接
+ */
 public class DBLinkTest {
 
 	/**

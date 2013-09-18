@@ -1,4 +1,5 @@
-funtion calRate(nowData, lastData) {
+
+function calRate(nowData, lastData) {
     var res = "--";
     if (lastData != null && (lastData != "" || lastData != 0))
     {

@@ -6,6 +6,7 @@
 <title>成功页面</title>
 </head>
 <body>
-	欢迎，${sessionScope.user}, 你已经登录
+	欢迎，${sessionScope.user}, 你已经登录<br/>
+    Cookie, ${cookie.user.value}
 </body>
 </html>
