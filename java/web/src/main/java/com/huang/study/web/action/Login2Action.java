@@ -1,9 +1,9 @@
 package com.huang.study.web.action;
 
-import com.opensymphony.xwork2.Action;
 import com.opensymphony.xwork2.ActionContext;
+import com.opensymphony.xwork2.ActionSupport;
 
-public class LoginAction2 implements Action {
+public class Login2Action extends ActionSupport {
 	private String username;
 	private String password;
 
@@ -32,5 +32,4 @@ public class LoginAction2 implements Action {
 			return ERROR;
 		}
 	}
-
 }

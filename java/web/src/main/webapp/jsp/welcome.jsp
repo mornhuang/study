@@ -7,6 +7,7 @@
 </head>
 <body>
 	欢迎，${sessionScope.user}, 你已经登录<br/>
-    Cookie, ${cookie.user.value}
+    Cookie, ${cookie.user.value} <br/>
+    ${extra}
 </body>
 </html>

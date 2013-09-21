@@ -112,7 +112,11 @@
 
     <filter-mapping>
         <filter-name>struts2</filter-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>*.action</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>struts2</filter-name>
+        <url-pattern>*.jsp</url-pattern>
     </filter-mapping>
 
     <listener>
@@ -173,7 +177,8 @@
     <!-- ============================================================================================= -->
 
     <welcome-file-list>
-        <welcome-file>jsp/login3.jsp</welcome-file>
+        <welcome-file>jsp/all.jsp</welcome-file>
+        <welcome-file>html/all.html</welcome-file>
     </welcome-file-list>
 
     <jsp-config>

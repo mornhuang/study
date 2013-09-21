@@ -13,8 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class OutputInfo
  */
-@WebServlet(name = "OutputInfo",
-        urlPatterns = "/info")
+@WebServlet(name="OutputInfo",
+        urlPatterns={"/info"})
 public class OutputInfo extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

@@ -4,12 +4,30 @@
 <struts>
 	<constant name="struts.custom.i18n.resources" value="MessageResource" />
 
+    <package name="default" extends="struts-default">
+        <action name="Upload" class="com.huang.study.web.action.UploadAction">
+            <interceptor-ref name="fileUpload">
+                <param name="allowedType">image/bmp, image/png, image/gif, image/jpeg</param>
+                <param name="maximumSize">2000</param>
+            </interceptor-ref>
+            <interceptor-ref name="defaultStack" />
+            <param name="savePath">../../upload</param>
+            <result>/jsp/succ.jsp</result>
+            <result name="input">/html/upload.html</result>
+        </action>
+    </package>
+
     <!-- 测试使用namespace -->
-	<package name="base" extends="struts-default" namespace="/base">
-        <action name="Login3" class="com.huang.study.web.action.LoginAction3">
+	<package name="three" extends="struts-default" namespace="/three">
+        <action name="Login3" class="com.huang.study.web.action.Login3Action">
             <result name="error">/jsp/error.jsp</result>
             <result name="success">/jsp/welcome.jsp</result>
             <result name="input">/jsp/login3.jsp</result>
+            <result name="regist">/jsp/regist.jsp</result>
+        </action>
+
+        <action name="Regist" class="com.huang.study.web.action.Login3Action" method="regist">
+            <result>/jsp/regist.jsp</result>
         </action>
     </package>
 
@@ -21,7 +39,7 @@
             </interceptor>
         </interceptors>
 
-		<action name="Login2" class="com.huang.study.web.action.LoginAction2">
+		<action name="Login2" class="com.huang.study.web.action.Login2Action">
 			<result name="error">/jsp/error.jsp</result>
 			<result name="success" type="chain">GetBooks</result>
 			<result name="input">/jsp/login2.jsp</result>
@@ -36,19 +54,28 @@
 			<result name="success">/jsp/showBook2.jsp</result>
 			<result name="login">/jsp/login2.jsp</result>
 		</action>
-
-		<action name="Upload" class="com.huang.study.web.action.UploadAction">
-			<interceptor-ref name="fileUpload">
-				<param name="allowedType">image/bmp, image/png, image/gif, image/jpeg</param>
-				<param name="maximumSize">2000</param>
-			</interceptor-ref>
-			<interceptor-ref name="defaultStack" />
-			<param name="savePath">../../upload</param>
-			<result>/jsp/succ.jsp</result>
-			<result name="input">/html/upload.html</result>
-		</action>
 	</package>
-  
+
+    <package name="first" extends="struts-default">
+        <global-results>
+            <result name="sql">/jsp/exception.jsp</result>
+            <result name="root">/jsp/exception.jsp</result>
+        </global-results>
+
+        <global-exception-mappings>
+            <exception-mapping exception="java.sql.SQLException" result="sql"/>
+            <exception-mapping exception="java.lang.Exception" result="root"/>
+        </global-exception-mappings>
+
+        <action name="Login1" class="com.huang.study.web.action.Login1Action">
+            <exception-mapping exception="com.huang.study.web.utils.MyException" result="my" />
+            <result name="my">/jsp/exception.jsp</result>
+            <result name="success">/jsp/hello.jsp</result>
+            <result name="error">/jsp/error.jsp</result>
+            <result name="input">/jsp/login1.jsp</result>
+        </action>
+    </package>
+
     <package name="jspr" extends="jasperreports-default">
 	    <action name="JsprHtml" class="com.huang.study.web.action.JasperAction">
 			<result name="success" type="jasper">
@@ -70,7 +97,6 @@
               <param name="exportParameters">xlsExpConf</param>
             </result>
         </action>
-
-    </package>  
+    </package>
   
 </struts>
