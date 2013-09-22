@@ -5,11 +5,13 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page info="This is JSP Base Study" %>
+
 <html>
 <head>
     <title>JSP 基本页面</title>
 </head>
-    <%!
+
+<%!
     // Declare an integer variable
     public int count;
 

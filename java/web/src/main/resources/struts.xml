@@ -2,9 +2,13 @@
 <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.3.dtd" >
 <!-- Struts配置文件 -->
 <struts>
-	<constant name="struts.custom.i18n.resources" value="MessageResource" />
+	<!--<constant name="struts.custom.i18n.resources" value="MessageResource" />-->
 
     <package name="default" extends="struts-default">
+        <action name="*">
+            <result>/jsp/{1}</result>
+        </action>
+
         <action name="Upload" class="com.huang.study.web.action.UploadAction">
             <interceptor-ref name="fileUpload">
                 <param name="allowedType">image/bmp, image/png, image/gif, image/jpeg</param>
@@ -43,6 +47,7 @@
 			<result name="error">/jsp/error.jsp</result>
 			<result name="success" type="chain">GetBooks</result>
 			<result name="input">/jsp/login2.jsp</result>
+            <result name="crazy">/jsp/hello.jsp</result>
 
 			<interceptor-ref name="defaultStack" />
 			<interceptor-ref name="mysimple">

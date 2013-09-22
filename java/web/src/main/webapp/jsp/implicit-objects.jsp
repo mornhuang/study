@@ -1,5 +1,5 @@
 <%--
-ÍøÕ¾: <a href="http://www.crazyit.org">·è¿ñJavaÁªÃË</a>
+ç½‘ç«™: <a href="http://www.crazyit.org">ç–¯ç‹‚Javaè”ç›Ÿ</a>
 author  yeeku.H.lee kongyeeku@163.com
 version  1.0
 Copyright (C), 2001-2012, yeeku.H.Lee
@@ -8,74 +8,75 @@ Program Name:
 Date: 
 --%>
 
-<%@ page contentType="text/html; charset=GBK" language="java" errorPage="" %>
+<%@ page contentType="text/html; charset=utf-8" language="java" errorPage="" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title> ±í´ïÊ½ÓïÑÔ - ÄÚÖÃ¶ÔÏó </title>
-	<meta name="website" content="http://www.crazyit.org" />
+    <title> è¡¨è¾¾å¼è¯­è¨€ - å†…ç½®å¯¹è±¡ </title>
+    <meta name="website" content="http://www.crazyit.org"/>
 </head>
 <body>
-	<h2>±í´ïÊ½ÓïÑÔ - ÄÚÖÃ¶ÔÏó</h2>
-	ÇëÊäÈëÄãµÄÃû×Ö£º
-	<!-- Í¨¹ı±íµ¥Ìá½»ÇëÇó²ÎÊı -->
-	<form action="implicit-objects.jsp" method="post">
-		<!-- Í¨¹ı${param['name']} »ñÈ¡ÇëÇó²ÎÊı -->
-		ÄãµÄÃû×Ö = <input type="text" name="name" value="${param['name']}"/>
-		<input type="submit" value='Ìá½»'/>
-	</form><br/>
-	<% session.setAttribute("user" , "abc");
-	//ÏÂÃæÈıĞĞ´úÂëÌí¼ÓCookie
-	Cookie c = new Cookie("name" , "yeeku");
-	c.setMaxAge(24 * 3600);
-	response.addCookie(c);
-	%>
-	<table border="1" width="660" bgcolor="#aaaadd">
-		<tr>
-			<td width="170"><b>¹¦ÄÜ</b></td>
-			<td width="200"><b>±í´ïÊ½ÓïÑÔ</b></td>
-			<td width="300"><b>¼ÆËã½á¹û</b></td>
-		<tr>
-			<!-- Ê¹ÓÃÁ½ÖÖ·½Ê½»ñÈ¡ÇëÇó²ÎÊıÖµ -->
-			<td>È¡µÃÇëÇó²ÎÊıÖµ</td>
-			<td>\${param.name}</td>
-			<td>${param.name}&nbsp;</td>
-		</tr>
-		<tr>
-			<td>È¡µÃÇëÇó²ÎÊıÖµ</td>
-			<td>\${param["name"]}</td>
-			<td>${param["name"]}&nbsp;</td>
-		</tr>
-		<tr>
-			<!-- Ê¹ÓÃÁ½ÖÖ·½Ê½»ñÈ¡Ö¸¶¨ÇëÇóÍ·ĞÅÏ¢ -->
-			<td>È¡µÃÇëÇóÍ·µÄÖµ</td>
-			<td>\${header.host}</td>
-			<td>${header.host}</td>
-		</tr>
-		<tr>
-			<td>È¡µÃÇëÇóÍ·µÄÖµ</td>
-			<td>\${header["accept"]}</td>
-			<td>${header["accept"]}</td>
-		</tr>
-		<!-- »ñÈ¡WebÓ¦ÓÃµÄ³õÊ¼»¯²ÎÊıÖµ -->
-		<tr>
-			<td>È¡µÃ³õÊ¼»¯²ÎÊıÖµ</td>
-			<td>\${initParam["author"]}</td>
-			<td>${initParam["author"]}</td>
-		</tr>
-		<!-- »ñÈ¡session·µ»ØµÄÊôĞÔÖµ -->
-		<tr>
-			<td>È¡µÃsessionµÄÊôĞÔÖµ</td>
-			<td>\${sessionScope["user"]}</td>
-			<td>${sessionScope["user"]}</td>
-		</tr>
-		<!-- »ñÈ¡Ö¸¶¨CookieµÄÖµ -->
-		<tr>
-			<td>È¡µÃÖ¸¶¨CookieµÄÖµ</td>
-			<td>\${cookie["name"].value}</td>
-			<td>${cookie["name"].value}</td>
-		</tr>
-	</table>
+<h2>è¡¨è¾¾å¼è¯­è¨€ - å†…ç½®å¯¹è±¡</h2>
+è¯·è¾“å…¥ä½ çš„åå­—ï¼š
+<!-- é€šè¿‡è¡¨å•æäº¤è¯·æ±‚å‚æ•° -->
+<form action="implicit-objects.jsp" method="post">
+    <!-- é€šè¿‡${param['name']} è·å–è¯·æ±‚å‚æ•° -->
+    ä½ çš„åå­— = <input type="text" name="name" value="${param['name']}"/>
+    <input type="submit" value='æäº¤'/>
+</form>
+<br/>
+<% session.setAttribute("user", "abc");
+    //ä¸‹é¢ä¸‰è¡Œä»£ç æ·»åŠ Cookie
+    Cookie c = new Cookie("name", "yeeku");
+    c.setMaxAge(24 * 3600);
+    response.addCookie(c);
+%>
+<table border="1" width="660" bgcolor="#aaaadd">
+    <tr>
+        <td width="170"><b>åŠŸèƒ½</b></td>
+        <td width="200"><b>è¡¨è¾¾å¼è¯­è¨€</b></td>
+        <td width="300"><b>è®¡ç®—ç»“æœ</b></td>
+    <tr>
+        <!-- ä½¿ç”¨ä¸¤ç§æ–¹å¼è·å–è¯·æ±‚å‚æ•°å€¼ -->
+        <td>å–å¾—è¯·æ±‚å‚æ•°å€¼</td>
+        <td>\${param.name}</td>
+        <td>${param.name}&nbsp;</td>
+    </tr>
+    <tr>
+        <td>å–å¾—è¯·æ±‚å‚æ•°å€¼</td>
+        <td>\${param["name"]}</td>
+        <td>${param["name"]}&nbsp;</td>
+    </tr>
+    <tr>
+        <!-- ä½¿ç”¨ä¸¤ç§æ–¹å¼è·å–æŒ‡å®šè¯·æ±‚å¤´ä¿¡æ¯ -->
+        <td>å–å¾—è¯·æ±‚å¤´çš„å€¼</td>
+        <td>\${header.host}</td>
+        <td>${header.host}</td>
+    </tr>
+    <tr>
+        <td>å–å¾—è¯·æ±‚å¤´çš„å€¼</td>
+        <td>\${header["accept"]}</td>
+        <td>${header["accept"]}</td>
+    </tr>
+    <!-- è·å–Webåº”ç”¨çš„åˆå§‹åŒ–å‚æ•°å€¼ -->
+    <tr>
+        <td>å–å¾—åˆå§‹åŒ–å‚æ•°å€¼</td>
+        <td>\${initParam["author"]}</td>
+        <td>${initParam["author"]}</td>
+    </tr>
+    <!-- è·å–sessionè¿”å›çš„å±æ€§å€¼ -->
+    <tr>
+        <td>å–å¾—sessionçš„å±æ€§å€¼</td>
+        <td>\${sessionScope["user"]}</td>
+        <td>${sessionScope["user"]}</td>
+    </tr>
+    <!-- è·å–æŒ‡å®šCookieçš„å€¼ -->
+    <tr>
+        <td>å–å¾—æŒ‡å®šCookieçš„å€¼</td>
+        <td>\${cookie["name"].value}</td>
+        <td>${cookie["name"].value}</td>
+    </tr>
+</table>
 </body>
 </html>

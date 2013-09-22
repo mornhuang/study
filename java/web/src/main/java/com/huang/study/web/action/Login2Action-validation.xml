@@ -4,11 +4,17 @@
 <validators>
 	<field name="username">
 		<field-validator type="requiredstring">
+            <param name="trim">true</param>
 			<message key="user.required" />
 		</field-validator>
+        <field-validator type="regex">
+            <param name="expression"><![CDATA[(\w{4,25}]]></param>
+            <message key="input.long"/>
+        </field-validator>
 	</field>
 	<field name="password">
 		<field-validator type="requiredstring">
+            <param name="trim">true</param>
 			<message key="password.required" />
 		</field-validator>
 	</field>

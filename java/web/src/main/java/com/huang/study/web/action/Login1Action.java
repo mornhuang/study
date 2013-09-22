@@ -41,6 +41,7 @@ public class Login1Action extends ActionSupport{
 		}
 	}
 
+    /* 只有在jsp中使用struts的标签才有用 */
     public void validate() {
         if (getUsername() == null || getUsername().trim().equals("")) {
             addFieldError("username", getText("user.required"));

@@ -1,15 +1,18 @@
 package com.huang.study.web.action;
 
+import com.opensymphony.xwork2.ActionContext;
+import org.apache.struts2.convention.annotation.*;
+
 /**
  * Created By User : Morn
  * Created DateTime: 13-9-20 下午6:40
  * Descriptions    :
  */
-/*@ParentPackage("default")
-@Action(name = "AnnoAction")
+@ParentPackage("default")
+//@Namespace("/")
 @Results({
-    @Result(name = "preEdit", type = NullResult.class, value = "/jsp/component/mail/mailsetting.jsp", params = {})
-})*/
+    @Result(name = "success", type = "dispatcher", location = "/jsp/anno.jsp", params = {})
+})
 public class AnnoAction {
     private String username;
     private String password;
@@ -30,8 +33,9 @@ public class AnnoAction {
         this.username = username;
     }
 
+    @Action(value = "Anno", params = {"username", "huang", "password", "abc"})
     public String doAcTest() throws Exception {
-
+        ActionContext.getContext().put("password", password);
         return "success";
     }
 }

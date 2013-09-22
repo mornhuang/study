@@ -1,5 +1,5 @@
 <%--
-ÍøÕ¾: <a href="http://www.crazyit.org">·è¿ñJavaÁªÃË</a>
+ç½‘ç«™: <a href="http://www.crazyit.org">ç–¯ç‹‚Javaè”ç›Ÿ</a>
 author  yeeku.H.lee kongyeeku@163.com
 version  1.0
 Copyright (C), 2001-2012, yeeku.H.Lee
@@ -8,37 +8,37 @@ Program Name:
 Date: 
 --%>
 
-<%-- Í¨¹ıcontentTypeÊôĞÔÖ¸¶¨ÏìÓ¦Êı¾İÊÇÍ¼Æ¬ --%>
+<%-- é€šè¿‡contentTypeå±æ€§æŒ‡å®šå“åº”æ•°æ®æ˜¯å›¾ç‰‡ --%>
 <%@ page contentType="image/jpeg" language="java"%>
 <%@ page import="java.awt.image.*,javax.imageio.*,java.io.*,java.awt.*"%>
 <%
-//´´½¨BufferedImage¶ÔÏó
+//åˆ›å»ºBufferedImageå¯¹è±¡
 BufferedImage image = new BufferedImage(340 , 
 	160, BufferedImage.TYPE_INT_RGB);
-//ÒÔImage¶ÔÏó»ñÈ¡Graphics¶ÔÏó
+//ä»¥Imageå¯¹è±¡è·å–Graphicså¯¹è±¡
 Graphics g = image.getGraphics();
-//Ê¹ÓÃGraphics»­Í¼£¬Ëù»­µÄÍ¼Ïñ½«»á³öÏÖÔÚimage¶ÔÏóÖĞ
+//ä½¿ç”¨Graphicsç”»å›¾ï¼Œæ‰€ç”»çš„å›¾åƒå°†ä¼šå‡ºç°åœ¨imageå¯¹è±¡ä¸­
 g.fillRect(0,0,400,400);
-//ÉèÖÃÑÕÉ«£ººì
+//è®¾ç½®é¢œè‰²ï¼šçº¢
 g.setColor(new Color(255,0,0));
-//»­³öÒ»¶Î»¡
+//ç”»å‡ºä¸€æ®µå¼§
 g.fillArc(20, 20, 100,100, 30, 120);
-//ÉèÖÃÑÕÉ«£ºÂÌ
+//è®¾ç½®é¢œè‰²ï¼šç»¿
 g.setColor(new Color(0 , 255, 0));
-//»­³öÒ»¶Î»¡
+//ç”»å‡ºä¸€æ®µå¼§
 g.fillArc(20, 20, 100,100, 150, 120);
-//ÉèÖÃÑÕÉ«£ºÀ¶
+//è®¾ç½®é¢œè‰²ï¼šè“
 g.setColor(new Color(0 , 0, 255));
-//»­³öÒ»¶Î»¡
+//ç”»å‡ºä¸€æ®µå¼§
 g.fillArc(20, 20, 100,100, 270, 120);
-//ÉèÖÃÑÕÉ«£ººÚ
+//è®¾ç½®é¢œè‰²ï¼šé»‘
 g.setColor(new Color(0,0,0));
 g.setFont(new Font("Arial Black", Font.PLAIN, 16));
-//»­³öÈı¸ö×Ö·û´®
+//ç”»å‡ºä¸‰ä¸ªå­—ç¬¦ä¸²
 g.drawString("red:climb" , 200 , 60);
 g.drawString("green:swim" , 200 , 100);
 g.drawString("blue:jump" , 200 , 140);
 g.dispose();
-//½«Í¼ÏñÊä³öµ½Ò³ÃæµÄÏìÓ¦
+//å°†å›¾åƒè¾“å‡ºåˆ°é¡µé¢çš„å“åº”
 ImageIO.write(image , "jpg" , response.getOutputStream());
 %>
