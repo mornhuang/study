@@ -11,13 +11,13 @@
 
         <action name="Upload" class="com.huang.study.web.action.UploadAction">
             <interceptor-ref name="fileUpload">
-                <param name="allowedType">image/bmp, image/png, image/gif, image/jpeg</param>
-                <param name="maximumSize">2000</param>
+                <param name="allowedTypes">image/bmp, image/png, image/gif, image/jpeg</param>
+                <param name="maximumSize">80000</param>
             </interceptor-ref>
             <interceptor-ref name="defaultStack" />
-            <param name="savePath">../../upload</param>
+            <param name="savePath">/upload</param>
             <result>/jsp/succ.jsp</result>
-            <result name="input">/html/upload.html</result>
+            <result name="input">/jsp/upload.jsp</result>
         </action>
     </package>
 
@@ -43,7 +43,12 @@
             </interceptor>
         </interceptors>
 
-		<action name="Login2" class="com.huang.study.web.action.Login2Action">
+        <action name="GetBooks" class="com.huang.study.web.action.GetBookAction">
+            <result name="success">/jsp/showBook2.jsp</result>
+            <result name="login">/jsp/login2.jsp</result>
+        </action>
+
+        <action name="Login2" class="com.huang.study.web.action.Login2Action">
 			<result name="error">/jsp/error.jsp</result>
 			<result name="success" type="chain">GetBooks</result>
 			<result name="input">/jsp/login2.jsp</result>
@@ -53,11 +58,6 @@
 			<interceptor-ref name="mysimple">
 				<param name="name">改名后的拦截器</param>
 			</interceptor-ref>
-		</action>
-
-		<action name="GetBooks" class="com.huang.study.web.action.GetBookAction">
-			<result name="success">/jsp/showBook2.jsp</result>
-			<result name="login">/jsp/login2.jsp</result>
 		</action>
 	</package>
 

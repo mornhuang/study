@@ -66,6 +66,7 @@
             <li><a href="/jsp/forindicator.jsp">Forward指令</a></li>
             <li><a href="/jsp/strbase.jsp">Struts 学习</a></li>
             <li><a href="<s:url action='Anno'/>">Struts Annotation Study</a></li>
+            <li><a href="/jsp/upload.jsp">Upload.jsp</a></li>
         </ol>
     </div>
 
