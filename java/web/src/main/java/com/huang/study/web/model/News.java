@@ -1,3 +1,11 @@
+/*
+ * Copyright (c) 2013. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ * Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan.
+ * Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.
+ * Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.
+ * Vestibulum commodo. Ut rhoncus gravida arcu.
+ */
+
 package com.huang.study.web.model;
 
 import javax.persistence.*;
@@ -19,6 +27,13 @@ public class News {
 
     @Column(nullable = true)
     private String content;
+
+    @Transient
+    private String unsaved;
+
+    @Enumerated(EnumType.ORDINAL)
+    @Column(name = "happen_season")
+    private Season happenSeason;
 
     public News() {
     }
@@ -48,4 +63,19 @@ public class News {
         this.title = title;
     }
 
+    public String getUnsaved() {
+        return unsaved;
+    }
+
+    public void setUnsaved(String unsaved) {
+        this.unsaved = unsaved;
+    }
+
+    public Season getHappenSeason() {
+        return happenSeason;
+    }
+
+    public void setHappenSeason(Season happenSeason) {
+        this.happenSeason = happenSeason;
+    }
 }
