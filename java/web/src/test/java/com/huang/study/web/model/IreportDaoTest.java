@@ -1,16 +1,13 @@
 package com.huang.study.web.model;
 
-import java.util.Iterator;
-import java.util.List;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.huang.study.web.model.IIreportDao;
-import com.huang.study.web.model.Ireport;
+import java.util.Iterator;
+import java.util.List;
 
 public class IreportDaoTest {
 	ApplicationContext actx;

@@ -65,4 +65,25 @@ public class TestJPA {
             em.close();
         }
     }
+
+    @Test
+    public void testPerson2() throws Exception {
+        final EntityManager em = emf.createEntityManager();
+
+        Person2 person = new Person2();
+        person.setName("huang");
+        person.setEmail("aa@gmail.com");
+        person.setPhone("123");
+        person.setCat(new Cat("Yellow", "cat1"));
+
+        try {
+            em.getTransaction().begin();
+            em.persist(person);
+            em.getTransaction().commit();
+        } finally {
+            em.close();
+        }
+
+
+    }
 }

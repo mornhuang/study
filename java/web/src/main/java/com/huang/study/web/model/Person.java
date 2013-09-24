@@ -1,9 +1,7 @@
 package com.huang.study.web.model;
 
-import org.eclipse.datatools.modelbase.sql.schema.GenerateType;
-
-import javax.annotation.Generated;
 import javax.persistence.*;
+import java.util.Date;
 
 /**
  * Created By User : Morn
@@ -21,7 +19,11 @@ public class Person {
     private String name;
 
     @Lob
+    @Basic(fetch = FetchType.LAZY)
     private byte[] pic;
+
+    @Temporal(TemporalType.DATE)
+    private Date birth;
 
     public Person() {
     }

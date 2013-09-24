@@ -5,6 +5,7 @@
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <class>com.huang.study.web.model.News</class>
         <class>com.huang.study.web.model.Person</class>
+        <class>com.huang.study.web.model.Person2</class>
         <properties>
             <property name="hibernate.connection.url" value="jdbc:mysql://localhost/study"/>
             <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
