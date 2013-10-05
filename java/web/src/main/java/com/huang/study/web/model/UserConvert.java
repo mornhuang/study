@@ -1,4 +1,4 @@
-package com.huang.study.web.service;
+package com.huang.study.web.model;
 
 import com.huang.study.web.model.User;
 import com.opensymphony.xwork2.conversion.impl.DefaultTypeConverter;

@@ -32,7 +32,7 @@ public class TestJPA {
     public void testNews() {
         final EntityManager em = emf.createEntityManager();
 
-        News news = new News();
+        AnnoNews news = new AnnoNews();
         news.setTitle("hah");
         news.setContent("come baby");
         news.setUnsaved("unsaved");

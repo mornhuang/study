@@ -3,7 +3,7 @@
     <persistence-unit name="qs" transaction-type="RESOURCE_LOCAL">
 
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <class>com.huang.study.web.model.News</class>
+        <class>com.huang.study.web.model.AnnoNews</class>
         <class>com.huang.study.web.model.Person</class>
         <class>com.huang.study.web.model.Person2</class>
         <properties>

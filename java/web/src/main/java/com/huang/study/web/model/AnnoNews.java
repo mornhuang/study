@@ -17,7 +17,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "news_table")
-public class News {
+public class AnnoNews {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -35,7 +35,7 @@ public class News {
     @Column(name = "happen_season")
     private Season happenSeason;
 
-    public News() {
+    public AnnoNews() {
     }
 
     public String getContent() {

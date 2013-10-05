@@ -74,4 +74,39 @@ public class Person2 {
     public void setCat(Cat cat) {
         this.cat = cat;
     }
+
+    @PostLoad
+    void postLoad() {
+        System.out.println("----Post Load-----");
+    }
+
+    @PostPersist
+    void postPersist() {
+        System.out.println("----Post Persist-----");
+    }
+
+    @PostRemove
+    void postRemove() {
+        System.out.println("----Post Remove-----");
+    }
+
+    @PostUpdate
+    void postUpdate() {
+        System.out.println("----Post Update-----");
+    }
+
+    @PrePersist
+    void prePersist() {
+        System.out.println("----Pre Persist-----");
+    }
+
+    @PreRemove
+    void preRemove() {
+        System.out.println("----preRemove-----");
+    }
+
+    @PreUpdate
+    void preUpdate() {
+        System.out.println("----preUpdate-----");
+    }
 }
