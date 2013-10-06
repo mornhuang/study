@@ -4,7 +4,7 @@ package com.huang.study.web.model;
 /**
  * TestIreport entity. @author MyEclipse Persistence Tools
  */
-public class Ireport extends AbsIreport implements
+public class Ireport extends IreportAbs implements
 		java.io.Serializable {
 
 	// Constructors

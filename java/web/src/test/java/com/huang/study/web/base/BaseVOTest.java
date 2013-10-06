@@ -1,6 +1,6 @@
 package com.huang.study.web.base;
 
-public class TestBaseVO extends BaseVO {
+public class BaseVOTest extends BaseVO {
 /*	private int id;
 
 	public int getId() {
@@ -12,7 +12,7 @@ public class TestBaseVO extends BaseVO {
 	}*/
 	
 	public static void main(String[] args) {
-		TestBaseVO vo = new TestBaseVO();
+		BaseVOTest vo = new BaseVOTest();
 		vo.isEmpty();
 	}
 	

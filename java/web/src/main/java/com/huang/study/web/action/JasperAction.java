@@ -7,12 +7,12 @@ import java.util.Map;
 
 import javax.servlet.ServletContext;
 
+import com.huang.study.web.model.IreportDao;
 import net.sf.jasperreports.engine.export.JRHtmlExporterParameter;
 import net.sf.jasperreports.engine.export.JRXlsExporterParameter;
 
 import org.apache.struts2.util.ServletContextAware;
 
-import com.huang.study.web.model.IIreportDao;
 import com.huang.study.web.model.Ireport;
 import com.huang.study.web.utils.BeanContainer;
 import com.opensymphony.xwork2.ActionContext;
@@ -39,7 +39,7 @@ public class JasperAction extends ActionSupport implements ServletContextAware {
 	@Override
 	public String execute() throws Exception {
 		/** 获取报表数据 */
-		IIreportDao dao = (IIreportDao) BeanContainer.getBean("jsprDao");
+		IreportDao dao = (IreportDao) BeanContainer.getBean("jsprDao");
 		htmlRptData = dao.getAll();
 		ActionContext.getContext().getSession().put("rptData", htmlRptData);
 

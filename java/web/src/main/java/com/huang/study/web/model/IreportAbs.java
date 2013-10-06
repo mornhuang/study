@@ -5,7 +5,7 @@ package com.huang.study.web.model;
  * TestIreport entity. @author MyEclipse Persistence Tools
  */
 
-public abstract class AbsIreport implements java.io.Serializable {
+public class IreportAbs implements java.io.Serializable {
 	private static final long serialVersionUID = -3055576906053527652L;
 	private Integer id;
 	private String name;
@@ -16,17 +16,17 @@ public abstract class AbsIreport implements java.io.Serializable {
 	// Constructors
 
 	/** default constructor */
-	public AbsIreport() {
+	public IreportAbs() {
 	}
 
 	/** minimal constructor */
-	public AbsIreport(Integer id) {
+	public IreportAbs(Integer id) {
 		this.id = id;
 	}
 
 	/** full constructor */
-	public AbsIreport(Integer id, String name, String sex,
-			Integer age, String clsd) {
+	public IreportAbs(Integer id, String name, String sex,
+                      Integer age, String clsd) {
 		this.id = id;
 		this.name = name;
 		this.sex = sex;

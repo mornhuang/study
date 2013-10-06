@@ -15,12 +15,9 @@ import java.io.FileInputStream;
  * Created DateTime: 13-9-23 下午4:26
  * Descriptions    :
  */
-public class TestJPA {
-    private EntityManagerFactory emf;
-
+public class JPATest {
     @Before
     public void setUp(){
-        emf = Persistence.createEntityManagerFactory("qs");
     }
 
     @After
@@ -30,9 +27,10 @@ public class TestJPA {
 
     @Test
     public void testNews() {
+        final EntityManagerFactory emf = Persistence.createEntityManagerFactory("test");
         final EntityManager em = emf.createEntityManager();
 
-        AnnoNews news = new AnnoNews();
+        News news = new News();
         news.setTitle("hah");
         news.setContent("come baby");
         news.setUnsaved("unsaved");
@@ -48,6 +46,7 @@ public class TestJPA {
 
     @Test
     public void testPerson() throws Exception {
+        final EntityManagerFactory emf = Persistence.createEntityManagerFactory("test");
         final EntityManager em = emf.createEntityManager();
 
         Person person = new Person();
@@ -68,6 +67,7 @@ public class TestJPA {
 
     @Test
     public void testPerson2() throws Exception {
+        final EntityManagerFactory emf = Persistence.createEntityManagerFactory("test");
         final EntityManager em = emf.createEntityManager();
 
         Person2 person = new Person2();
@@ -83,7 +83,7 @@ public class TestJPA {
         } finally {
             em.close();
         }
-
-
     }
+
+
 }

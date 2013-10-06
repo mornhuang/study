@@ -9,13 +9,14 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * Created DateTime: 13-10-3 下午8:26
  * Descriptions    :
  */
-public class TestAnnoBean {
+public class AnnoBeanTest {
     @Test
     public void testAnnoBean() throws Exception {
         ApplicationContext actx = new ClassPathXmlApplicationContext("applicationContext.xml");
         AnnoBean bean = actx.getBean("annoBean", AnnoBean.class);
         System.out.println(bean.getName());
         System.out.println(bean.getAge());
+        bean.sayHello();
 
     }
 }

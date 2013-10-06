@@ -9,10 +9,22 @@ import org.apache.struts2.convention.annotation.*;
  * Descriptions    :
  */
 @ParentPackage("default")
-//@Namespace("/")
+@Namespace("/")
 @Results({
     @Result(name = "success", type = "dispatcher", location = "/jsp/anno.jsp", params = {})
 })
+/*
+@ExceptionMappings({
+    @ExceptionMapping(exception = "", result = ""),
+    @ExceptionMapping(exception = "", result = "", params = {})
+})
+*/
+/*
+@InterceptorRefs({
+    @InterceptorRef(value = "", params = {}),
+    @InterceptorRef(value = "")
+})
+*/
 public class AnnoAction {
     private String username;
     private String password;
@@ -33,7 +45,10 @@ public class AnnoAction {
         this.username = username;
     }
 
-    @Action(value = "Anno", params = {"username", "huang", "password", "abc"})
+    @Actions({
+        @Action(value = "Anno", params = {"username", "huang", "password", "abc"}),
+        @Action(value = "Anno2")
+    })
     public String doAcTest() throws Exception {
         ActionContext.getContext().put("password", password);
         return "success";

@@ -1,6 +1,5 @@
 package com.huang.study.web.model;
 
-import com.huang.study.web.model.User;
 import org.apache.struts2.util.StrutsTypeConverter;
 
 import java.util.Map;

@@ -1,5 +1,9 @@
 package com.huang.study.web.model;
 
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,13 +14,8 @@ import java.util.Iterator;
 import java.util.List;
 
 public class IreportDaoTest {
-	ApplicationContext actx;
-	IIreportDao dao;
-	
 	@Before
 	public void setUp() throws Exception {
-		actx = new ClassPathXmlApplicationContext("applicationContext.xml");
-		dao = (IIreportDao)actx.getBean("jsprDao");
 	}
 
 	@After
@@ -25,7 +24,10 @@ public class IreportDaoTest {
 	
 	@Test
 	public void testGetAll() {
-		List<Ireport> irptList = dao.getAll();
+        ApplicationContext actx = new ClassPathXmlApplicationContext("applicationContext.xml");
+        IreportDao dao = (IreportDao)actx.getBean("jsprDao");
+
+        List<Ireport> irptList = dao.getAll();
 		Ireport irpt;
 		for (Iterator<Ireport> it = irptList.iterator(); it.hasNext(); ) {
 			irpt = (Ireport)it.next();
@@ -33,4 +35,21 @@ public class IreportDaoTest {
 					+ " " + irpt.getAge() + " " + irpt.getClsd());
 		}
 	}
+
+    @Test
+    public void testSetData() {
+        Configuration conf = new Configuration().configure();
+        SessionFactory sf = conf.buildSessionFactory();
+        Session sess = sf.openSession();
+        Transaction tx = sess.beginTransaction();
+
+        Ireport ir = new Ireport(2, "huang", "male", 30, "c2");
+        sess.save(ir);
+
+        tx.commit();
+        sess.close();
+        sf.close();
+
+    }
+
 }

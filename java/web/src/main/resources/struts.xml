@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.3.dtd" >
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd" >
 <!-- Struts配置文件 -->
 <struts>
-	<!--<constant name="struts.custom.i18n.resources" value="MessageResource" />-->
+    <!--<constant name="struts.custom.i18n.resources" value="MessageResource" />-->
 
     <package name="default" extends="struts-default">
         <action name="*">
@@ -14,7 +15,7 @@
                 <param name="allowedTypes">image/bmp, image/png, image/gif, image/jpeg</param>
                 <param name="maximumSize">80000</param>
             </interceptor-ref>
-            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="defaultStack"/>
             <param name="savePath">/upload</param>
             <result>/jsp/succ.jsp</result>
             <result name="input">/jsp/upload.jsp</result>
@@ -22,7 +23,7 @@
     </package>
 
     <!-- 测试使用namespace -->
-	<package name="three" extends="struts-default" namespace="/three">
+    <package name="three" extends="struts-default" namespace="/three">
         <action name="Login3" class="com.huang.study.web.action.Login3Action">
             <result name="error">/jsp/error.jsp</result>
             <result name="success">/jsp/welcome.jsp</result>
@@ -38,7 +39,7 @@
     <package name="second" extends="struts-default">
         <interceptors>
             <interceptor name="mysimple"
-                class="com.huang.study.web.action.IntpAction">
+                         class="com.huang.study.web.action.IntpAction">
                 <param name="name">简单拦截器</param>
             </interceptor>
         </interceptors>
@@ -49,17 +50,17 @@
         </action>
 
         <action name="Login2" class="com.huang.study.web.action.Login2Action">
-			<result name="error">/jsp/error.jsp</result>
-			<result name="success" type="chain">GetBooks</result>
-			<result name="input">/jsp/login2.jsp</result>
+            <result name="error">/jsp/error.jsp</result>
+            <result name="success" type="chain">GetBooks</result>
+            <result name="input">/jsp/login2.jsp</result>
             <result name="crazy">/jsp/hello.jsp</result>
 
-			<interceptor-ref name="defaultStack" />
-			<interceptor-ref name="mysimple">
-				<param name="name">改名后的拦截器</param>
-			</interceptor-ref>
-		</action>
-	</package>
+            <interceptor-ref name="defaultStack"/>
+            <interceptor-ref name="mysimple">
+                <param name="name">改名后的拦截器</param>
+            </interceptor-ref>
+        </action>
+    </package>
 
     <package name="first" extends="struts-default">
         <global-results>
@@ -73,7 +74,7 @@
         </global-exception-mappings>
 
         <action name="Login1" class="com.huang.study.web.action.Login1Action">
-            <exception-mapping exception="com.huang.study.web.utils.MyException" result="my" />
+            <exception-mapping exception="com.huang.study.web.utils.MyException" result="my"/>
             <result name="my">/jsp/exception.jsp</result>
             <result name="success">/jsp/hello.jsp</result>
             <result name="error">/jsp/error.jsp</result>
@@ -82,26 +83,26 @@
     </package>
 
     <package name="jspr" extends="jasperreports-default">
-	    <action name="JsprHtml" class="com.huang.study.web.action.JasperAction">
-			<result name="success" type="jasper">
-			  <param name="format">HTML</param>
-			  <param name="location">/reports/test.jasper</param>
-			  <param name="dataSource">htmlRptData</param>
-			  <param name="reportParameters">htmlRptConf</param>
-			  <param name="exportParameters">htmlExpConf</param>
-			</result>
+        <action name="JsprHtml" class="com.huang.study.web.action.JasperAction">
+            <result name="success" type="jasper">
+                <param name="format">HTML</param>
+                <param name="location">/reports/test.jasper</param>
+                <param name="dataSource">htmlRptData</param>
+                <param name="reportParameters">htmlRptConf</param>
+                <param name="exportParameters">htmlExpConf</param>
+            </result>
         </action>
-        
+
         <action name="JsprXls" class="com.huang.study.web.action.JasperAction" method="exportXls">
             <result name="success" type="jasper">
-              <param name="format">XLS</param>
-              <param name="documentName">xlsFileName</param>
-              <param name="location">/reports/test.jasper</param>
-              <param name="dataSource">xlsRptData</param>
-              <param name="reportParameters">xlsRptConf</param>
-              <param name="exportParameters">xlsExpConf</param>
+                <param name="format">XLS</param>
+                <param name="documentName">xlsFileName</param>
+                <param name="location">/reports/test.jasper</param>
+                <param name="dataSource">xlsRptData</param>
+                <param name="reportParameters">xlsRptConf</param>
+                <param name="exportParameters">xlsExpConf</param>
             </result>
         </action>
     </package>
-  
+
 </struts>

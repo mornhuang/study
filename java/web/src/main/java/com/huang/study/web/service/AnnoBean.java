@@ -46,6 +46,10 @@ public class AnnoBean {
         this.name = name;
     }
 
+    public void sayHello() {
+        System.out.println("Hello");
+    }
+
     @PostConstruct
     public void init() {
         System.out.println("AnnoBean Initialize");
