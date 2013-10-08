@@ -9,6 +9,6 @@
     <title></title>
 </head>
 <body>
-    <jsp:forward page="login.jsf"/>
+    <jsp:forward page="/jsp/login.jsf"/>
 </body>
 </html>

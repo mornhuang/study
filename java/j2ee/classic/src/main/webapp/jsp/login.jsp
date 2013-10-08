@@ -1,7 +1,7 @@
 <%--
   User: Morn
   Date: 13-10-7
-  Time: 下午8:25
+  Time: 8:25
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="f" uri="http://java.sun.com/jsf/core" %>
@@ -9,7 +9,7 @@
 <f:loadBundle var="msg" basename="messages"/>
 <html>
 <head>
-    <title>登录</title>
+    <title>Login</title>
 </head>
 <body>
     <f:view>

@@ -8,14 +8,12 @@
     <navigation-rule>
         <!-- 导航规则的输入页面 -->
         <from-view-id>/jsp/login.jsp</from-view-id>
-        <!-- 如果login.jsp中Action方法的处理结果是success
-            , 则跳转到视图页greeting.jsp -->
+        <!-- 如果login.jsp中Action方法的处理结果是success, 则跳转到视图页greeting.jsp -->
         <navigation-case>
             <from-outcome>success</from-outcome>
             <to-view-id>/jsp/greeting.jsp</to-view-id>
         </navigation-case>
-        <!-- 如果login.jsp中Action方法的处理结果是failure
-            , 则跳转到视图页login.jsp -->
+        <!-- 如果login.jsp中Action方法的处理结果是failure, 则跳转到视图页login.jsp -->
         <navigation-case>
             <from-outcome>failure</from-outcome>
             <to-view-id>/jsp/login.jsp</to-view-id>
