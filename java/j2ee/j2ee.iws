@@ -6,26 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfa8a8a0-febf-44e5-90cf-3096d49288c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/faces-config-beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/faces-config-nav.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/webapp/jsp/greeting.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/webapp/jsp/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/resources/messages.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/resources/messages_zh_CN.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classic/classic.iml" afterPath="$PROJECT_DIR$/classic/classic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j2ee.ipr" afterPath="$PROJECT_DIR$/j2ee.ipr" />
+    <list default="true" id="dfa8a8a0-febf-44e5-90cf-3096d49288c2" name="Default" comment="modify">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/java/com/huang/j2ee/classic/action/LoginBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j2ee.iws" afterPath="$PROJECT_DIR$/j2ee.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classic/pom.xml" afterPath="$PROJECT_DIR$/classic/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssh/ssh.iml" afterPath="$PROJECT_DIR$/ssh/ssh.iml" />
     </list>
     <ignored path="j2ee.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/DummyFile.xpath" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381065374110" ignored="false" />
     <file path="/pom.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381207131920" ignored="false" />
-    <file path="/Dummy.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381200350827" ignored="false" />
+    <file path="/Dummy.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381209364089" ignored="false" />
     <file path="/applicationContext.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073577476" ignored="false" />
     <file path="$PROJECT_DIR$/ssh/src/test/java/com/huang/j2ee/web/base/BaseVOTest.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381068591179" ignored="false" />
     <file path="$PROJECT_DIR$/ssh/src/test/java/com/huang/j2ee/web/base/Hello.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381068591179" ignored="false" />
@@ -156,7 +145,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ssh/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="25" selection-start="905" selection-end="905" vertical-scroll-proportion="0.7487002">
+            <state line="24" column="25" selection-start="905" selection-end="905" vertical-scroll-proportion="1.1581769">
               <folding />
             </state>
           </provider>
@@ -1128,6 +1117,11 @@
       <created>1381064607284</created>
       <updated>1381064607284</updated>
     </task>
+    <task id="LOCAL-00001" summary="modify">
+      <created>1381209323926</created>
+      <updated>1381209323926</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1152,12 +1146,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5169628" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1168,7 +1162,7 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5315024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39579967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1225,7 +1219,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1239,6 +1233,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="modify" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1395,7 +1390,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ssh/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="25" selection-start="905" selection-end="905" vertical-scroll-proportion="0.7487002">
+        <state line="24" column="25" selection-start="905" selection-end="905" vertical-scroll-proportion="1.1581769">
           <folding />
         </state>
       </provider>
