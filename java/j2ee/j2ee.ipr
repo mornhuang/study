@@ -168,6 +168,35 @@
         </element>
       </root>
     </artifact>
+    <artifact type="war" name="ssh:war">
+      <output-path>$PROJECT_DIR$/ssh/target</output-path>
+      <root id="archive" name="ssh-0.0.1-SNAPSHOT.war">
+        <element id="artifact" artifact-name="ssh:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="war" name="classic:war">
+      <output-path>$PROJECT_DIR$/classic/target</output-path>
+      <root id="archive" name="classic-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="classic:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="classic:war exploded">
+      <output-path>$PROJECT_DIR$/classic/target/classic-1.0-SNAPSHOT</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="classic/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="classic" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-ear" name="classic:ear exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/classic_ear_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="classic/javaeeApplication/javaEEApplication" />
+      </root>
+    </artifact>
   </component>
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
@@ -226,12 +255,14 @@
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/classic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/classic/src/main/java/com/huang/j2ee/classic/action/LoginBean.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssh" charset="UTF-8" />
   </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/classic" />
     <file type="web" url="file://$PROJECT_DIR$/ssh" />
   </component>
   <component name="MavenProjectsManager">
@@ -364,7 +395,11 @@
     </group>
   </component>
   <component name="ProjectDictionaryState">
-    <dictionary name="Morn" />
+    <dictionary name="Morn">
+      <words>
+        <w>webapp</w>
+      </words>
+    </dictionary>
   </component>
   <component name="ProjectModuleManager">
     <modules>
@@ -375,6 +410,7 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="JDK 1.6" project-jdk-type="JavaSDK" />
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="Maven: antlr:antlr:2.7.6">
@@ -650,6 +686,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/javax/transaction/jta/1.1/jta-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax:javaee-api:6.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/javaee-api/6.0/javaee-api-6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/javaee-api/6.0/javaee-api-6.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/javaee-api/6.0/javaee-api-6.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: jfree:jcommon:1.0.15">
