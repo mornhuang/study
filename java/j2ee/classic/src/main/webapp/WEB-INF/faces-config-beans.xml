@@ -14,4 +14,10 @@
         <!-- 设置托管Bean实例的有效范围 -->
         <managed-bean-scope>request</managed-bean-scope>
     </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>bookBean</managed-bean-name>
+        <managed-bean-class>com.huang.j2ee.classic.action.BookBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
 </faces-config>

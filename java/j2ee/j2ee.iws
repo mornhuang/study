@@ -7,23 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa8a8a0-febf-44e5-90cf-3096d49288c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/webapp/index.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/jboss-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classic/classic.iml" afterPath="$PROJECT_DIR$/classic/classic.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/java/com/huang/j2ee/classic/action/BookBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/servlet/ChatLoginServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/servlet/ChatRegServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/service/ChatService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/servlet/ChatServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh/src/test/java/com/huang/j2ee/ssh/utils/TestPath.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh/src/main/webapp/html/chat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh/src/main/webapp/jsp/chat.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh/src/main/webapp/jsp/chatReply.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh/src/main/webapp/jsp/chatlogin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssh/src/main/webapp/jsp/chatreg.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/webapp/jsp/show.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/main/webapp/jsp/welcome.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssh/src/main/webapp/jsp/all.jsp" afterPath="$PROJECT_DIR$/ssh/src/main/webapp/jsp/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/faces-config-beans.xml" afterPath="$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/faces-config-beans.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/faces-config-nav.xml" afterPath="$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/faces-config-nav.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classic/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/classic/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j2ee.ipr" afterPath="$PROJECT_DIR$/j2ee.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j2ee.iws" afterPath="$PROJECT_DIR$/j2ee.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classic/src/main/webapp/jsp/login.jsp" afterPath="$PROJECT_DIR$/classic/src/main/webapp/jsp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classic/pom.xml" afterPath="$PROJECT_DIR$/classic/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssh/pom.xml" afterPath="$PROJECT_DIR$/ssh/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssh/ssh.iml" afterPath="$PROJECT_DIR$/ssh/ssh.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssh/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/ssh/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="j2ee.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/DummyFile.xpath" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381065374110" ignored="false" />
     <file path="/pom.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381223250997" ignored="false" />
-    <file path="/Dummy.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381209405352" ignored="false" />
+    <file path="/Dummy.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381477752025" ignored="false" />
     <file path="/applicationContext.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073577476" ignored="false" />
     <file path="$PROJECT_DIR$/ssh/src/test/java/com/huang/j2ee/web/base/BaseVOTest.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381068591179" ignored="false" />
     <file path="$PROJECT_DIR$/ssh/src/test/java/com/huang/j2ee/web/base/Hello.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381068591179" ignored="false" />
@@ -44,20 +51,20 @@
     <file path="$PROJECT_DIR$/ssh/src/test/java/com/huang/j2ee/web/service/LogAopTest.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381068591180" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381069737428" ignored="false" />
     <file path="/persistence.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073444753" ignored="false" />
-    <file path="/fragment.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381152250733" ignored="false" />
+    <file path="/fragment.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381236458542" ignored="false" />
     <file path="/NewsTest.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073012466" ignored="false" />
     <file path="/NewsService.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073645616" ignored="false" />
     <file path="/News.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073142840" ignored="false" />
     <file path="/IreportDaoImpl.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381074510401" ignored="false" />
-    <file path="/web.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381150572101" ignored="false" />
+    <file path="/web.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381399311767" ignored="false" />
     <file path="/login.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381229046554" ignored="false" />
     <file path="/index.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381230418534" ignored="false" />
-    <file path="/faces-config-beans.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381150746321" ignored="false" />
+    <file path="/faces-config-beans.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381236275655" ignored="false" />
     <file path="/LoginBean.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381150806357" ignored="false" />
     <file path="/faces-config-nav.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381150958997" ignored="false" />
     <file path="/messages.properties" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381208063896" ignored="false" />
     <file path="/jboss-web.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381223603614" ignored="false" />
-    <file path="/a.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381223603614" ignored="false" />
+    <file path="/a.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381236458542" ignored="false" />
     <file path="/index.xhtml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381224686457" ignored="false" />
     <file path="/a.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381229117384" ignored="false" />
     <file path="/JavaScript File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381229775411" ignored="false" />
@@ -70,6 +77,23 @@
     <file path="/ColdFusion Script Interface.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381229947194" ignored="false" />
     <file path="/ActionScript File Header.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381229971760" ignored="false" />
     <file path="/File Header.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381230002518" ignored="false" />
+    <file path="/Jsp File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381235208357" ignored="false" />
+    <file path="/Jspx File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381235225241" ignored="false" />
+    <file path="/welcome.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381374879332" ignored="false" />
+    <file path="/web_path.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381236478660" ignored="false" />
+    <file path="/show.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381238212428" ignored="false" />
+    <file path="/BookBean.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381374924095" ignored="false" />
+    <file path="/ChatService.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381405667283" ignored="false" />
+    <file path="/RegServlet.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381394364466" ignored="false" />
+    <file path="/ChatRegServlet.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381398100673" ignored="false" />
+    <file path="/chatreg.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381399215594" ignored="false" />
+    <file path="/chat.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381396908785" ignored="false" />
+    <file path="/ChatServlet.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381414561817" ignored="false" />
+    <file path="/ChatLoginServlet.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381398700057" ignored="false" />
+    <file path="/all.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381399131607" ignored="false" />
+    <file path="/chatlogin.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381399713757" ignored="false" />
+    <file path="/TestPath.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381405314789" ignored="false" />
+    <file path="/chat.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381413353642" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,8 +132,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -125,8 +149,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
     <breakpoint_rules />
@@ -138,117 +162,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classic/src/main/java/com/huang/j2ee/classic/action/LoginBean.java">
+      <file leaf-file-name="ChatServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/servlet/ChatServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="8" selection-start="979" selection-end="1001" vertical-scroll-proportion="0.0">
+            <state line="33" column="70" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="faces-config-beans.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/faces-config-beans.xml">
+      <file leaf-file-name="ChatService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/service/ChatService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="61" selection-start="488" selection-end="488" vertical-scroll-proportion="-7.071429">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/jsp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="419" selection-end="462" vertical-scroll-proportion="0.85714287">
+            <state line="70" column="18" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="greeting.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/jsp/greeting.jsp">
+      <file leaf-file-name="SimpleHello.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/servlet/SimpleHello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="-5.5384617">
+            <state line="16" column="13" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chatlogin.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/jsp/chatlogin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="42" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/html/chat.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="122" column="25" selection-start="3590" selection-end="3590" vertical-scroll-proportion="-0.6923077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/script/basic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="44" selection-start="493" selection-end="493" vertical-scroll-proportion="-0.3968254">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chatReply.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/jsp/chatReply.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/jsp/all.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1381230092480" expanded="true" signature="291:678" placeholder="..." />
+                <marker date="1381399324918" expanded="true" signature="255:291" placeholder="{...}" />
+                <marker date="1381399324918" expanded="true" signature="310:438" placeholder="{...}" />
+                <marker date="1381399324918" expanded="true" signature="458:586" placeholder="{...}" />
+                <marker date="1381399324918" expanded="true" signature="607:714" placeholder="{...}" />
+                <marker date="1381399324918" expanded="true" signature="727:768" placeholder="{...}" />
+                <marker date="1381399324918" expanded="true" signature="781:851" placeholder="{...}" />
+                <marker date="1381399324918" expanded="true" signature="864:898" placeholder="{...}" />
+                <marker date="1381399324918" expanded="true" signature="911:952" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="faces-config-nav.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/faces-config-nav.xml">
+      <file leaf-file-name="upload.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/jsp/upload.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="33" selection-start="843" selection-end="843" vertical-scroll-proportion="-11.571428">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="41" selection-start="209" selection-end="209" vertical-scroll-proportion="-7.6153846">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classic/pom.xml">
+      <file leaf-file-name="UploadAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/action/UploadAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="51" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jboss-web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/jboss-web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="26" selection-start="211" selection-end="211" vertical-scroll-proportion="-3.2142856">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="81" selection-start="681" selection-end="681" vertical-scroll-proportion="-10.928572">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/index.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.6923077">
+            <state line="62" column="54" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -272,22 +279,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/classic/META-INF/application.xml" />
-        <option value="$PROJECT_DIR$/classic/src/main/webapp/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/classic/src/main/webapp/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/faces-config-beans.xml" />
-        <option value="$PROJECT_DIR$/classic/src/main/java/com/huang/j2ee/classic/action/LoginBean.java" />
-        <option value="$PROJECT_DIR$/classic/src/main/webapp/jsp/greeting.jsp" />
-        <option value="$PROJECT_DIR$/classic/src/main/resources/messages.properties" />
-        <option value="$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/ssh/pom.xml" />
-        <option value="$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/faces-config-nav.xml" />
-        <option value="$PROJECT_DIR$/classic/pom.xml" />
-        <option value="$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/jboss-web.xml" />
-        <option value="$PROJECT_DIR$/classic/src/main/webapp/index.xhtml" />
-        <option value="$PROJECT_DIR$/classic/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/classic/src/main/webapp/greeting.jsp" />
-        <option value="$PROJECT_DIR$/classic/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/classic/src/main/java/com/huang/j2ee/classic/action/BookBean.java" />
+        <option value="$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/servlet/RegServlet.java" />
+        <option value="$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/servlet/ChatRegServlet.java" />
+        <option value="$PROJECT_DIR$/ssh/src/main/webapp/jsp/all.jsp" />
+        <option value="$PROJECT_DIR$/ssh/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ssh/src/main/webapp/jsp/chatreg.jsp" />
+        <option value="$PROJECT_DIR$/ssh/src/main/webapp/jsp/chat.jsp" />
+        <option value="$PROJECT_DIR$/ssh/src/main/webapp/jsp/chatlogin.jsp" />
+        <option value="$PROJECT_DIR$/ssh/src/test/java/com/huang/j2ee/ssh/utils/TestPath.java" />
+        <option value="$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/servlet/ChatLoginServlet.java" />
+        <option value="$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/service/ChatService.java" />
+        <option value="$PROJECT_DIR$/ssh/src/main/webapp/jsp/chatResp.jsp" />
+        <option value="$PROJECT_DIR$/ssh/src/main/webapp/jsp/chatReply.jsp" />
+        <option value="$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/servlet/ChatServlet.java" />
+        <option value="$PROJECT_DIR$/ssh/src/main/webapp/html/chat.html" />
+        <option value="localhost:8080/html/chat.html" />
       </list>
     </option>
   </component>
@@ -451,56 +458,31 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Study" />
+        <subPane subId="Default" />
+        <subPane subId="Production">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="classic">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'messages'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.huang.j2ee.classic.action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            <PATH_ELEMENT USER_OBJECT="classic">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Study" />
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -565,6 +547,32 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="classic">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="classic">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="classic">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="classic">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -599,6 +607,160 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -615,6 +777,136 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -641,6 +933,104 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -800,6 +1190,30 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -809,19 +1223,21 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.lastSelected" value="preferences.externalTools" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../workfile/khsafety" />
+    <property name="last_opened_file_path" value="D:/Software (x86)/develop/birt-rcp-report-designer-4_2_1/BIRT.exe" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.26902464" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.30378097" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.30378097" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -836,7 +1252,7 @@
       <recent name="E:\person\coding\studies\java\j2ee\ssh\src\test\resources\META-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="JBoss Server.JBoss 6.0">
+  <component name="RunManager" selected="JavaScript Debug.chat.html">
     <configuration default="false" name="JPATest.testPerson2" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -901,6 +1317,47 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
+    <configuration default="false" name="TestPath.testGetPath" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.huang.j2ee.ssh.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ssh" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.huang.j2ee.ssh.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.huang.j2ee.ssh.utils.TestPath" />
+      <option name="METHOD_NAME" value="testGetPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="script.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="firefox" />
+        <option name="fileUrl" value="file://$PROJECT_DIR$/ssh/src/main/webapp/html/script.html" />
+      </JSDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -925,6 +1382,19 @@
       </server-settings>
       <predefined_log_file id="JBoss" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -955,19 +1425,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -985,9 +1442,16 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
-        <option name="fileUrl" />
+        <option name="engineId" value="firefox" />
+        <option name="fileUrl" value="" />
       </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="firefox" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1009,12 +1473,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
@@ -1083,87 +1541,17 @@
       </ConfigurationWrapper>
       <method />
     </configuration>
-    <configuration default="false" name="JBoss 6.0" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 6.0">
-      <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="COMMON_VM_ARGUMENTS" value="-Xms512m -Xmx1024m -XX:PermSize=256M -XX:MaxPermSize=512M" />
-      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
-      <deployment>
-        <artifact name="classic:war exploded">
-          <settings />
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="SERVER" value="default" />
-        <option name="BINDING_SET_NAME" value="ports-default" />
-        <option name="USERNAME" value="admin" />
-        <option name="PASSWORD" value="admin" />
-      </server-settings>
-      <predefined_log_file id="JBoss" enabled="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Cover" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="10799" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="classic:war exploded" />
-        </option>
-      </method>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
     </configuration>
     <configuration default="false" name="JBoss 7.2" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.2">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/classic/" />
-      <option name="COMMON_VM_ARGUMENTS" value="-Xms512m -Xmx1024m -XX:PermSize=256M -XX:MaxPermSize=512M -Djboss.socket.binding.port-offset=0" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/classic/" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Xms512m -Xmx1024m -XX:PermSize=256M -XX:MaxPermSize=512M -Djboss.socket.binding.port-offset=1" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
-      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="classic:war exploded">
           <settings />
@@ -1235,9 +1623,27 @@
         </option>
       </method>
     </configuration>
+    <configuration default="false" name="chat.html" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="firefox" />
+        <option name="fileUrl" value="http://localhost:8080/html/chat.html" />
+      </JSDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="chat.do" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="firefox" />
+        <option name="fileUrl" value="http://localhost:8080/chat.do" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <deployment>
         <artifact name="ssh:war exploded">
           <settings>
@@ -1312,17 +1718,22 @@
         </option>
       </method>
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JBoss Server.JBoss 6.0" />
-      <item index="1" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.2" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.JPATest.testPerson2" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.NewsTest.testNewsGetAll" />
-      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
+    <list size="8">
+      <item index="0" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.2" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.chat.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.chat.do" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JPATest.testPerson2" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.NewsTest.testNewsGetAll" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TestPath.testGetPath" />
+      <item index="7" class="java.lang.String" itemvalue="JavaScript Debug.script.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NewsTest.testNewsGetAll" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.JPATest.testPerson2" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestPath.testGetPath" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.script.html" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NewsTest.testNewsGetAll" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JPATest.testPerson2" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1367,7 +1778,11 @@
       <created>1381209409927</created>
       <updated>1381209409927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modify">
+      <created>1381233238878</created>
+      <updated>1381233238878</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1392,34 +1807,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5169628" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53311795" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53311795" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48949918" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36833602" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5315024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.47819063" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.47819063" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39579967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.57027465" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.46849757" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6704362" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5105008" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38933763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5315024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1482,7 +1897,29 @@
     <MESSAGE value="modify" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ssh/src/main/webapp/html/chat.html</url>
+          <line>120</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ssh/src/main/webapp/html/chat.html</url>
+          <line>27</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>http://localhost:8080/html/chat.html</url>
+          <line>123</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="35" />
+    </breakpoint-manager>
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
@@ -1493,143 +1930,117 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/jsp/login1.jsp">
+    <entry file="file://$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/servlet/SimpleHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServletResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="67" selection-start="215" selection-end="215" vertical-scroll-proportion="0.16635859" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/ServletResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="72" selection-start="412" selection-end="412" vertical-scroll-proportion="-0.03142329" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/html/script.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/jsp/login2.jsp">
+    <entry file="file://$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/service/ChatService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="500" selection-end="500" vertical-scroll-proportion="-9.0">
+        <state line="70" column="18" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/action/Login2Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="286" selection-end="286" vertical-scroll-proportion="0.18305084">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/src/main/resources/messages.properties">
-      <provider selected="true" editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssh/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="77" selection-start="486" selection-end="486" vertical-scroll-proportion="-4.9289427">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="51" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/jboss-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="211" selection-end="211" vertical-scroll-proportion="-3.2142856">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider">
+    <entry file="http://localhost:8080/chatLogin.do">
+      <provider selected="true" editor-type-id="httpFileEditor">
         <state />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-api/2.2.4/jsf-api-2.2.4-sources.jar!/javax/faces/webapp/FacesServlet.java">
+    <entry file="file://$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/servlet/ChatServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="19" selection-start="7730" selection-end="7730" vertical-scroll-proportion="0.33273056">
+        <state line="33" column="70" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/index.xhtml">
+    <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/jsp/chatReply.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.6923077">
+        <state line="6" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/jsp/all.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="81" selection-start="681" selection-end="681" vertical-scroll-proportion="-10.928572">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="209" selection-end="209" vertical-scroll-proportion="-7.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/faces-config-beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="61" selection-start="488" selection-end="488" vertical-scroll-proportion="-7.071429">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/src/main/java/com/huang/j2ee/classic/action/LoginBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="8" selection-start="979" selection-end="1001" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/WEB-INF/faces-config-nav.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="33" selection-start="843" selection-end="843" vertical-scroll-proportion="-11.571428">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/jsp/greeting.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="-5.5384617">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1381230092480" expanded="true" signature="291:678" placeholder="..." />
+            <marker date="1381399324918" expanded="true" signature="255:291" placeholder="{...}" />
+            <marker date="1381399324918" expanded="true" signature="310:438" placeholder="{...}" />
+            <marker date="1381399324918" expanded="true" signature="458:586" placeholder="{...}" />
+            <marker date="1381399324918" expanded="true" signature="607:714" placeholder="{...}" />
+            <marker date="1381399324918" expanded="true" signature="727:768" placeholder="{...}" />
+            <marker date="1381399324918" expanded="true" signature="781:851" placeholder="{...}" />
+            <marker date="1381399324918" expanded="true" signature="864:898" placeholder="{...}" />
+            <marker date="1381399324918" expanded="true" signature="911:952" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classic/src/main/webapp/jsp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/servlet/ChatLoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="419" selection-end="462" vertical-scroll-proportion="0.85714287">
+        <state line="18" column="60" selection-start="608" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/jsp/upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/action/UploadAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="54" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://localhost:8080/html/chat.html">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/jsp/chatlogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="42" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/html/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="25" selection-start="3590" selection-end="3590" vertical-scroll-proportion="-0.6923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/script/basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="44" selection-start="493" selection-end="493" vertical-scroll-proportion="-0.3968254">
           <folding />
         </state>
       </provider>

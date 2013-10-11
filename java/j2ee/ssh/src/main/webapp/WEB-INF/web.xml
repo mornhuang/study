@@ -185,8 +185,35 @@
         <servlet-name>EngineServlet</servlet-name>
         <url-pattern>/output</url-pattern>
     </servlet-mapping>
-    <!-- ============================================================================================= -->
 
+    <!-- =======================Chat room demo========================== -->
+
+    <servlet>
+        <servlet-name>ChatRegServlet</servlet-name>
+        <servlet-class>com.huang.j2ee.ssh.servlet.ChatRegServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ChatServlet</servlet-name>
+        <servlet-class>com.huang.j2ee.ssh.servlet.ChatServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ChatLoginServlet</servlet-name>
+        <servlet-class>com.huang.j2ee.ssh.servlet.ChatLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChatLoginServlet</servlet-name>
+        <url-pattern>/chatLogin.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ChatRegServlet</servlet-name>
+        <url-pattern>/chatReg.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ChatServlet</servlet-name>
+        <url-pattern>/chat.do</url-pattern>
+    </servlet-mapping>
+
+    <!-- ====================================================================== -->
     <welcome-file-list>
         <welcome-file>jsp/all.jsp</welcome-file>
         <welcome-file>html/all.html</welcome-file>

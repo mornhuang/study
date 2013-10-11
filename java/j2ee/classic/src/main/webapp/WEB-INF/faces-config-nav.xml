@@ -19,4 +19,12 @@
             <to-view-id>/jsp/login.jsp</to-view-id>
         </navigation-case>
     </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>/jsp/welcome.jsp</from-view-id>
+        <navigation-case>
+            <from-outcome>success</from-outcome>
+            <to-view-id>/jsp/show.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
 </faces-config>
