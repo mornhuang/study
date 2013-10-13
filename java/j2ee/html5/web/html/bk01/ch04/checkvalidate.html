@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check Validity</title>
+    <meta charset="utf-8" />
+    <script language="javascript">
+        function check() {
+            var email = document.getElementById("email1");
+            if (email.value == "") {
+                alert("Please Input Email");
+                return false;
+            } else if(!email.checkValidity()) {
+                alert("Please Input Correct Email Address");
+                return false;
+            } else {
+                alert("You've Inputted Correct Email Address");
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form id="test" onsubmit="return check();" novalidate="novalidate">
+        <label for="email1">Email</label>
+        <input type="email" name="email1" id="email1"  /><br />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>

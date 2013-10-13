@@ -55,22 +55,25 @@ public class Login2Action extends ActionSupport {
 
 	@Override
 	public String execute() throws Exception {
-        if (getUser().getName().equals("crazy") && getUser().getPass().equals("gogo")) {
-            setTip("Login Success");
-            return "crazy";
+        try {
+            if (getUser().getName().equals("crazy") && getUser().getPass().equals("gogo")) {
+                setTip("Login Success");
+                return "crazy";
+            }
+
+            User firstUser = (User)getUsers().get(0);
+            if (firstUser.getName().equals("crazy") && firstUser.getPass().equals("gogo")) {
+                setTip("Login Success");
+                return "crazy";
+            }
+
+            if (getUsername().equals("scott") && getPassword().equals("tiger")) {
+                ActionContext.getContext().getSession().put("user", getUsername());
+                return SUCCESS;
+            }
+        } catch (Exception e) {
+            return INPUT;
         }
-
-        User firstUser = (User)getUsers().get(0);
-        if (firstUser.getName().equals("crazy") && firstUser.getPass().equals("gogo")) {
-            setTip("Login Success");
-            return "crazy";
-        }
-
-		if (getUsername().equals("scott") && getPassword().equals("tiger")) {
-			ActionContext.getContext().getSession().put("user", getUsername());
-			return SUCCESS;
-		}
-
 		return ERROR;
 	}
 }

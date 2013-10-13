@@ -72,11 +72,11 @@
     </div>
 
     <div id="right">
-        <a href="<s:url action='login2.jsp'/>">login2.jsp</a>
+        <a href="<s:url action='Login2'/>">login2.jsp</a>
     </div>
 
     <div id="footer">
-        <img src="/jsp/img.jsp"/>
+        <img src="/jsp/img.jsp" alt="img"/>
     </div>
 </div>
 </body>

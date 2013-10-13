@@ -1,0 +1,15 @@
+
+div.htmlPage {
+    width: 50%;
+    float: left;
+}
+
+div.jspPage {
+    width: 50%;
+    float: left;
+}
+
+table {
+    width: 100%;
+    border: 1px;
+}

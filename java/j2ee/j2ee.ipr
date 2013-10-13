@@ -182,6 +182,28 @@
         </element>
       </root>
     </artifact>
+    <artifact type="exploded-war" name="ajax:war exploded">
+      <output-path>$PROJECT_DIR$/ajax/target/ajax_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="ajax/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="ajax" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="html5:war exploded">
+      <output-path>$PROJECT_DIR$/html/target/html5_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="html5/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="html5" />
+          </element>
+        </element>
+      </root>
+    </artifact>
   </component>
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
@@ -205,15 +227,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="ajax" />
         <module name="classic" />
+        <module name="html5" />
         <module name="ssh" />
         <module name="web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ajax" target="1.6" />
       <module name="classic" target="1.6" />
+      <module name="html5" target="1.6" />
       <module name="ssh" target="1.6" />
-      <module name="web" target="1.6" />
     </bytecodeTargetLevel>
   </component>
   <component name="CopyrightManager" default="">
@@ -239,8 +264,10 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/ajax" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/classic" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/classic/src/main/java/com/huang/j2ee/classic/action/LoginBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/html5" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssh" charset="UTF-8" />
   </component>
   <component name="EntryPointsManager">
@@ -250,11 +277,34 @@
     <file type="web" url="file://$PROJECT_DIR$/classic" />
     <file type="web" url="file://$PROJECT_DIR$/ssh" />
   </component>
+  <component name="InspectionProjectProfileManager">
+    <profiles>
+      <profile version="1.0" is_locked="false">
+        <option name="myName" value="Project Default" />
+        <option name="myLocal" value="false" />
+        <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+          <option name="myValues">
+            <value>
+              <list size="1">
+                <item index="0" class="java.lang.String" itemvalue="height" />
+              </list>
+            </value>
+          </option>
+          <option name="myCustomValuesEnabled" value="true" />
+        </inspection_tool>
+      </profile>
+    </profiles>
+    <option name="PROJECT_PROFILE" value="Project Default" />
+    <option name="USE_PROJECT_PROFILE" value="true" />
+    <version value="1.0" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/classic/pom.xml" />
         <option value="$PROJECT_DIR$/ssh/pom.xml" />
+        <option value="$PROJECT_DIR$/ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/html5/pom.xml" />
       </list>
     </option>
   </component>
@@ -380,17 +430,18 @@
     </group>
   </component>
   <component name="ProjectDictionaryState">
-    <dictionary name="Morn">
-      <words>
-        <w>webapp</w>
-      </words>
-    </dictionary>
+    <dictionary name="Morn" />
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ajax/ajax.iml" filepath="$PROJECT_DIR$/ajax/ajax.iml" />
       <module fileurl="file://$PROJECT_DIR$/classic/classic.iml" filepath="$PROJECT_DIR$/classic/classic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/html5/html5.iml" filepath="$PROJECT_DIR$/html5/html5.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssh/ssh.iml" filepath="$PROJECT_DIR$/ssh/ssh.iml" />
     </modules>
+  </component>
+  <component name="ProjectResources">
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="JDK 1.6" project-jdk-type="JavaSDK" />
   <component name="VcsDirectoryMappings">

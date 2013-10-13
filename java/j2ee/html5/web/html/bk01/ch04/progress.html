@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Progress Demo</title>
+    <meta http-equiv="CONTENT-TYPE" content="text/html;charset=utf-8"/>
+    <script type="text/javascript">
+        var timer;
+        var procVal;
+
+        function button_onclick() {
+            document.getElementById("startBtn").disabled = true;
+            procVal = 0;
+//            timer = setTimeout(updateProgress, 80);
+            timer = setInterval(updateProgress, 80);
+        }
+
+        function updateProgress() {
+            if (procVal < 100) {
+                ++procVal;
+                document.getElementById("p").value = procVal;
+                document.getElementById("showValue").value = procVal;
+                document.getElementById("p").getElementsByTagName("span")[0].textContent = procVal;
+//                setTimeout(updateProgress, 80);
+            } else {
+//                clearTimeout(timer);
+                clearInterval(timer);
+            }
+        }
+
+        function button_reset() {
+            document.getElementById("p").value = 0;
+            document.getElementById("showValue").value = 0;
+            document.getElementById("p").getElementsByTagName("span")[0].textContent = "0";
+            document.getElementById("startBtn").disabled = false;
+        }
+    </script>
+</head>
+<body>
+<section>
+    <h2>Progress Element Demo</h2>
+
+    <p>Completed Percentage:
+        <progress id="p" max="100"><span>0</span>%</progress>
+    </p>
+    <input type="text" id="showValue" value="0" disabled/><br/>
+    <input type="button" id="startBtn" onclick="button_onclick()" value="Click Me"/>
+    <input type="button" onclick="button_reset()" value="Reset">
+</section>
+</body>
+</html>
