@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>First Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<select id="first" name="first" onchange="change(this.value);">
+    <option value="1" selected="selected">Chinese</option>
+    <option value="2">American</option>
+    <option value="3">Japaneses</option>
+</select>
+<select id="second" size="3"></select>
+
+<p>
+    中文测试下
+</p>
+</body>
+<script type="text/javascript" language="JavaScript">
+    var xmlrequest;
+
+    function createXMLRequest() {
+        if (window.XMLHttpRequest) {
+            // DOM2
+            xmlrequest = new XMLHttpRequest();
+        } else {
+            // IE
+            var MSXML = ['MSXML2.XMLHTTP.5.0', 'MSXML2.XMLHTTP.4.0',
+                'MSXML2.XMLHTTP.3.0', 'MSXML2.XMLHTTP', 'Microsoft.XMLHTTP'];
+
+            for (var n = 0; n < MSXML.length; n++) {
+                try {
+                    xmlrequest = new ActiveXObject(MSXML[n]);
+                    break;
+                } catch (e) {
+                }
+            }
+        }
+    }
+    function change(id) {
+        var uri = "second.jsp";
+
+        // initialize XMLHttpRequest Object
+        createXMLRequest();
+
+        // open Xml request
+        xmlrequest.open("POST", uri, true);
+
+        // set request header
+        xmlrequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+        // set corresponding callback function for response
+        xmlrequest.onreadystatechange = processResponse;
+
+        // send request
+        xmlrequest.send("id=" + id);
+    }
+
+    function processResponse() {
+        if (xmlrequest.readyState == 4) {
+            if (xmlrequest.status == 200) {
+                var xmldoc = xmlrequest.responseXML;
+                var citylist = xmldoc.getElementsByTagName("city");
+                var display = document.getElementById("second");
+                display.innerHTML = null;
+                for (var i = 0; i < citylist.length; i++) {
+                    var option = document.createElement("option");
+                    if (citylist[i].text) {
+                        option.innerHTML = citylist[i].text;
+                    } else {
+                        option.innerHTML = citylist[i].firstChild.data;
+                    }
+                    display.appendChild(option);
+                }
+            } else {
+                window.alert("The page that you requested occurs exception");
+            }
+        }
+    }
+</script>
+
+</html>

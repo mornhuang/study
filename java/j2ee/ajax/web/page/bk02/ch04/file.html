@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <ul>
+        <li>Username <bdi dir="ltr">Bill</bdi>:80 points</li>
+        <li>Username <bdi dir="rtl">Steve</bdi>: 78 points</li>
+    </ul>
+    <input type="file" id="file" multiple size="80" title="ha ha ha"/><br />
+    <input type="button" onclick="showFileName();" value="Upload" />
+
+    <script language="javascript">
+        function showFileName() {
+            var fileList = document.getElementById("file").files;
+            for (var i = 0; i < fileList.length; i++) {
+                alert(fileList[i].name);
+            }
+        }
+    </script>
+</body>
+</html>

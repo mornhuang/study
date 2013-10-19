@@ -10,40 +10,426 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa8a8a0-febf-44e5-90cf-3096d49288c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/ajax.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch03/02/article.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch03/02/article2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch04/checkvalidate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/html/BK01/CH08/02/first.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch04/form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch01/01/html.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch01/01/html4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch01/01/html5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/html5.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch04/input.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch04/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch04/output.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch04/progress.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/jsp/BK01/CH08/02/second.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch04/setcustomvalidity.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch03/time.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/action/Login2Action.java" afterPath="$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/action/Login2Action.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssh/src/main/webapp/jsp/all.jsp" afterPath="$PROJECT_DIR$/ssh/src/main/webapp/jsp/all.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk01/ch02/test3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/css/PIE.htc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/src/main/java/com/huang/frame/utils/Tree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/src/main/java/com/huang/frame/utils/TreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/qt/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch03/02/article.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch03/02/article2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch04/checkvalidate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/js/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch04/file.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch04/file.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch08/04/first.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch08/04/first.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch04/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch01/html4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch01/html5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/css/iefix.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch08/02/img.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch04/input.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch04/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch04/meter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch04/output.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch04/progress.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/prototypetest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch08/04/second.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch04/setcustomvalidity.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch03/time.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch01/xhtml.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch01/01/xhtml.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/js/xmlrequestPool.js" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\Android权威指南.ipr" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\Android权威指南.iws" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch02\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch02\ant.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch02\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch02\ch02.iml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch02\local.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch02\proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch02\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch02\res\layout\main.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch02\res\values\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch02\src\com\huang\android\ch02\first\CircleCanvas.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch02\src\com\huang\android\ch02\first\Main.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\ch04.iml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\res\drawable\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\res\layout\activity2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\res\layout\activity4.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\res\layout\main.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\res\layout\study.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\res\values\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\src\com\huang\android\ch04\show\activity\Main.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\src\com\huang\android\ch04\show\activity\MyActivity1.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\src\com\huang\android\ch04\show\activity\MyActivity2.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\src\com\huang\android\ch04\show\activity\MyActivity3.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\src\com\huang\android\ch04\show\activity\MyActivity4.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch04\src\com\huang\android\ch04\transmit\data\Data.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\ant.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\ch05.iml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\local.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\res\drawable-hdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\res\drawable-ldpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\res\drawable-mdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\res\drawable\image1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\res\drawable\image2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\res\drawable\image3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\res\drawable\image4.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\res\drawable\image5.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\res\layout\main.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\res\layout\span.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\res\layout\test.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\res\values\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\src\com\huang\android\ch05\Activity1.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\src\com\huang\android\ch05\Activity2.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\src\com\huang\android\ch05\BorderTextView.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\src\com\huang\android\ch05\ColorSpan.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\src\com\huang\android\ch05\MyActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\Android权威指南\ch05\src\com\huang\android\ch05\Span.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\android-it\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\android-it\.project" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\android-it\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\android-it\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\android-it\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\android-it\res\drawable-hdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\android-it\res\drawable-ldpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\android-it\res\drawable-mdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\android-it\res\layout\main.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\android-it\res\values\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\android-it\src\main\java\com\huang\study\android\test\AndroidTest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\android-it\src\main\java\com\huang\study\android\test\HelloAndroidActivityTest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\android-it\src\main\java\com\huang\study\android\test\TestXmlActivityTest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\.project" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\build.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\AnnoAction.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\BirtAction.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\GetBookAction.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\IntpAction.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\JasperAction.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\Login1Action.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\Login2Action-conversion.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\Login2Action-validation.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\Login2Action.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\Login2Action.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\Login2Action_zh_CN.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\Login3Action.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\UploadAction.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\package.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\action\package_zh_CN.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\Cat.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\Ireport.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\Ireport.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\IreportAbs.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\IreportDao.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\IreportDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\News.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\NewsDao.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\NewsDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\Person.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\Person2.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\Season.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\User.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\UserConvert.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\model\UserConvertStruts.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\service\AnnoBean.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\service\AnnoBeforeAop.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\service\BookService.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\service\IreportService.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\service\LogAfter.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\service\LogAround.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\service\LogBefore.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\service\LogThrow.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\service\NewsService.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\service\TimeBook.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\service\TimeBookImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\servlet\OutputInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\servlet\SimpleHello.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\servlet\WelcomeYou.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\utils\BeanContainer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\huang\study\web\utils\MyException.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\kehao\utils\DBLinkTest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\java\com\kehao\utils\LdapTest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\resources\MessageResource.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\resources\MessageResource_zh_CN.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\resources\applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\resources\beanValue.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\resources\gconf.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\resources\hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\resources\log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\resources\struts.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\resources\struts.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\resources\xwork-conversion.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\META-INF\persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\WEB-INF\server-config.wsdd" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\WEB-INF\tlds\birt.tld" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\WEB-INF\viewer.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\html\all.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\html\basic.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\html\calculator.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\html\modal.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\html\musical.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\html\prop.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\html\qtest.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\html\script.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\html\simple.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\html\upload.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\html\welcome.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\all.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\anno.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\base.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\exception.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\forindicator.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\img.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\implicit-objects.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\indicator.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\login1.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\login2.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\login3.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\prop.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\regist.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\showBirt.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\showBook.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\showBook2.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\showJasper.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\strbase.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\succ.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\testtag.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\upload.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\jsp\welcome.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\reports\khsafety.rptlibrary" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\reports\statics\food\oem_month.rptconfig" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\reports\statics\food\oem_month.rptdesign" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\reports\statics\food\test.rptconfig" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\reports\statics\food\test.rptdesign" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\reports\statics\work\hazard.rptconfig" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\reports\statics\work\hazard.rptdesign" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\reports\statics_work_hazard.rptdesign" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\reports\test.jasper" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\reports\test.jrxml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\reports\test.rptdesign" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\script\basic.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\script\basic_test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\script\musical.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\script\qunit-1.10.0.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\script\test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\skin\en_US\css\musical.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\skin\en_US\css\qunit-1.10.0.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\skin\en_US\img\bodybg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\skin\en_US\img\icon_export.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\skin\en_US\img\img_0_0_1" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\skin\en_US\img\px" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\core\BirtCommunicationManager.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\core\BirtDndManager.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\core\BirtEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\core\BirtEventDispatcher.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\core\BirtSoapRequest.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\core\BirtSoapResponse.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\core\Mask.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\lib\prototype.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\mh\BirtBaseResponseHandler.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\mh\BirtGetUpdatedObjectsResponseHandler.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\taglib\CascadingParameter.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\taglib\ParameterDefinition.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\taglib\ParameterGroup.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\taglib\ProgressBar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\taglib\SoapResponseHelper.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\app\AbstractBaseToc.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\app\AbstractBaseToolbar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\app\AbstractUIComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\app\BirtNavigationBar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\app\BirtProgressBar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\app\BirtToc.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\app\BirtToolbar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\dialog\AbstractBaseDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\dialog\AbstractExceptionDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\dialog\AbstractParameterDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\dialog\BirtConfirmationDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\dialog\BirtExceptionDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\dialog\BirtExportReportDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\dialog\BirtParameterDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\dialog\BirtPrintReportDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\dialog\BirtPrintReportServerDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\dialog\BirtSimpleExportDataDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\dialog\BirtTabedDialogBase.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\report\AbstractBaseReportDocument.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\report\AbstractReportComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\report\BirtReportDocument.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\ui\report\ReportComponentIdRegistry.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\utility\BirtPosition.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\utility\BirtUtility.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\utility\BrowserUtility.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\utility\Constants.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\utility\Debug.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\ajax\utility\Printer.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Add.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\AddAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\AddAll_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\AddAll_disabled_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\AddAll_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\AddFilter.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Add_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Add_disabled_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Add_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Close.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Collapse.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\DeleteFilter.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Down.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Down_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\EclipseBannerPic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Error.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Expand.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Export.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\ExportReport.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\FirstPage.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\FirstPage_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Go.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Go_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Idea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Interactive_viewer.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\LastPage.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\LastPage_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Loading_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\NextPage.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\NextPage_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\PreviousPage.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\PreviousPage_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Print.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\PrintServer.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Remove.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\RemoveAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\RemoveAll_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\RemoveAll_disabled_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\RemoveAll_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Remove_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Remove_disabled_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Remove_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Report_Parameters_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Report_parameters.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Toc.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Up.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\Up_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\bg_report.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\bg_tbl_header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\childicon.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\dialog\common\close.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\dialog\common\ok-cancel-button-center.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\dialog\common\ok-cancel-button-center_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\dialog\common\ok-cancel-button-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\dialog\common\ok-cancel-button-left_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\dialog\common\ok-cancel-button-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\dialog\common\ok-cancel-button-right_disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\gradient.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\parameter.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\images\parameter_group.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\common\Attributes.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\common\CancelTask.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\common\Error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\common\Locale.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\common\blank.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\common\processing.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\control\NavigationbarFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\control\ProgressBarFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\control\TocFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\control\ToolbarFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\dialog\ConfirmationDialogFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\dialog\DialogContainerFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\dialog\ExceptionDialogFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\dialog\ExportDataDialogFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\dialog\ExportReportDialogFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\dialog\ParameterDialogFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\dialog\PrintReportDialogFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\dialog\PrintReportServerDialogFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\dialog\SimpleExportDataDialogFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\layout\DocumentFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\layout\FramesetFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\layout\ParameterFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\layout\ReportContentFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\layout\ReportDialogFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\layout\ReportFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\layout\RequesterFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\layout\RunFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\layout\SidebarFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\parameter\CheckboxParameterFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\parameter\ComboBoxParameterFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\parameter\HiddenParameterFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\parameter\ParameterGroupFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\parameter\RadioButtonParameterFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\pages\parameter\TextBoxParameterFragment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\styles\dialogbase.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\styles\dialogbase_rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\styles\index.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\styles\report.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\styles\sections.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\main\webapp\webcontent\birt\styles\style.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\base\BaseModel.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\base\BaseModelTest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\base\BaseVO.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\base\BaseVOTest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\base\Hello.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\base\HelloAspect.aj" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\model\IreportDaoTest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\model\JPATest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\model\SpringTest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\model\TransactionDao.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\service\AnnoBeanTest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\service\LogAopTest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\service\NewsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\utils\TestProp.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\utils\TestSet.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\utils\TestString.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\java\com\huang\study\web\utils\TestThread.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\src\test\resources\applicationContext_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\web\web.iml" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\python\basic\src\com\huang\basic\bk01\ch01\generate_grid.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\python\basic\src\com\huang\basic\bk01\ch01\mtloop.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\python\basic\src\com\huang\basic\bk01\ch01\mtsleep3.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\python\basic\src\com\huang\basic\bk01\ch01\mtsleep4.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\python\basic\src\com\huang\basic\bk01\ch01\mtsleep5.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\python\basic\src\com\huang\basic\bk01\ch01\sum1.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\python\qt\src\alert.pyw" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\python\qt\src\caculate.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\python\qt\src\hello.ui" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\python\qt\src\main.py" afterPath="" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\python\qt\src\ui_hello.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/ajax.iml" afterPath="$PROJECT_DIR$/ajax/ajax.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classic/classic.iml" afterPath="$PROJECT_DIR$/classic/classic.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/web/index.jsp" afterPath="$PROJECT_DIR$/ajax/web/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j2ee.ipr" afterPath="$PROJECT_DIR$/j2ee.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j2ee.iws" afterPath="$PROJECT_DIR$/j2ee.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/pom.xml" afterPath="$PROJECT_DIR$/ajax/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/pom.xml" afterPath="$PROJECT_DIR$/html5/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/ajax/web/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="E:\person\coding\studies\java\j2ee\ajax\web\css\index.css" afterPath="$PROJECT_DIR$/ajax/web/index.css" />
+      <change type="MOVED" beforePath="E:\person\coding\studies\java\j2ee\ajax\web\html\BK01\CH08\02\first.xhtml" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch08/02/first.xhtml" />
+      <change type="MOVED" beforePath="E:\person\coding\studies\java\j2ee\ajax\web\jsp\BK01\CH08\02\second.jsp" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch08/02/second.jsp" />
+      <change type="MOVED" beforePath="E:\person\coding\studies\java\j2ee\html5\web\html\bk01\ch01\01\html.html" afterPath="$PROJECT_DIR$/html5/web/html/bk01/ch04/meter.html" />
+      <change type="MOVED" beforePath="E:\person\coding\studies\python\basic\src\__init__.py" afterPath="$PROJECT_DIR$/ajax/src/main/resources/bookname.properties" />
     </list>
     <ignored path="j2ee.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/DummyFile.xpath" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381065374110" ignored="false" />
-    <file path="/pom.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381538793974" ignored="false" />
-    <file path="/Dummy.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381636589116" ignored="false" />
+    <file path="/DummyFile.xpath" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381941827261" ignored="false" />
+    <file path="/pom.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381913688890" ignored="false" />
+    <file path="/Dummy.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382150762397" ignored="false" />
     <file path="/applicationContext.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073577476" ignored="false" />
     <file path="$PROJECT_DIR$/ssh/src/test/java/com/huang/j2ee/web/base/BaseVOTest.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381068591179" ignored="false" />
     <file path="$PROJECT_DIR$/ssh/src/test/java/com/huang/j2ee/web/base/Hello.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381068591179" ignored="false" />
@@ -69,9 +455,9 @@
     <file path="/NewsService.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073645616" ignored="false" />
     <file path="/News.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073142840" ignored="false" />
     <file path="/IreportDaoImpl.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381074510401" ignored="false" />
-    <file path="/web.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381399311767" ignored="false" />
+    <file path="/web.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381911049511" ignored="false" />
     <file path="/login.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381229046554" ignored="false" />
-    <file path="/index.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381548679663" ignored="false" />
+    <file path="/index.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381993101786" ignored="false" />
     <file path="/faces-config-beans.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381236275655" ignored="false" />
     <file path="/LoginBean.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381150806357" ignored="false" />
     <file path="/faces-config-nav.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381150958997" ignored="false" />
@@ -80,21 +466,21 @@
     <file path="/a.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381236458542" ignored="false" />
     <file path="/index.xhtml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381224686457" ignored="false" />
     <file path="/a.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381590002086" ignored="false" />
-    <file path="/JavaScript File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381229775411" ignored="false" />
-    <file path="/AMD JavaScript File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381229836497" ignored="false" />
-    <file path="/TypeScript File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381229849820" ignored="false" />
-    <file path="/ColdFusion File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381229882448" ignored="false" />
-    <file path="/ColdFusion Tag Component.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381604765054" ignored="false" />
-    <file path="/ColdFusion Tag Interface.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381604781113" ignored="false" />
-    <file path="/ColdFusion Script Component.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381604790847" ignored="false" />
-    <file path="/ColdFusion Script Interface.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381604796090" ignored="false" />
-    <file path="/ActionScript File Header.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381229971760" ignored="false" />
-    <file path="/File Header.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381230002518" ignored="false" />
-    <file path="/Jsp File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381235208357" ignored="false" />
-    <file path="/Jspx File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381235225241" ignored="false" />
+    <file path="/JavaScript File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086653828" ignored="false" />
+    <file path="/AMD JavaScript File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086438056" ignored="false" />
+    <file path="/TypeScript File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086442196" ignored="false" />
+    <file path="/ColdFusion File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086446929" ignored="false" />
+    <file path="/ColdFusion Tag Component.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086451981" ignored="false" />
+    <file path="/ColdFusion Tag Interface.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086457003" ignored="false" />
+    <file path="/ColdFusion Script Component.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086461200" ignored="false" />
+    <file path="/ColdFusion Script Interface.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086464985" ignored="false" />
+    <file path="/ActionScript File Header.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086570557" ignored="false" />
+    <file path="/File Header.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086574036" ignored="false" />
+    <file path="/Jsp File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086356449" ignored="false" />
+    <file path="/Jspx File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382087015108" ignored="false" />
     <file path="/welcome.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381374879332" ignored="false" />
     <file path="/web_path.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381236478660" ignored="false" />
-    <file path="/show.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381238212428" ignored="false" />
+    <file path="/show.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381907647170" ignored="false" />
     <file path="/BookBean.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381374924095" ignored="false" />
     <file path="/ChatService.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381405667283" ignored="false" />
     <file path="/RegServlet.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381394364466" ignored="false" />
@@ -107,10 +493,10 @@
     <file path="/chatlogin.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381399713757" ignored="false" />
     <file path="/TestPath.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381405314789" ignored="false" />
     <file path="/chat.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381413353642" ignored="false" />
-    <file path="/first.xhtml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381637572383" ignored="false" />
-    <file path="/index.css" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381548551786" ignored="false" />
-    <file path="/second.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381553264365" ignored="false" />
-    <file path="/first.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381557597143" ignored="false" />
+    <file path="/first.xhtml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381933114364" ignored="false" />
+    <file path="/index.css" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381994676164" ignored="false" />
+    <file path="/second.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381907719691" ignored="false" />
+    <file path="/first.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382078046137" ignored="false" />
     <file path="/html.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381557589143" ignored="false" />
     <file path="/html5.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381561378449" ignored="false" />
     <file path="/time.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381567432184" ignored="false" />
@@ -124,12 +510,40 @@
     <file path="/a.js" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381590045684" ignored="false" />
     <file path="/Login2Action.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381591338580" ignored="false" />
     <file path="/setcustomvalidity.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381594783727" ignored="false" />
-    <file path="/Html.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381604814418" ignored="false" />
-    <file path="/Html5.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381604819046" ignored="false" />
-    <file path="/Xhtml.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381604834873" ignored="false" />
+    <file path="/Html.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381639235313" ignored="false" />
+    <file path="/Html5.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381639087020" ignored="false" />
+    <file path="/Xhtml.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381639254609" ignored="false" />
     <file path="/Unnamed.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381604967306" ignored="false" />
     <file path="/progress.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381636430060" ignored="false" />
     <file path="/html4.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381638086776" ignored="false" />
+    <file path="/meter.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381639582584" ignored="false" />
+    <file path="/file.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381650261407" ignored="false" />
+    <file path="/bookname.properties" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382079730039" ignored="false" />
+    <file path="/xhtml.xhtml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381932052442" ignored="false" />
+    <file path="/img.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381938086835" ignored="false" />
+    <file path="/a.dummy" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381941849905" ignored="false" />
+    <file path="/TreeNode.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382017152387" ignored="false" />
+    <file path="/Tree.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382001611585" ignored="false" />
+    <file path="/XML File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086512005" ignored="false" />
+    <file path="/Properties.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086560810" ignored="false" />
+    <file path="/generate_edit.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086667059" ignored="false" />
+    <file path="/generate_edit_inplace.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086705660" ignored="false" />
+    <file path="/user_defined_edit.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086716071" ignored="false" />
+    <file path="/generate_view.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086734321" ignored="false" />
+    <file path="/generate_view_M_N.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086741087" ignored="false" />
+    <file path="/user_defined_view.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086748501" ignored="false" />
+    <file path="/generate_create.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086760921" ignored="false" />
+    <file path="/generate_create2.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086771360" ignored="false" />
+    <file path="/user_defined_create.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086782442" ignored="false" />
+    <file path="/generate_table.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086789158" ignored="false" />
+    <file path="/generate_list.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086793480" ignored="false" />
+    <file path="/user_defined_list.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086797439" ignored="false" />
+    <file path="/index_page_template.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086802312" ignored="false" />
+    <file path="/GroovyServerPage.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086846875" ignored="false" />
+    <file path="/facelets.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086929766" ignored="false" />
+    <file path="/faces.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086939974" ignored="false" />
+    <file path="/prototypetest.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382090779489" ignored="false" />
+    <file path="/test.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382096112109" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,82 +616,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="progress.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch04/progress.html">
+      <file leaf-file-name="prototypetest.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/prototypetest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="5" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-13.192307">
+            <state line="23" column="25" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch04/output.html">
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="8" selection-start="187" selection-end="187" vertical-scroll-proportion="-2.9230769">
+            <state line="21" column="32" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch04/form.html">
+      <file leaf-file-name="Tree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/huang/frame/utils/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="42" selection-start="371" selection-end="371" vertical-scroll-proportion="-7.6153846">
+            <state line="7" column="29" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html4.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch01/01/html4.html">
+      <file leaf-file-name="TreeNode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/huang/frame/utils/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="40" selection-start="409" selection-end="409" vertical-scroll-proportion="0.8327402">
+            <state line="92" column="48" selection-start="2064" selection-end="2064" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch03/02/article2.html">
+      <file leaf-file-name="html4.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk02/ch01/html4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="47" selection-start="245" selection-end="245" vertical-scroll-proportion="-2.6923077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="first.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/web/html/BK01/CH08/02/first.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="5" selection-start="302" selection-end="302" vertical-scroll-proportion="-2.6923077">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch01/01/html5.html">
+        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk02/ch01/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="5" selection-start="598" selection-end="598" vertical-scroll-proportion="-2.6923077">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/web/index.jsp">
+      <file leaf-file-name="xhtml.xhtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk02/ch01/xhtml.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="41" selection-start="627" selection-end="627" vertical-scroll-proportion="-2.6923077">
+            <state line="9" column="44" selection-start="368" selection-end="368" vertical-scroll-proportion="0.28672567">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/jsp/all.jsp">
+      <file leaf-file-name="iefix.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/web/css/iefix.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="18" selection-start="1904" selection-end="1904" vertical-scroll-proportion="-2.6923077">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -301,22 +706,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/html5/web/html/bk01/ch01/01/html5.html" />
-        <option value="$PROJECT_DIR$/html5/web/html/bk01/ch03/02/article.html" />
-        <option value="$PROJECT_DIR$/html5/web/html/bk01/ch03/time.html" />
-        <option value="$PROJECT_DIR$/html5/web/html/bk01/ch04/list.html" />
-        <option value="$PROJECT_DIR$/html5/web/html/bk01/ch04/form.html" />
-        <option value="$PROJECT_DIR$/html5/web/html/bk01/ch04/input.html" />
-        <option value="$PROJECT_DIR$/html5/web/html/bk01/ch04/checkvalidate.html" />
-        <option value="$PROJECT_DIR$/ssh/src/main/resources/struts.xml" />
-        <option value="$PROJECT_DIR$/ssh/src/main/java/com/huang/j2ee/ssh/action/Login2Action.java" />
-        <option value="$PROJECT_DIR$/html5/web/html/bk01/ch04/setcustomvalidity.html" />
-        <option value="$PROJECT_DIR$/html5/web/html/bk01/ch04/progress.html" />
-        <option value="$PROJECT_DIR$/html5/web/html/bk01/ch03/02/article2.html" />
-        <option value="$PROJECT_DIR$/ajax/web/html/BK01/CH08/02/first.xhtml" />
-        <option value="$PROJECT_DIR$/ssh/src/main/webapp/jsp/all.jsp" />
-        <option value="$PROJECT_DIR$/html5/web/html/bk01/ch04/output.html" />
-        <option value="$PROJECT_DIR$/html5/web/html/bk01/ch01/01/html4.html" />
+        <option value="$PROJECT_DIR$/ajax/web/iefix.css" />
+        <option value="$PROJECT_DIR$/html5/web/html/bk01/ch01/01/xhtml.xhtml" />
+        <option value="$PROJECT_DIR$/ajax/web/bk01/ch08/04/first.xhtml" />
+        <option value="$PROJECT_DIR$/ajax/web/bk01/ch08/02/first.xhtml" />
+        <option value="$PROJECT_DIR$/ajax/web/img.jsp" />
+        <option value="$PROJECT_DIR$/ajax/web/bk01/ch08/02/second.jsp" />
+        <option value="$PROJECT_DIR$/ajax/web/index.jsp" />
+        <option value="$PROJECT_DIR$/ajax/web/index.css" />
+        <option value="$PROJECT_DIR$/ajax/src/main/java/com/huang/j2ee/Tree.java" />
+        <option value="$PROJECT_DIR$/ajax/src/main/java/com/huang/j2ee/TreeNode.java" />
+        <option value="$PROJECT_DIR$/ajax/web/bk01/ch08/04/first.html" />
+        <option value="$PROJECT_DIR$/ajax/web/WEB-INF/js/xmlrequestPool.js" />
+        <option value="$PROJECT_DIR$/ajax/src/main/resources/bookname.properties" />
+        <option value="$PROJECT_DIR$/ajax/web/bk01/ch09/01/prototypetest.html" />
+        <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/prototypetest.html" />
+        <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/test.html" />
       </list>
     </option>
   </component>
@@ -328,6 +733,11 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
     <option name="enabledProfiles">
       <list>
         <option value="fileEncoding" />
@@ -342,9 +752,19 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
+      </PATH>
+      <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="ssh" />
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ajax" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -353,7 +773,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="classic" />
+          <option name="myItemId" value="ajax" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -370,7 +790,7 @@
     </treeState>
   </component>
   <component name="NamedScopeManager">
-    <scope name="Study" pattern="" />
+    <scope name="Favorite" pattern="!file:*.ipr&amp;&amp;!file:*.iws&amp;&amp;!file:*.iml" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -473,10 +893,10 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages ProjectPane="false" />
-      <showMembers />
-      <showModules />
+      <showMembers Scope="false" />
+      <showModules Scope="false" />
       <showLibraryContents />
-      <hideEmptyPackages ProjectPane="true" />
+      <hideEmptyPackages Scope="true" ProjectPane="true" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -490,8 +910,14 @@
               <option name="myItemId" value="j2ee" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -504,241 +930,265 @@
               <option name="myItemId" value="classic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemId" value="com.huang.j2ee.classic.action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch04" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="com.huang.j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html5">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html5">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web/html/bk01">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="classic">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/huang/j2ee">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
         <subPane subId="Study" />
-        <subPane subId="Default" />
+        <subPane subId="Favorite">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="classic">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="classic">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="resources">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/huang/frame/utils">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Problems" />
         <subPane subId="Production">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ssh">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="classic">
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="classic">
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ssh">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="resources">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ssh">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/huang/j2ee/ssh">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -754,17 +1204,9 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ssh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ssh">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -776,17 +1218,9 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="test">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ssh">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -808,11 +1242,77 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="classic">
+            <PATH_ELEMENT USER_OBJECT="ssh">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="classic">
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ssh">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="huang/j2ee/ssh">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html5">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html5">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -826,13 +1326,569 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html5">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html5">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web/html/bk01">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ch04">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html5">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web/html/bk01">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ch01/01">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="classic">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/main">
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WEB-INF">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="bk01/ch08">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="04">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="bk01/ch08">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="02">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WEB-INF">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="bk01/ch08">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="04">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="bk01/ch08">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="02">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bk02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bk02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bk01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch09" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bk01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="huang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="huang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -840,44 +1896,49 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.main.proportions" value="0.1925859" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.idesettings.emmet" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="F:/DOWN/1.html" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="project.structure.side.proportion" value="0.26902464" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html5/web" />
     <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.30378097" />
+    <property name="Downloaded.Files.Path" value="E:\person\coding\studies\java\j2ee\lib" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="appearance" />
+    <property name="project.structure.side.proportion" value="0.26902464" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\person\coding\studies\java\j2ee\ajax\web\bk02" />
+      <recent name="E:\person\coding\studies\java\j2ee\ajax\web" />
+      <recent name="E:\person\coding\studies\java\j2ee\ajax\web\html\bk01\ch08\04" />
+      <recent name="E:\person\coding\studies\java\j2ee\ajax\web\jsp\bk01\ch08\ch04" />
       <recent name="E:\person\coding\studies\java\j2ee\ajax\web\jsp\BK01\CH08" />
-      <recent name="E:\person\coding\studies\java\j2ee\classic\src\main\resources" />
-      <recent name="E:\person\coding\studies\java\j2ee\classic\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\person\coding\studies\java\j2ee\html5\web\html\bk01\ch01" />
-      <recent name="E:\person\coding\studies\java\j2ee\classic\src\main\webapp\jsp" />
-      <recent name="E:\person\coding\studies\java\j2ee\classic\src\main\webapp" />
-      <recent name="E:\person\coding\studies\java\j2ee\classic\src\main\webapp\WEB-INF" />
-      <recent name="E:\person\coding\studies\java\j2ee\classic\src\main\resources" />
+      <recent name="E:\person\coding\studies\java\j2ee\ajax\web" />
+      <recent name="E:\person\coding\studies\java\j2ee\ajax\web\page" />
+      <recent name="E:\person\coding\studies\java\j2ee\ajax\web\WEB-INF\css" />
+      <recent name="E:\person\coding\studies\java\j2ee\ajax\web\bk01\ch08\02" />
+      <recent name="E:\person\coding\studies\java\j2ee\ajax\web\WEB-INF\js" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.SSH">
+  <component name="RunManager" selected="Tomcat Server.Ajax">
     <configuration default="false" name="NewsTest.testNewsGetAll" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -968,35 +2029,6 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1025,6 +2057,35 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1047,13 +2108,6 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="firefox" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1073,6 +2127,19 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="firefox" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
@@ -1139,12 +2206,6 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Classic" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.2">
@@ -1513,7 +2574,11 @@
       <created>1381233238878</created>
       <updated>1381233238878</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modify">
+      <created>1381638745283</created>
+      <updated>1381638745283</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1538,35 +2603,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41935483" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4184168" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4765751" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36774194" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47419354" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43225807" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41451612" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.47819063" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53064513" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.47819063" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39579967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3951613" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.57027465" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.46849757" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.58064514" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5032258" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38933763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41774192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.58225805" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38933763" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="82" y="106" width="1096" height="576" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52903223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5032258" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1629,18 +2695,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/ssh/src/main/webapp/html/chat.html</url>
-          <line>27</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>http://localhost:8080/html/chat.html</url>
-          <line>123</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -1656,113 +2710,100 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssh/src/main/resources/struts.xml">
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch08/02/img.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="38" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/script/musical.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/script/basic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch04/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="78" selection-end="78" vertical-scroll-proportion="-3.3461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch04/input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="96" selection-end="96" vertical-scroll-proportion="-3.3461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/embed.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="23" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch03/02/article2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="245" selection-end="245" vertical-scroll-proportion="-2.6923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/html/BK01/CH08/02/first.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="302" selection-end="302" vertical-scroll-proportion="-2.6923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch01/01/html5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="598" selection-end="598" vertical-scroll-proportion="-2.6923077">
-          <folding />
-        </state>
+        <state line="18" column="18" selection-start="550" selection-end="557" vertical-scroll-proportion="0.57345134" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="41" selection-start="627" selection-end="627" vertical-scroll-proportion="-2.6923077">
+        <state line="58" column="17" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.33097345">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssh/src/main/webapp/jsp/all.jsp">
+    <entry file="file://$PROJECT_DIR$/ajax/web/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="18" selection-start="1904" selection-end="1904" vertical-scroll-proportion="-2.6923077">
+        <state line="30" column="26" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch08/04/first.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="28" selection-start="2272" selection-end="2272" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/js/xmlrequestPool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="0" selection-start="3451" selection-end="3451" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk02/ch04/file.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/bookname.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="63" selection-start="38" selection-end="38" vertical-scroll-proportion="0.060913704" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/css/PIE.htc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/css/iefix.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch04/progress.html">
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/prototypetest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="5" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-13.192307">
+        <state line="23" column="25" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch04/output.html">
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="187" selection-end="187" vertical-scroll-proportion="-2.9230769">
+        <state line="21" column="32" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.dtd">
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/huang/frame/utils/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="898" column="0" selection-start="24211" selection-end="24249" vertical-scroll-proportion="0.9213974">
+        <state line="7" column="29" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch04/form.html">
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/huang/frame/utils/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="42" selection-start="371" selection-end="371" vertical-scroll-proportion="-7.6153846">
+        <state line="92" column="48" selection-start="2064" selection-end="2064" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/web/html/bk01/ch01/01/html4.html">
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk02/ch01/html4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="40" selection-start="409" selection-end="409" vertical-scroll-proportion="0.8327402">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk02/ch01/html5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk02/ch01/xhtml.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="44" selection-start="368" selection-end="368" vertical-scroll-proportion="0.28672567">
           <folding />
         </state>
       </provider>
@@ -1797,7 +2838,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (ssh)|Web</last-edited>
+          <last-edited>AspectJ</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1837,7 +2878,6 @@
             <option name="proportions">
               <list>
                 <option value="0.26902464" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1869,7 +2909,7 @@
       </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
-          <last-edited>Study</last-edited>
+          <last-edited>Favorite</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1878,7 +2918,7 @@
             </option>
           </splitter-proportions>
           <order>
-            <scope name="Study" />
+            <scope name="Favorite" />
           </order>
         </settings>
       </state>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test$()</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/js/prototype.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        function clickHandler() {
+            $("out1").innerHTML = $("name1").value;
+            $("out2").innerHTML = $("name1", "name2");
+        }
+    </script>
+    <input type="input" id="name1" name="name1" value="First" /><br />
+    <input type="input" id="name2" name="name2" value="Second" /><br />
+    <input type="button" value="Test" onclick="clickHandler()">
+    <div id="out1"></div>
+    <div id="out2"></div>
+
+</body>
+</html>

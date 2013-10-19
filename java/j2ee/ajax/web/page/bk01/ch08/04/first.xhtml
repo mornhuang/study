@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>First Page</title>
+</head>
+<body>
+    <select id="first" name="first" onchange="change(this.value);">
+        <option value="1" selected="selected">Chinese</option>
+        <option value="2">American</option>
+        <option value="3">Japaneses</option>
+    </select>
+    <select id="second" size="3"></select>
+
+    <script type="text/javascript">
+        var xmlrequest;
+
+        function createXMLRequest() {
+            if (window.XMLHttpRequest) {
+                // DOM2
+                xmlrequest = new XMLHttpRequest();
+            } else {
+                // IE
+                try {
+                    xmlrequest = new ActiveXObject("Msxml12.XMLHTTP");
+                } catch (e) {
+                    try {
+                        xmlrequest = new ActiveXObject("Microsoft.XMLHTTP");
+                    } catch (e) {
+
+                    }
+                }
+            }
+        }
+
+        function change(id) {
+            var uri = "second.jsp";
+
+            // initialize XMLHttpRequest Object
+            createXMLRequest();
+
+            // open Xml request
+            xmlrequest.open("POST", uri, true);
+
+            // set request header
+            xmlrequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+            // set corresponding callback function for response
+            xmlrequest.onreadystatechange = processResponse;
+
+            // send request
+            xmlrequest.send("id=" + id);
+        }
+
+        function processResponse() {
+            if (xmlrequest.readyState == 4) {
+                if (xmlrequest.status == 200) {
+                    var xmldoc = xmlrequest.responseXML;
+                    var citylist = xmldoc.getElementsByTagName("city");
+                    var display = document.getElementById("second");
+                    display.innerHTML = null;
+
+                    /*
+                    for (var i  = 0; i &lt; citylist.length; i++) {
+                    */
+                    /* 或者 */
+                    // <![CDATA[
+                    for (var i  = 0; i < citylist.length; i++) {
+                    //]]>
+
+                        var option = document.createElement("option");
+                        if (citylist[i].text) {
+                            option.innerHTML = citylist[i].text;
+                        } else {
+                            option.innerHTML = citylist[i].firstChild.data;
+                        }
+                        display.appendChild(option);
+                    }
+                } else {
+                    window.alert("The page that you requested occurs exception");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

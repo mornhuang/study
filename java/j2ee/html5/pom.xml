@@ -7,6 +7,7 @@
     <groupId>com.huang.j2ee.html5</groupId>
     <artifactId>html5</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <name>html5</name>
+    <packaging>war</packaging>
     
 </project>

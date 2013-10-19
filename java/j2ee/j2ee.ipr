@@ -183,18 +183,21 @@
       </root>
     </artifact>
     <artifact type="exploded-war" name="ajax:war exploded">
-      <output-path>$PROJECT_DIR$/ajax/target/ajax_war_exploded</output-path>
+      <output-path>$PROJECT_DIR$/ajax/target/ajax-1.0-SNAPSHOT</output-path>
       <root id="root">
         <element id="javaee-facet-resources" facet="ajax/web/Web" />
         <element id="directory" name="WEB-INF">
           <element id="directory" name="classes">
             <element id="module-output" name="ajax" />
           </element>
+          <element id="directory" name="lib">
+            <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          </element>
         </element>
       </root>
     </artifact>
     <artifact type="exploded-war" name="html5:war exploded">
-      <output-path>$PROJECT_DIR$/html/target/html5_war_exploded</output-path>
+      <output-path>$PROJECT_DIR$/html5/target/html5-1.0-SNAPSHOT</output-path>
       <root id="root">
         <element id="javaee-facet-resources" facet="html5/web/Web" />
         <element id="directory" name="WEB-INF">
@@ -202,6 +205,30 @@
             <element id="module-output" name="html5" />
           </element>
         </element>
+      </root>
+    </artifact>
+    <artifact type="war" name="ajax:war">
+      <output-path>$PROJECT_DIR$/ajax/target</output-path>
+      <root id="archive" name="ajax-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="ajax:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="war" name="classic:war">
+      <output-path>$PROJECT_DIR$/classic/target</output-path>
+      <root id="archive" name="classic-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="classic:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="war" name="ssh:war">
+      <output-path>$PROJECT_DIR$/ssh/target</output-path>
+      <root id="archive" name="ssh-0.0.1-SNAPSHOT.war">
+        <element id="artifact" artifact-name="ssh:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="war" name="html5:war">
+      <output-path>$PROJECT_DIR$/html5/target</output-path>
+      <root id="archive" name="html5-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="html5:war exploded" />
       </root>
     </artifact>
   </component>
@@ -274,7 +301,10 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/classic" />
+    <file type="web" url="file://$PROJECT_DIR$/ajax" />
     <file type="web" url="file://$PROJECT_DIR$/classic" />
+    <file type="web" url="file://$PROJECT_DIR$/html5" />
     <file type="web" url="file://$PROJECT_DIR$/ssh" />
   </component>
   <component name="InspectionProjectProfileManager">
@@ -430,7 +460,14 @@
     </group>
   </component>
   <component name="ProjectDictionaryState">
-    <dictionary name="Morn" />
+    <dictionary name="Morn">
+      <words>
+        <w>doctype</w>
+        <w>endif</w>
+        <w>weblogic</w>
+        <w>xmlns</w>
+      </words>
+    </dictionary>
   </component>
   <component name="ProjectModuleManager">
     <modules>

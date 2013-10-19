@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProtoType</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/js/prototype.js">
+
+    </script>
+</head>
+<body>
+    <script type="text/javascript">
+        document.writeln("ProtoType version: " + Prototype.Version + "<br />");
+        if (Prototype.Browser.Gecko)
+            document.writeln("Browser is: Gecko <br />");
+        else if (Prototype.Browser.IE)
+            document.writeln("Browser is: IE <br />");
+        else if (Prototype.Browser.MobileSafari)
+            document.writeln("Browser is: MobileSafari <br />");
+        else if (Prototype.Browser.Opera)
+            document.writeln("Browser is: Opera <br />");
+        else if (Prototype.Browser.WebKit)
+            document.writeln("Browser is: WebKit <br />");
+
+        document.writeln(Prototype.K("Hello ProtoType"));
+    </script>
+</body>
+</html>
