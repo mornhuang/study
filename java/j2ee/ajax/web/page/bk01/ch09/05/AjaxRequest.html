@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/js/prototype.js"></script>
+</head>
+<body>
+    <input type="text" id="favorite" name="favorite" onblur="$('tips').hide()" /><br/>
+    <div id="tips"></div>
+    <script type="text/javascript">
+        function searchFruit() {
+            new Ajax.Request(
+                "second.jsp",
+                {
+                    method: 'post',
+                    parameters: $('favorite').serialize(),
+                    onComplete: showResponse,
+                    asynchronous: true
+                }
+            );
+        }
+
+        function showResponse(request) {
+            $('tips').innerHTML = request.responseText;
+            $('tips').show();
+        }
+
+        new Form.Element.Observer("favorite", 1, searchFruit);
+//        Event.observe("favorite", "change", searchFruit);
+    </script>
+</body>
+</html>

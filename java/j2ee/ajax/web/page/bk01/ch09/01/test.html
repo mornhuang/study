@@ -11,6 +11,17 @@
             $("out1").innerHTML = $("name1").value;
             $("out2").innerHTML = $("name1", "name2");
         }
+
+        function add(a, b) {
+            alert(a + b);
+        }
+
+        function sub(a, b) {
+            alert(a - b);
+        }
+
+        add.call(sub, 3, 1);
+
     </script>
     <input type="input" id="name1" name="name1" value="First" /><br />
     <input type="input" id="name2" name="name2" value="Second" /><br />

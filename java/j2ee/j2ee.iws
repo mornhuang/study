@@ -10,36 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa8a8a0-febf-44e5-90cf-3096d49288c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Class.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk01/ch12/Console.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/ElementToggle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Event.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Form.Element.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Hash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/MakePosition.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/String.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk01/ch02/StringOrder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/02/TestR.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk01/ch12/Util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk01/ch03/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk01/ch04/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk01/ch12/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk01/ch12/dvds_sql.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/02/testA.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/02/testF.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk01/ch12/Abstract.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/AjaxRequest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk03/ch01/GoodTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk03/ch01/HelloWorld.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk03/ch01/JythonHello.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk02/ch02/MyClass.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/src/main/java/com/huang/j2ee/bk03/SimpleJython.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk02/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk02/ch02/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk03/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk03/ch01/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/second.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/ajax.iml" afterPath="$PROJECT_DIR$/ajax/ajax.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j2ee.ipr" afterPath="$PROJECT_DIR$/j2ee.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j2ee.iws" afterPath="$PROJECT_DIR$/j2ee.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssh/ssh.iml" afterPath="$PROJECT_DIR$/ssh/ssh.iml" />
-      <change type="MOVED" beforePath="E:\person\coding\studies\java\j2ee\ajax\web\page\bk02\ch04\list.html" afterPath="$PROJECT_DIR$/ajax/web/page/bk02/ch04/datalist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/pom.xml" afterPath="$PROJECT_DIR$/ajax/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/test.html" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/test.html" />
     </list>
     <ignored path="j2ee.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="../../python/normal/basic/bk01/ch12/dvds.sdb" />
     <file path="/DummyFile.xpath" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381941827261" ignored="false" />
-    <file path="/pom.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382262162544" ignored="false" />
-    <file path="/Dummy.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382238744902" ignored="false" />
+    <file path="/pom.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382294507413" ignored="false" />
+    <file path="/Dummy.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382290317802" ignored="false" />
     <file path="/applicationContext.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073577476" ignored="false" />
     <file path="$PROJECT_DIR$/ssh/src/test/java/com/huang/j2ee/web/base/BaseVOTest.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381068591179" ignored="false" />
     <file path="$PROJECT_DIR$/ssh/src/test/java/com/huang/j2ee/web/base/Hello.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381068591179" ignored="false" />
@@ -60,7 +54,7 @@
     <file path="$PROJECT_DIR$/ssh/src/test/java/com/huang/j2ee/web/service/LogAopTest.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381068591180" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381069737428" ignored="false" />
     <file path="/persistence.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073444753" ignored="false" />
-    <file path="/fragment.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381236458542" ignored="false" />
+    <file path="/fragment.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382295099018" ignored="false" />
     <file path="/NewsTest.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073012466" ignored="false" />
     <file path="/NewsService.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073645616" ignored="false" />
     <file path="/News.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381073142840" ignored="false" />
@@ -75,7 +69,7 @@
     <file path="/jboss-web.xml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381223603614" ignored="false" />
     <file path="/a.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381236458542" ignored="false" />
     <file path="/index.xhtml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381224686457" ignored="false" />
-    <file path="/a.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381590002086" ignored="false" />
+    <file path="/a.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382291825015" ignored="false" />
     <file path="/JavaScript File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086653828" ignored="false" />
     <file path="/AMD JavaScript File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086438056" ignored="false" />
     <file path="/TypeScript File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086442196" ignored="false" />
@@ -86,7 +80,7 @@
     <file path="/ColdFusion Script Interface.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086464985" ignored="false" />
     <file path="/ActionScript File Header.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086570557" ignored="false" />
     <file path="/File Header.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086574036" ignored="false" />
-    <file path="/Jsp File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086356449" ignored="false" />
+    <file path="/Jsp File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382272016435" ignored="false" />
     <file path="/Jspx File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382087015108" ignored="false" />
     <file path="/welcome.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381374879332" ignored="false" />
     <file path="/web_path.txt" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381236478660" ignored="false" />
@@ -105,7 +99,7 @@
     <file path="/chat.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381413353642" ignored="false" />
     <file path="/first.xhtml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381933114364" ignored="false" />
     <file path="/index.css" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381994676164" ignored="false" />
-    <file path="/second.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381907719691" ignored="false" />
+    <file path="/second.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382272278129" ignored="false" />
     <file path="/first.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382078046137" ignored="false" />
     <file path="/html.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381557589143" ignored="false" />
     <file path="/html5.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381561378449" ignored="false" />
@@ -131,7 +125,7 @@
     <file path="/bookname.properties" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382079730039" ignored="false" />
     <file path="/xhtml.xhtml" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381932052442" ignored="false" />
     <file path="/img.jsp" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381938086835" ignored="false" />
-    <file path="/a.dummy" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1381941849905" ignored="false" />
+    <file path="/a.dummy" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382272287684" ignored="false" />
     <file path="/TreeNode.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382017152387" ignored="false" />
     <file path="/Tree.java" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382001611585" ignored="false" />
     <file path="/XML File.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086512005" ignored="false" />
@@ -153,7 +147,7 @@
     <file path="/facelets.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086929766" ignored="false" />
     <file path="/faces.txt.ft" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382086939974" ignored="false" />
     <file path="/prototypetest.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382090779489" ignored="false" />
-    <file path="/test.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382096112109" ignored="false" />
+    <file path="/test.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382276304177" ignored="false" />
     <file path="/testA.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382175548674" ignored="false" />
     <file path="/testF.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382176880393" ignored="false" />
     <file path="/TestR.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382241527191" ignored="false" />
@@ -166,6 +160,7 @@
     <file path="/Template.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382247338228" ignored="false" />
     <file path="/Class.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382250455662" ignored="false" />
     <file path="/String.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382251442509" ignored="false" />
+    <file path="/AjaxRequest.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382277445575" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,92 +233,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Form.Element.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Form.Element.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="4" selection-start="1594" selection-end="1594" vertical-scroll-proportion="-14.115385">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Form.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="73" selection-start="831" selection-end="831" vertical-scroll-proportion="5.9615383">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hash.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Hash.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="55" selection-start="661" selection-end="661" vertical-scroll-proportion="-12.038462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Event.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Event.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="356" selection-end="364" vertical-scroll-proportion="-11.076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/String.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="28" selection-start="1933" selection-end="1933" vertical-scroll-proportion="-9.692307">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="first.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch08/04/first.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="37" selection-start="1558" selection-end="1576" vertical-scroll-proportion="-6.923077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssh/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="182" column="65" selection-start="6344" selection-end="6344" vertical-scroll-proportion="5.366771">
+            <state line="20" column="8" selection-start="666" selection-end="686" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Template.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Template.html">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="28" selection-start="560" selection-end="560" vertical-scroll-proportion="-11.769231">
+            <state line="88" column="33" selection-start="3122" selection-end="3122" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Class.html">
+      <file leaf-file-name="SimpleJython.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/huang/j2ee/bk03/SimpleJython.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="36" selection-start="970" selection-end="970" vertical-scroll-proportion="-0.26923078">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ElementToggle.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/ElementToggle.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="47" selection-start="451" selection-end="451" vertical-scroll-proportion="-11.076923">
-              <folding />
+            <state line="20" column="12" selection-start="624" selection-end="624" vertical-scroll-proportion="0.60913706">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -349,12 +283,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/prototypetest.html" />
-        <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/test.html" />
-        <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/testA.html" />
-        <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/ch02/testF.html" />
-        <option value="$PROJECT_DIR$/ajax/web/page/bk02/ch04/setcustomvalidity.html" />
-        <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/ElementToggle.html" />
         <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/02/TestR.html" />
         <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/MakePosition.html" />
         <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Form.Element.html" />
@@ -365,6 +293,12 @@
         <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Class.html" />
         <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/String.html" />
         <option value="$PROJECT_DIR$/ssh/pom.xml" />
+        <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/three.jsp" />
+        <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/second.jsp" />
+        <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/test.html" />
+        <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/AjaxRequest.html" />
+        <option value="$PROJECT_DIR$/ajax/src/main/java/com/huang/j2ee/bk03/SimpleJython.java" />
+        <option value="$PROJECT_DIR$/ajax/pom.xml" />
       </list>
     </option>
   </component>
@@ -546,7 +480,120 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html5">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html5">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web/html/bk01">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="classic">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/huang/j2ee">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Study" />
         <subPane subId="Favorite">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -687,114 +734,7 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-        <subPane subId="Study" />
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="html5">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="html5">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="web/html/bk01">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="classic">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ajax">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ajax">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/main/java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com/huang/j2ee">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
         <subPane subId="Problems" />
-        <subPane subId="Tests">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ssh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/test">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="resources">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ssh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/test">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com/huang/j2ee/ssh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
         <subPane subId="Production">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -832,6 +772,48 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ssh">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="resources">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ssh">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/huang/j2ee/ssh">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -1248,474 +1230,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch04" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch09" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="05" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch09" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch09" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch09" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch08" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch08" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j2ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -1777,13 +1291,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="options.splitter.main.proportions" value="0.1925859" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.23797251" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/html5/web" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -1795,13 +1309,13 @@
     <property name="options.splitter.details.proportions" value="0.30378097" />
     <property name="Downloaded.Files.Path" value="E:\person\coding\studies\java\j2ee\lib" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.lastSelected" value="preferences.externalTools" />
     <property name="project.structure.side.proportion" value="0.26902464" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1819,7 +1333,7 @@
       <recent name="E:\person\coding\studies\java\j2ee\ajax\web\WEB-INF\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Ajax">
+  <component name="RunManager" selected="Application.SimpleJython">
     <configuration default="false" name="NewsTest.testNewsGetAll" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1884,6 +1398,32 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
+    <configuration default="false" name="SimpleJython" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.huang.j2ee.bk03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.huang.j2ee.bk03.SimpleJython" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ajax" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -1908,35 +1448,6 @@
       </server-settings>
       <predefined_log_file id="JBoss" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -1967,6 +1478,35 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1989,13 +1529,6 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="firefox" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -2015,6 +1548,19 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="firefox" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
@@ -2081,12 +1627,6 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Classic" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.2">
@@ -2395,18 +1935,20 @@
         </option>
       </method>
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JBoss Server.Classic" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.SSH" />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Ajax" />
       <item index="3" class="java.lang.String" itemvalue="Tomcat Server.Html5" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.NewsTest.testNewsGetAll" />
       <item index="5" class="java.lang.String" itemvalue="JUnit.TestPath.testGetPath" />
+      <item index="6" class="java.lang.String" itemvalue="Application.SimpleJython" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestPath.testGetPath" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NewsTest.testNewsGetAll" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.SimpleJython" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestPath.testGetPath" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NewsTest.testNewsGetAll" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -2415,6 +1957,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -2459,7 +2004,11 @@
       <created>1381638745283</created>
       <updated>1381638745283</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modify">
+      <created>1382265453585</created>
+      <updated>1382265453585</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -2486,7 +2035,7 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41774192" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41774192" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2505,9 +2054,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.46849757" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41774192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.58225805" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5274193" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38933763" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="82" y="106" width="1096" height="576" />
+      <window_info id="Documentation" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="82" y="106" width="1096" height="576" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2591,117 +2140,143 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk02/ch04/meter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk02/ch04/output.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk02/ch04/progress.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk02/ch04/setcustomvalidity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="44" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/02/TestR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="42" selection-start="320" selection-end="320" vertical-scroll-proportion="-7.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/MakePosition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="568" selection-end="568" vertical-scroll-proportion="-10.384615">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/ElementToggle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="451" selection-end="451" vertical-scroll-proportion="-11.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Form.Element.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="4" selection-start="1594" selection-end="1594" vertical-scroll-proportion="-14.115385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Hash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="55" selection-start="661" selection-end="661" vertical-scroll-proportion="-12.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="560" selection-end="560" vertical-scroll-proportion="-11.769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Class.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="36" selection-start="970" selection-end="970" vertical-scroll-proportion="-0.26923078">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="73" selection-start="831" selection-end="831" vertical-scroll-proportion="5.9615383">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Event.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="356" selection-end="364" vertical-scroll-proportion="-11.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/String.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="28" selection-start="1933" selection-end="1933" vertical-scroll-proportion="-9.692307">
+        <state line="59" column="28" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/second.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="18" selection-start="505" selection-end="505" vertical-scroll-proportion="0.4902655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/prototypetest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="35" selection-start="832" selection-end="832" vertical-scroll-proportion="0.71327436">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch08/02/first.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="26" selection-start="1779" selection-end="1789" vertical-scroll-proportion="0.33097345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="19" selection-start="4178" selection-end="4178" vertical-scroll-proportion="-14.742808" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/AJAX.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="9" selection-start="938" selection-end="938" vertical-scroll-proportion="2.0406091" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch08/04/first.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="37" selection-start="1558" selection-end="1576" vertical-scroll-proportion="-6.923077">
+        <state line="22" column="25" selection-start="649" selection-end="649" vertical-scroll-proportion="0.031858407">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/js/prototype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1689" column="0" selection-start="42304" selection-end="42304" vertical-scroll-proportion="0.8979239">
+          <folding>
+            <element signature="e#5017#5324#0" expanded="false" />
+            <element signature="e#5504#5765#0" expanded="false" />
+            <element signature="e#5873#7507#0" expanded="false" />
+            <element signature="e#7797#8218#0" expanded="false" />
+            <element signature="e#8246#8364#0" expanded="false" />
+            <element signature="e#13210#13281#0" expanded="false" />
+            <element signature="e#13321#14069#0" expanded="false" />
+            <element signature="e#14094#14303#0" expanded="false" />
+            <element signature="e#14351#21454#0" expanded="false" />
+            <element signature="e#22629#28436#0" expanded="false" />
+            <element signature="n#!!block;n#$A#0" expanded="false" />
+            <element signature="n#!!block;n#$w#0" expanded="false" />
+            <element signature="e#28871#35737#0" expanded="false" />
+            <element signature="e#35843#38740#0" expanded="false" />
+            <element signature="e#38807#39638#0" expanded="false" />
+            <element signature="n#!!block;n#$R#0" expanded="false" />
+            <element signature="e#39789#40353#0" expanded="false" />
+            <element signature="e#40394#40656#0" expanded="false" />
+            <element signature="e#40670#40946#0" expanded="false" />
+            <element signature="e#40967#41574#0" expanded="false" />
+            <element signature="e#41647#41761#0" expanded="false" />
+            <element signature="e#47676#49726#0" expanded="false" />
+            <element signature="e#49772#50871#0" expanded="false" />
+            <element signature="e#50924#51972#0" expanded="false" />
+            <element signature="e#90059#115630#0" expanded="false" />
+            <element signature="e#115648#116613#0" expanded="false" />
+            <element signature="e#116641#116747#0" expanded="false" />
+            <element signature="e#116783#117681#0" expanded="false" />
+            <element signature="e#117686#117857#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/AjaxRequest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="367" selection-end="367" vertical-scroll-proportion="0.2141593">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssh/ssh.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssh/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="65" selection-start="6344" selection-end="6344" vertical-scroll-proportion="5.366771">
+        <state line="20" column="8" selection-start="666" selection-end="686" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classic/src/main/java/com/huang/j2ee/classic/action/BookBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="153" selection-end="153" vertical-scroll-proportion="0.24365482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/huang/frame/utils/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.18274112">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="33" selection-start="3122" selection-end="3122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/huang/j2ee/bk03/SimpleJython.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="12" selection-start="624" selection-end="624" vertical-scroll-proportion="0.60913706">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2747,10 +2322,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>jQuery-2.0.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.26902464" />
               </list>
             </option>
           </splitter-proportions>
