@@ -210,17 +210,6 @@
         </element>
       </root>
     </artifact>
-    <artifact type="exploded-war" name="html5:war exploded">
-      <output-path>$PROJECT_DIR$/html5/target/html5-1.0-SNAPSHOT</output-path>
-      <root id="root">
-        <element id="javaee-facet-resources" facet="html5/web/Web" />
-        <element id="directory" name="WEB-INF">
-          <element id="directory" name="classes">
-            <element id="module-output" name="html5" />
-          </element>
-        </element>
-      </root>
-    </artifact>
     <artifact type="war" name="ajax:war">
       <output-path>$PROJECT_DIR$/ajax/target</output-path>
       <root id="archive" name="ajax-1.0-SNAPSHOT.war">
@@ -237,12 +226,6 @@
       <output-path>$PROJECT_DIR$/ssh/target</output-path>
       <root id="archive" name="ssh-0.0.1-SNAPSHOT.war">
         <element id="artifact" artifact-name="ssh:war exploded" />
-      </root>
-    </artifact>
-    <artifact type="war" name="html5:war">
-      <output-path>$PROJECT_DIR$/html5/target</output-path>
-      <root id="archive" name="html5-1.0-SNAPSHOT.war">
-        <element id="artifact" artifact-name="html5:war exploded" />
       </root>
     </artifact>
   </component>
@@ -341,7 +324,7 @@
     <version value="1.0" />
   </component>
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{jQuery-2.0.0}" />
+    <file url="PROJECT" libraries="{MooTools-1.4.5, Prototype-1.7.1, jQuery UI-1.10.2, jQuery-2.0.0}" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

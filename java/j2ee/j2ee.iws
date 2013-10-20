@@ -10,23 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa8a8a0-febf-44e5-90cf-3096d49288c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk01/ch12/Abstract.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/AjaxRequest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk03/ch01/GoodTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk03/ch01/HelloWorld.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk03/ch01/JythonHello.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk02/ch02/MyClass.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/src/main/java/com/huang/j2ee/bk03/SimpleJython.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk02/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk02/ch02/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk03/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../python/normal/basic/bk03/ch01/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/second.jsp" />
+      <change type="DELETED" beforePath="E:\person\coding\studies\java\j2ee\ajax\web\js\prototype.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/ajax.iml" afterPath="$PROJECT_DIR$/ajax/ajax.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j2ee.ipr" afterPath="$PROJECT_DIR$/j2ee.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j2ee.iws" afterPath="$PROJECT_DIR$/j2ee.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/pom.xml" afterPath="$PROJECT_DIR$/ajax/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/test.html" afterPath="$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/test.html" />
     </list>
     <ignored path="j2ee.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -158,7 +145,7 @@
     <file path="/Hash.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382245122573" ignored="false" />
     <file path="/Event.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382246498944" ignored="false" />
     <file path="/Template.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382247338228" ignored="false" />
-    <file path="/Class.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382250455662" ignored="false" />
+    <file path="/Class.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382297855569" ignored="false" />
     <file path="/String.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382251442509" ignored="false" />
     <file path="/AjaxRequest.html" changelist="dfa8a8a0-febf-44e5-90cf-3096d49288c2" time="1382277445575" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -233,31 +220,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssh/pom.xml">
+      <file leaf-file-name="Class.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Class.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="8" selection-start="666" selection-end="686" vertical-scroll-proportion="0.0">
+            <state line="9" column="22" selection-start="218" selection-end="218" vertical-scroll-proportion="0.28672567">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="33" selection-start="3122" selection-end="3122" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleJython.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/huang/j2ee/bk03/SimpleJython.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="12" selection-start="624" selection-end="624" vertical-scroll-proportion="0.60913706">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -290,7 +257,6 @@
         <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Hash.html" />
         <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Event.html" />
         <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Template.html" />
-        <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Class.html" />
         <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/String.html" />
         <option value="$PROJECT_DIR$/ssh/pom.xml" />
         <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/three.jsp" />
@@ -299,6 +265,7 @@
         <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/AjaxRequest.html" />
         <option value="$PROJECT_DIR$/ajax/src/main/java/com/huang/j2ee/bk03/SimpleJython.java" />
         <option value="$PROJECT_DIR$/ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Class.html" />
       </list>
     </option>
   </component>
@@ -522,7 +489,189 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bk01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch09" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bk01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch09" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bk01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="huang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="huang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1298,7 +1447,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/html5/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ajax/web/js" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -1309,7 +1458,7 @@
     <property name="options.splitter.details.proportions" value="0.30378097" />
     <property name="Downloaded.Files.Path" value="E:\person\coding\studies\java\j2ee\lib" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="options.lastSelected" value="preferences.externalTools" />
+    <property name="options.lastSelected" value="Settings.JavaScript" />
     <property name="project.structure.side.proportion" value="0.26902464" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -1333,7 +1482,7 @@
       <recent name="E:\person\coding\studies\java\j2ee\ajax\web\WEB-INF\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleJython">
+  <component name="RunManager" selected="Tomcat Server.Ajax">
     <configuration default="false" name="NewsTest.testNewsGetAll" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1930,9 +2079,7 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="html5:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <list size="7">
@@ -2039,6 +2186,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47258064" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -2054,14 +2202,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.46849757" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41774192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5274193" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5274193" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38933763" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="82" y="106" width="1096" height="576" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.42649436" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5032258" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2140,20 +2287,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/String.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="28" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/second.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="18" selection-start="505" selection-end="505" vertical-scroll-proportion="0.4902655">
@@ -2192,43 +2325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/web/js/prototype.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1689" column="0" selection-start="42304" selection-end="42304" vertical-scroll-proportion="0.8979239">
-          <folding>
-            <element signature="e#5017#5324#0" expanded="false" />
-            <element signature="e#5504#5765#0" expanded="false" />
-            <element signature="e#5873#7507#0" expanded="false" />
-            <element signature="e#7797#8218#0" expanded="false" />
-            <element signature="e#8246#8364#0" expanded="false" />
-            <element signature="e#13210#13281#0" expanded="false" />
-            <element signature="e#13321#14069#0" expanded="false" />
-            <element signature="e#14094#14303#0" expanded="false" />
-            <element signature="e#14351#21454#0" expanded="false" />
-            <element signature="e#22629#28436#0" expanded="false" />
-            <element signature="n#!!block;n#$A#0" expanded="false" />
-            <element signature="n#!!block;n#$w#0" expanded="false" />
-            <element signature="e#28871#35737#0" expanded="false" />
-            <element signature="e#35843#38740#0" expanded="false" />
-            <element signature="e#38807#39638#0" expanded="false" />
-            <element signature="n#!!block;n#$R#0" expanded="false" />
-            <element signature="e#39789#40353#0" expanded="false" />
-            <element signature="e#40394#40656#0" expanded="false" />
-            <element signature="e#40670#40946#0" expanded="false" />
-            <element signature="e#40967#41574#0" expanded="false" />
-            <element signature="e#41647#41761#0" expanded="false" />
-            <element signature="e#47676#49726#0" expanded="false" />
-            <element signature="e#49772#50871#0" expanded="false" />
-            <element signature="e#50924#51972#0" expanded="false" />
-            <element signature="e#90059#115630#0" expanded="false" />
-            <element signature="e#115648#116613#0" expanded="false" />
-            <element signature="e#116641#116747#0" expanded="false" />
-            <element signature="e#116783#117681#0" expanded="false" />
-            <element signature="e#117686#117857#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/05/AjaxRequest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="25" selection-start="367" selection-end="367" vertical-scroll-proportion="0.2141593">
@@ -2239,13 +2335,6 @@
     <entry file="file://$PROJECT_DIR$/ssh/ssh.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssh/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="666" selection-end="686" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -2264,19 +2353,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="33" selection-start="3122" selection-end="3122" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/src/main/java/com/huang/j2ee/bk03/SimpleJython.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="12" selection-start="624" selection-end="624" vertical-scroll-proportion="0.60913706">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="33" selection-start="3122" selection-end="3122" vertical-scroll-proportion="0.5916955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssh/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="8" selection-start="666" selection-end="686" vertical-scroll-proportion="0.34256056">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/src/main/resources/bookname.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="21" selection-start="37" selection-end="37" vertical-scroll-proportion="0.030456852">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea12/system/extLibs/http_ajax.googleapis.com_ajax_libs_prototype_1.7.1_prototype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="33" selection-start="1850" selection-end="1850" vertical-scroll-proportion="1.9619377">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/04/Class.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="218" selection-end="218" vertical-scroll-proportion="0.28672567">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2290,7 +2409,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.26902464" />
+                <option value="0.1904762" />
                 <option value="0.5" />
               </list>
             </option>
@@ -2322,7 +2441,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jQuery-2.0.0</last-edited>
+          <last-edited>Prototype-1.7.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2338,7 +2457,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.26902464" />
               </list>
             </option>
           </splitter-proportions>
@@ -2351,7 +2470,6 @@
             <option name="proportions">
               <list>
                 <option value="0.26902464" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
