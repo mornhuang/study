@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/js/prototype.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <input type="button" id="ok" value="Click Me">
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript">
+        Event.observe("ok", "click", function(event){
+            alert("is left key event: " + event.isLeftClick());
+            alert("event source: " + event.element().value);
+            alert("last td element: " + event.findElement("td").innerHTML);
+        })
+    </script>
+</body>
+</html>

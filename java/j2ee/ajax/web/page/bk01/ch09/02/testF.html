@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test $F()</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/js/prototype.js"></script>
+</head>
+<body>
+    <form id="form1" name="form1" action="#">
+        <input type="text" id="text1" name="text1" />
+    </form>
+    <form id="form2" name="form2" action="#">
+        <textarea id="text2" name="text2" cols="40" rows="2"></textarea><br/>
+        <select id="sel" name="sel" multiple>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five</option>
+        </select>
+    </form>
+    <input type="button" onclick="showValue()" value="Show" />
+    <div id="show"></div>
+    <script type="text/javascript">
+        function showValue() {
+            $("show").innerHTML = $F("text1") +
+                    "<br />" + $F("text2") +
+                    "<br />" + $F("sel");
+        }
+    </script>
+</body>
+</html>

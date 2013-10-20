@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test $A</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/js/prototype.js"></script>
+</head>
+<body>
+<div id="menuBar">
+    <div>File</div>
+    <div>Edit</div>
+    <div>View</div>
+</div>
+<input type="button" id="show" onclick="showValue()" value="show">
+
+<div id="out"></div>
+
+<script type="text/javascript">
+    function showValue() {
+        var fileList = $('menuBar').getElementsByTagName('div');
+        $("#out").innerHTML = fileList + '<br />';
+        var fileArray = $A(fileList);
+        for (var i = 0; i < fileArray.length; i++) {
+            $("out").innerHTML += fileArray[i].innerHTML + "<br />";
+        }
+    }
+</script>
+</body>
+</html>

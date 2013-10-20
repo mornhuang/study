@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/js/prototype.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        // Super Class
+        Person = Class.create({
+            // Construct
+            initialize: function(name, age){
+                this.name = name;
+                this.age = age;
+            },
+
+            // Common method
+            info: function() {
+                alert(this.name +"'s age is " + this.age);
+            }
+        });
+
+        // Sub Class
+        Student = Class.create(Person, {
+            // Construct
+            initialize: function($super, name, age, grade) {
+                $super(name, age);
+                this.grade = grade;
+            },
+
+            study: function() {
+                this.info();
+                alert(this.name + " study in " + this.grade);
+            }
+        });
+
+        var p = new Person("Person", 10);
+        p.info();
+
+        var s = new Student("Student", 20, 15);
+        s.study();
+        s.info();   // call super class's method
+
+        Person.addMethods({
+            add: function() {
+                alert(this.name + " access added function");
+            }
+        });
+
+        // After method added, all instance even created before can access.
+        p.add();
+        s.add();
+
+        // New instance can access also
+        var p2 = new Person("New Person", 10);
+        p2.add();
+
+        var s2 = new Student("NewStudent", 11, 15);
+        s2.add();
+    </script>
+</body>
+</html>

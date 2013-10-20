@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/js/prototype.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        var person = {
+            name : 'yeek',
+            age : 30
+        }
+        var h = $H(person);
+        document.writeln(h.toQueryString() + "<br/>");
+
+        var teacher = {
+            name: 'haha',
+            gender: 'male'
+        }
+        var h2 = $H(person).merge($H(teacher));
+        document.writeln(h2.toQueryString() + "<br/>");
+
+        h2.update({age: 50, subject: "Philosophy"});
+        document.writeln(h2.toQueryString() + "<br/>");
+
+        h.each(function(pair){
+           document.writeln(pair.key + "-->" + pair.value + "<br/>");
+        });
+
+    </script>
+</body>
+</html>

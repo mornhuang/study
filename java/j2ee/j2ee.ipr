@@ -256,7 +256,6 @@
         <processorPath useClasspath="true" />
         <module name="ajax" />
         <module name="classic" />
-        <module name="html5" />
         <module name="ssh" />
         <module name="web" />
       </profile>
@@ -336,6 +335,11 @@
         <option value="$PROJECT_DIR$/ajax/pom.xml" />
         <option value="$PROJECT_DIR$/html5/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/html5/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="Palette2">
@@ -473,7 +477,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ajax/ajax.iml" filepath="$PROJECT_DIR$/ajax/ajax.iml" />
       <module fileurl="file://$PROJECT_DIR$/classic/classic.iml" filepath="$PROJECT_DIR$/classic/classic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/html5/html5.iml" filepath="$PROJECT_DIR$/html5/html5.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssh/ssh.iml" filepath="$PROJECT_DIR$/ssh/ssh.iml" />
     </modules>
   </component>
@@ -484,6 +487,13 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+  </component>
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/01/testA.html" value="file://$PROJECT_DIR$/ajax/web/page/bk01/ch09/01" />
+      </map>
+    </option>
   </component>
   <component name="libraryTable">
     <library name="Maven: antlr:antlr:2.7.6">

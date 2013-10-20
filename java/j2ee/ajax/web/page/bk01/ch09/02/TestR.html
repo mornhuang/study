@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test $R()</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/js/prototype.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        var range1 = $R(10, 20, false);
+        var range2 = $R(10, 20, true);
+        var range3 = $R('ax', 'ba');
+        var func = function (value, index) {
+            document.writeln(value + "<br/>");
+        }
+        document.writeln("rang1==== <br/>");
+        range1.each(func);
+        document.writeln("rang2==== <br/>");
+        range2.each(func);
+        document.writeln("rang3==== <br/>");
+        range3.each(func);
+
+    </script>
+</body>
+</html>

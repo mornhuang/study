@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/js/prototype.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        var objAttr = [
+            {book: "aa", author: "Zhang"},
+            {book: "bb", author: "Li"},
+            {book: "cc", author: "Wang"}
+        ];
+        var tmpl = new Template("Book Name is #{book}, Author is #{author}");
+        for (var i = 0; i < objAttr.length; i++) {
+            document.writeln(tmpl.evaluate(objAttr[i]) + "<br/>");
+        }
+    </script>
+</body>
+</html>
