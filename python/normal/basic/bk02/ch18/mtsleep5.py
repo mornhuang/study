@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 #-*- coding:UTF-8 -*-
 
-#
-# Created on 2011-10-5
-# @author: IBM
-#
+"""
+Created on 2011-10-5
+threading example
+"""
 
 import threading
 from time import sleep, ctime

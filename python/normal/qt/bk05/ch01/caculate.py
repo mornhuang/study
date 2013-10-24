@@ -16,18 +16,18 @@ class Form(QDialog):
         super(Form, self).__init__(parent)
         self.browser = QTextBrowser()
         self.line_edit = QLineEdit("Type an express and press enter")
-        self.lineEdit.selectAll()
+        self.line_edit.selectAll()
         layout = QVBoxLayout()
         layout.addWidget(self.browser)
-        layout.addWidget(self.lineEdit)
+        layout.addWidget(self.line_edit)
         self.setLayout(layout)
-        self.lineEdit.setFocus()
-        self.connect(self.lineEdit, SIGNAL("returnPressed()"), self.updateUi)
+        self.line_edit.setFocus()
+        self.connect(self.line_edit, SIGNAL("returnPressed()"), self.update_ui)
         self.setWindowTitle("Calculate")
     
     def update_ui(self):
         try:
-            text = str(self.lineEdit.text())
+            text = str(self.line_edit.text())
             self.browser.append("%s = <b>%s</b>" % (text, eval(text)))
         except:
             self.browser.append("<font color=red>%s is invalid</font>" % text)

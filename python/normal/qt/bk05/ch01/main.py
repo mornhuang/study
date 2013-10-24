@@ -8,7 +8,7 @@
 
 import sys
 from PyQt4.QtGui import *
-from ui_hello import Ui_Form
+from qt.bk05.ch01.ui.hello import Ui_Form
 
 
 class MyForm(QMainWindow):
