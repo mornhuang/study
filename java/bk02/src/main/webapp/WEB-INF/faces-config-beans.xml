@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<faces-config xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd"
+              version="2.0">
+    <!-- 配置托管Bean -->
+    <managed-bean>
+        <!-- 设置托管Bean的名字 -->
+        <managed-bean-name>login</managed-bean-name>
+        <!-- 设置托管Bean的实现类 -->
+        <managed-bean-class>com.huang.j2ee.classic.action.com.huang.j2ee.ch02.LoginBean</managed-bean-class>
+        <!-- 设置托管Bean实例的有效范围 -->
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>bookBean</managed-bean-name>
+        <managed-bean-class>com.huang.j2ee.classic.action.com.huang.j2ee.ch02.BookBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+</faces-config>
