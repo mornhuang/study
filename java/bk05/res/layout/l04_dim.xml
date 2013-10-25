@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:id="@+id/l0400_textView"
+        android:text="@string/test_dim"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="@dimen/text_height"
+        android:background="@color/red_bg"
+        />
+
+    <Button
+        android:id="@+id/l0401_button"
+        android:text="@string/test_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

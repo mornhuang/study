@@ -3,5 +3,5 @@ bk01 = 轻量级Java EE企业应用实战_Struts 2_Spring3_Hibernate(第三版)
 bk02 = 经典JAVA EE企业应用实战  基于WEBLOGIC JBOSS的JSF+EJB 3+JPA整合开发
 bk03 = 疯狂Ajax讲义
 bk04 = HTML5与CSS3权威指南
-bk05 = 
+bk05 = Android开发权威指南
 bk06 = 
