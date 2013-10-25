@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 #-*- coding:UTF-8 -*-
 
-#
-# Date: 2013-10-18 23:00
-#
+"""
+Date: 2013-10-18 23:00
+exercise string's usage
+"""
 
 if __name__ == '__main__':
     str1 = 'abc中国人的在efg'

@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 #-*- coding:UTF-8 -*-
 
-#
-# Created on 2011-10-5
-# @author: IBM
-#
+"""
+Created on 2011-10-5
+@author: IBM
+"""
+
 import sys
 
 if __name__ == '__main__':

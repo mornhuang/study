@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 #-*- coding:UTF-8 -*-
 
+"""
+Test package, import, namespace and chinese input in py3
+"""
+
 import sys
-from basic.bk01.ch01 import mtloop
+from bk01.ch01 import mtloop
 
 
 def test(value):

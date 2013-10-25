@@ -6,9 +6,6 @@ Date: 2013-10-23 10:13
 Test With sentence
 """
 
-import contextlib
-
-
 if __name__ == '__main__':
     try:
         with open("test.text", "r") as f:

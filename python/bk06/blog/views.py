@@ -2,7 +2,7 @@
 
 from django.template import loader, Context
 from django.http import HttpResponse
-from djweb.bk04.models import BlogPost
+from bk06.blog.models import BlogPost
 
 
 def archive(request):

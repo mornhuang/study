@@ -2,5 +2,6 @@ bk00 = 其它练习
 bk01 = Python3程序开发指南
 bk02 = Python核心编程
 bk03 = Jython程序设计
-bk04 = Django Web开发指南
+
 bk05 = Rapid GUI Programming with Python and Qt
+bk06 = Django Web开发指南
