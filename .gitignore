@@ -24,6 +24,7 @@
 *.cd
 *.class
 *.pyc
+*.pyo
 *.opt
 *.plg
 *.positions
@@ -37,6 +38,6 @@ tags
 .springBeans
 .externalToolBuilders
 .idea
-
+__pycache__
 
 

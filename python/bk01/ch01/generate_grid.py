@@ -9,11 +9,12 @@ Created on 2011-10-5
 
 def get_int(msg, minimum, default):
     """
+    Get int value and change to int type
 
-    :param msg:
-    :param minimum:
-    :param default:
-    :return:
+    @param msg:
+    @param minimum:
+    @param default:
+    @return:
     """
     while True:
         try:
