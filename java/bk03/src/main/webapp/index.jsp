@@ -29,8 +29,8 @@
 
     <%-- html5 backfoward support in IE --%>
     <!--[if gte IE 7]>
-    <script type='text/javascript' src='excanvas.js'></script>
-    <link rel="stylesheet" href="iefix.css" type="text/css" media="screen"/>
+    <script type='text/javascript' src='js/excanvas.js'></script>
+    <link rel="stylesheet" href="css/iefix.css" type="text/css" media="screen"/>
     <![endif]-->
 </head>
 <body>
@@ -43,12 +43,12 @@
                     <td>
                         <dl>
                             <dt>Sub 02</dt>
-                            <dd><a href="bk01/ch08/02/first.xhtml">first.xhtml</a></dd>
+                            <dd><a href="page/ch08/02/first.xhtml">first.xhtml</a></dd>
                         </dl>
                         <dl>
                             <dt>Sub 04</dt>
-                            <dd><a href="bk01/ch08/04/first.html">first.html</a></dd>
-                            <dd><a href="bk01/ch08/04/first.xhtml">first.xhtml</a></dd>
+                            <dd><a href="page/ch08/04/first.html">first.html</a></dd>
+                            <dd><a href="page/ch08/04/first.xhtml">first.xhtml</a></dd>
                         </dl>
                     </td>
                 </tr>
@@ -67,7 +67,7 @@
 
     <div id="image">
         <p>图片展示</p>
-        <img src="page/bk01/ch08/02/img.jsp" alt="img"/>
+        <img src="page/ch08/02/img.jsp" alt="img"/>
     </div>
 </div>
 </body>

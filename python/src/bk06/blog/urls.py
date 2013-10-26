@@ -7,7 +7,7 @@ Date: 2013-10-22 22:57
 """
 
 from django.conf.urls import *
-from bk06.blog.views import archive
+from src.bk06.blog.views import archive
 
 urlpatterns = patterns('',
     url(r'^$', archive),

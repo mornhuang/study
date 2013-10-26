@@ -7,7 +7,6 @@ Test import sentence
 """
 
 import sys
-from bk01.ch01 import test as test1
 
 
 def test():

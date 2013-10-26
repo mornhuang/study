@@ -23,8 +23,7 @@ import xml.etree.ElementTree
 import xml.parsers.expat
 import xml.sax.saxutils
 
-from bk01.ch12 import Console
-from bk01.ch12 import Util
+from src.bk01.ch12 import Console, Util
 
 
 DISPLAY_LIMIT = 20

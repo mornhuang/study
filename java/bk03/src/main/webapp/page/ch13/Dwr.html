@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dwr Demo</title>
+    <meta charset="utf-8">
+    <script type='text/javascript' src='/dwr/interface/hello.js'></script>
+    <script type='text/javascript' src='/dwr/engine.js'></script>
+    <script type='text/javascript' src='hellodwr.js'></script>
+</head>
+<body>
+    <label for="name">Input your name: </label>
+    <input type="text" id="name" name="name" /><br/>
+    <input type="button" value="Send Message" onclick="sendMessage();">
+    <input type="button" value="Send Obj" onclick="sendObject();">
+    <input type="button" value="Get Bean" onclick="getBean();">
+    <input type="button" value="Get Obj" onclick="getObject();">
+    <input type="button" value="Get Bean List" onclick="getBeanList();">
+    <input type="button" value="Get Bean Array" onclick="getBeanArray();">
+    <input type="button" value="Get Bean Map" onclick="getBeanMap();">
+    <input type="button" value="Send List" onclick="sendBeanList();">
+    <input type="button" value="Send Generic" onclick="sendBeanListNoGeneric();">
+    <input type="button" value="Send Map" onclick="sendBeanMap();">
+    <hr/>
+    Below is Server's response<br/>
+    <div id="show"></div>
+    <script type="text/javascript">
+        function cbVal(data) {
+            alert(data)
+        }
+        hello.hello("test dwr", cbVal)
+    </script>
+</body>
+</html>

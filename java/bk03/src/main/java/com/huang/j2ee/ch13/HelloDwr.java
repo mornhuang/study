@@ -68,7 +68,7 @@ public class HelloDwr {
     public String sendMap(Map<String, Person> pl) {
         String result = "";
         for (String key: pl.keySet()) {
-            result += "Key: " + key + "Value: " + pl.get(key).getName();
+            result += "Key: " + key + ", Value: " + pl.get(key).getName() + "<br/>";
         }
         return result;
     }

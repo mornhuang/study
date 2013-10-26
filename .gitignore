@@ -7,6 +7,7 @@
 [Bb]in
 [Gg]en
 [Oo]ut
+[Dd]ist
 *.[Ll]og
 *.out
 *.ilk
@@ -28,6 +29,7 @@
 *.opt
 *.plg
 *.positions
+*.egg-info
 tags
 .settings
 .checkstyle
