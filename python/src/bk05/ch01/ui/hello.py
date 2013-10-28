@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'hello.ui'
 #
-# Created: Thu Oct 24 14:59:08 2013
+# Created: Mon Oct 28 21:11:43 2013
 #      by: PyQt4 UI code generator 4.10.3
 #
 # WARNING! All changes made in this file will be lost!

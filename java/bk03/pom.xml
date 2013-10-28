@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.huang.j2ee</groupId>
-    <artifactId>ajax</artifactId>
+    <artifactId>bk03</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>bk03</name>
+    <name>ajax</name>
     <packaging>war</packaging>
 
     <dependencies>

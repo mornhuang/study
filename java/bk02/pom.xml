@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.huang.j2ee</groupId>
-    <artifactId>classic</artifactId>
+    <artifactId>bk02</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>bk02</name>
+    <name>classic</name>
     <packaging>war</packaging>
 
     <dependencies>

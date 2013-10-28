@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.huang.j2ee</groupId>
-    <artifactId>ssh</artifactId>
+    <artifactId>bk01</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>bk01</name>
+    <name>ssh</name>
     <packaging>war</packaging>
 
     <dependencies>
