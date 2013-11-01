@@ -9,13 +9,15 @@ import java.util.Set;
  */
 public class FeatureJDK7 {
     public static void main(String args[]) {
-        List<String> list = ["items"];
+/*
+        final List<String> list = ["items"];
         String item = list[0];
 
         Set<String> set = {"item"};
 
-        Map<String, Integer> map = {"key", 1};
+        Map<String, Integer> map = {"key": 1};
         int value = map["key"];
+*/
 
         String str = "aa";
         switch (str) {
