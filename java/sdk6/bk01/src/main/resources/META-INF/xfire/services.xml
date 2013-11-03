@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <service>
+        <name>SayHiService</name>
+        <namespace>http://localhost:8080/services/HelloService</namespace>
+        <serviceClass>com.huang.j2ee.ch00.service.TestSayHiService.SayHiService</serviceClass>
+        <implementationClass>com.huang.j2ee.ch00.service.TestSayHiService.SayHiServiceImpl</implementationClass>
+    </service>
+</beans>
+-->
+
+<beans>
+    <service xmlns="http://xfire.codehaus.org/config/1.0">
+        <name>SayHiService</name>
+        <serviceClass>
+            com.huang.j2ee.ch00.service.SayHiService
+        </serviceClass>
+        <implementationClass>
+            com.huang.j2ee.ch00.service.SayHiServiceImpl
+        </implementationClass>
+        <style>wrapped</style>
+        <use>literal</use>
+        <scope>application</scope>
+    </service>
+</beans>
+

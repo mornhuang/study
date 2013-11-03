@@ -49,7 +49,7 @@
     <!--
         <bean id="logProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
             <property name="proxyInterfaces">
-                <value>com.huang.j2eeweb.service.TimeBook/value>
+                <value>com.huang.j2eeweb.TestSayHiService.TimeBook/value>
             </property>
             <property name="target">
                 <ref bean="timeBook"/>

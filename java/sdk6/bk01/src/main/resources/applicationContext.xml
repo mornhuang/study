@@ -85,6 +85,46 @@
             </bean>
         </property>
     </bean>
+
+    <!-- XFire webservice -->
+<!--
+
+    &lt;!&ndash; 使用XFire导出器&ndash;&gt;
+    <bean id="SayHiService" class="org.codehaus.xfire.spring.remoting.XFireExporter">
+        &lt;!&ndash; 引用xfire.xml中定义工厂 &ndash;&gt;
+        <property name="serviceFactory" ref="xfire.serviceFactory" />
+
+        &lt;!&ndash; 引用xfire.xml中定义的xfire实例 &ndash;&gt;
+        <property name="xfire" ref="xfire" />
+
+        &lt;!&ndash; 业务服务Bean &ndash;&gt;
+        <property name="serviceBean" ref="SayHiServiceImpl" />
+
+        &lt;!&ndash; 业务服务Bean的窄接口类 &ndash;&gt;
+        <property name="serviceClass" value="com.huang.j2ee.ch00.service.SayHiService" />
+
+        &lt;!&ndash; Web Service名称 &ndash;&gt;
+        <property name="name" value="SayHiService"/>
+    </bean>
+
+    <bean id="SayHiServiceImpl" class="com.huang.j2ee.ch00.service.SayHiServiceImpl" />
+-->
+
+<!--
+    <bean name="SayHiService" class="org.codehaus.xfire.spring.ServiceBean">
+        <property name="serviceClass" value="com.huang.j2ee.ch00.service.SayHiService"/>
+        <property name="serviceBean" value="com.huang.j2ee.ch00.service.SayHiServiceImpl"/>
+        <property name="inHandlers">
+            <list>
+                <ref bean="addressingHandler"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="addressingHandler" class="org.codehaus.xfire.addressing.AddressingInHandler"/>
+-->
+
 </beans>
+
+
 
 

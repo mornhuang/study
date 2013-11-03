@@ -22,7 +22,7 @@
             org.hibernate.dialect.MySQLDialect
         </property>
 
-        <mapping resource="com/huang/j2ee/ssh/model/Ireport.hbm.xml"/>
+        <mapping resource="com/huang/j2ee/ch01/model/Ireport.hbm.xml"/>
 
     </session-factory>
 

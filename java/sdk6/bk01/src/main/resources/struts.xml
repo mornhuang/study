@@ -6,9 +6,11 @@
     <!--<constant name="struts.custom.i18n.resources" value="MessageResource" />-->
 
     <package name="default" extends="struts-default">
+<!--
         <action name="*">
             <result>/jsp/{1}</result>
         </action>
+-->
 
         <action name="Upload" class="com.huang.j2ee.ch01.action.UploadAction">
             <interceptor-ref name="fileUpload">

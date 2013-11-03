@@ -53,7 +53,6 @@
     </style>
 </head>
 <body>
-
 <div id="container">
     <div id="left">
         <ol>
@@ -65,14 +64,14 @@
             <li><a href="/jsp/base.jsp">JSP基础</a></li>
             <li><a href="/jsp/forindicator.jsp">Forward指令</a></li>
             <li><a href="/jsp/strbase.jsp">Struts 学习</a></li>
-            <li><a href="<s:url action='Anno'/>">Struts Annotation Study</a></li>
+            <li><a href="<s:url action='Anno' namespace="/"/>">Struts Annotation Study</a></li>
             <li><a href="/jsp/upload.jsp">Upload.jsp</a></li>
             <li><a href="/jsp/chatlogin.jsp">ChatLogin.jsp</a></li>
         </ol>
     </div>
 
     <div id="right">
-        <a href="<s:url action='Login2'/>">login2.jsp</a>
+        <a href="<s:url action='Login2' namespace="/" />">login2.jsp</a>
     </div>
 
     <div id="footer">

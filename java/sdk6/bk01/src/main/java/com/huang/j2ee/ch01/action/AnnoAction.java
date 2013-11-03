@@ -45,10 +45,13 @@ public class AnnoAction {
         this.username = username;
     }
 
+/*
     @Actions({
         @Action(value = "Anno", params = {"username", "huang", "password", "abc"}),
         @Action(value = "Anno2")
     })
+*/
+    @Action(value = "Anno", params = {"username", "huang", "password", "abc"})
     public String doAcTest() throws Exception {
         ActionContext.getContext().put("password", password);
         return "success";

@@ -21,46 +21,46 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".TestAutoActivity" />
-        <activity android:name=".TestBitmapActivity" />
-        <activity android:name=".TestDateActivity" />
-        <activity android:name=".TestDimActivity" />
-        <activity android:name=".TestGallaryActivity" />
-        <activity android:name=".TestGridViewActivity" />
-        <activity android:name=".TestLayoutActivity" />
-        <activity android:name=".TestListActivity" />
-        <activity android:name=".TestMenuActivity" />
-        <activity android:name=".TestProgressActivity" />
-        <activity android:name=".TestTabActivity" />
-        <activity android:name=".TestWidgetActivity" />
-        <activity android:name=".TestWidgetRlstActivity" />
-        <activity android:name=".TestXmlActivity" />
-        <activity android:name=".TestNext1Activity"/>
-        <activity android:name=".TestNext2Activity"/>
-        <activity android:name=".TestLifeCycleActivity"/>
-        <activity android:name=".TestActionActivity"/>
-        <activity android:name=".TestCallActivity"/>
-        <activity android:name=".TestServiceActivity"/>
-        <activity android:name=".TestRemoteActivity"/>
-        <activity android:name=".TestBroadCastActivity"/>
-        <activity android:name=".TestNotifyActivity"/>
-        <activity android:name=".TestAlarmActivity"/>
-        <activity android:name=".TestDataPActivity"/>
-        <activity android:name=".TestFileActivity"/>
-        <activity android:name=".TestSqlliteActivity"/>
-        <activity android:name=".TestQueryActivity"/>
-        <activity android:name=".TestProvideActivity"/>
-        <service android:name=".SvrSimpleService">
+        <activity android:name=".ch01.TestAutoActivity" />
+        <activity android:name=".ch01.TestBitmapActivity" />
+        <activity android:name=".ch01.TestDateActivity" />
+        <activity android:name=".ch01.TestDimActivity" />
+        <activity android:name=".ch01.TestGallaryActivity" />
+        <activity android:name=".ch01.TestGridViewActivity" />
+        <activity android:name=".ch01.TestLayoutActivity" />
+        <activity android:name=".ch01.TestListActivity" />
+        <activity android:name=".ch01.TestMenuActivity" />
+        <activity android:name=".ch01.TestProgressActivity" />
+        <activity android:name=".ch01.TestTabActivity" />
+        <activity android:name=".ch01.TestWidgetActivity" />
+        <activity android:name=".ch01.TestWidgetRlstActivity" />
+        <activity android:name=".ch01.TestXmlActivity" />
+        <activity android:name=".ch01.TestNext1Activity"/>
+        <activity android:name=".ch01.TestNext2Activity"/>
+        <activity android:name=".ch01.TestLifeCycleActivity"/>
+        <activity android:name=".ch01.TestActionActivity"/>
+        <activity android:name=".ch01.TestCallActivity"/>
+        <activity android:name=".ch01.TestServiceActivity"/>
+        <activity android:name=".ch01.TestRemoteActivity"/>
+        <activity android:name=".ch01.TestBroadCastActivity"/>
+        <activity android:name=".ch01.TestNotifyActivity"/>
+        <activity android:name=".ch01.TestAlarmActivity"/>
+        <activity android:name=".ch01.TestDataPActivity"/>
+        <activity android:name=".ch01.TestFileActivity"/>
+        <activity android:name=".ch01.TestSqlliteActivity"/>
+        <activity android:name=".ch01.TestQueryActivity"/>
+        <activity android:name=".ch01.TestProvideActivity"/>
+        <service android:name=".ch01.SvrSimpleService">
             <intent-filter>
                 <action android:name="com.huang.study.android.MY_SIMPLE_SERVICE" />
             </intent-filter>
         </service>
-        <service android:name=".SvrPersonRemote">
+        <service android:name=".ch01.SvrPersonRemote">
             <intent-filter>
                 <action android:name="com.huang.study.android.REMOTE_SERVICE" />
             </intent-filter>
         </service>
-        <receiver android:name=".RevMyRecieve" >
+        <receiver android:name=".ch01.RevMyRecieve" >
             <intent-filter>
                 <action android:name="com.huang.study.android.BC_ACTION" />
             </intent-filter>

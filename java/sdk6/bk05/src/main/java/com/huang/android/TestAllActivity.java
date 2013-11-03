@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import com.huang.android.ch01.*;
 
 /**
  * Created by User : Morn

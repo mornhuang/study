@@ -34,6 +34,13 @@
                 </dependency>
         -->
         <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>6.0</version>
+            <scope>provided</scope>
+        </dependency>
+<!--
+        <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
@@ -45,6 +52,7 @@
             <version>2.3.1</version>
             <scope>provided</scope>
         </dependency>
+-->
 
         <!-- hibernate -->
         <dependency>
@@ -184,6 +192,19 @@
             <artifactId>viewservlets</artifactId>
             <version>4.2.0</version>
         </dependency>
+
+        <!-- xfire -->
+        <dependency>
+            <groupId>org.codehaus.xfire</groupId>
+            <artifactId>xfire-all</artifactId>
+            <version>1.2.6</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring</artifactId>
+                </exclusion>
+            </exclusions>
+      </dependency>
 
     </dependencies>
 

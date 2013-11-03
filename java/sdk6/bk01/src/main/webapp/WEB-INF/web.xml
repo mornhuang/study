@@ -7,7 +7,7 @@
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:/application*.xml</param-value>
+        <param-value>classpath:org/codehaus/xfire/spring/xfire.xml, classpath:application*.xml</param-value>
     </context-param>
 
     <!-- =============================================Birt相关内容==================================== -->
@@ -29,11 +29,13 @@
         <param-name>BIRT_VIEWER_PRINT_SERVERSIDE</param-name>
         <param-value>ON</param-value>
     </context-param>
+<!--
     <context-param>
         <description>Memory size in MB for creating a cube.</description>
         <param-name>BIRT_VIEWER_CUBE_MEMORY_SIZE</param-name>
         <param-value/>
     </context-param>
+-->
     <context-param>
         <description>Directory where to store all the birt report script libraries (JARs).. Defaults to
             ${Context Root}/scriptlib
@@ -51,11 +53,14 @@
         <param-name>BIRT_VIEWER_CONFIG_FILE</param-name>
         <param-value>WEB-INF/viewer.properties</param-value>
     </context-param>
+<!--
     <context-param>
         <description>Preview report rows limit. An empty value means no limit.</description>
         <param-name>BIRT_VIEWER_MAX_ROWS</param-name>
         <param-value/>
     </context-param>
+-->
+<!--
     <context-param>
         <description>Max cube fetch rows levels limit for report preview (Only used when previewing a report design file
             using the preview pattern). Defaults to return all levels
@@ -63,11 +68,13 @@
         <param-name>BIRT_VIEWER_MAX_CUBE_ROWLEVELS</param-name>
         <param-value/>
     </context-param>
+-->
     <context-param>
         <description>Default locale setting</description>
         <param-name>BIRT_VIEWER_LOCALE</param-name>
         <param-value>zh-CN</param-value>
     </context-param>
+<!--
     <context-param>
         <description>Max cube fetch columns levels limit for report preview (Only used when previewing a report design
             file using the preview pattern). Defaults to return all levels
@@ -75,6 +82,8 @@
         <param-name>BIRT_VIEWER_MAX_CUBE_COLUMNLEVELS</param-name>
         <param-value/>
     </context-param>
+-->
+<!--
     <context-param>
         <description>Report resources(design files or document files) directory for preview. Defaults to
             ${Context Root}
@@ -82,17 +91,20 @@
         <param-name>BIRT_VIEWER_WORKING_FOLDER</param-name>
         <param-value/>
     </context-param>
+-->
     <context-param>
         <description>Report Engine logs directory. Default to ${Context Root}/logs</description>
         <param-name>BIRT_VIEWER_LOG_DIR</param-name>
         <param-value>WEB-INF/report-engine/logs</param-value>
     </context-param>
+<!--
     <context-param>
         <description>Resource location directory (library files, images files or others). Defaults to ${Context Root}
         </description>
         <param-name>BIRT_RESOURCE_PATH</param-name>
         <param-value/>
     </context-param>
+-->
     <context-param>
         <description>Flag whether to force browser-optimized HTML output. Defaults to true</description>
         <param-name>HTML_ENABLE_AGENTSTYLE_ENGINE</param-name>
@@ -187,7 +199,6 @@
     </servlet-mapping>
 
     <!-- =======================Chat room demo========================== -->
-
     <servlet>
         <servlet-name>ChatRegServlet</servlet-name>
         <servlet-class>com.huang.j2ee.ch01.servlet.ChatRegServlet</servlet-class>
@@ -212,6 +223,23 @@
         <servlet-name>ChatServlet</servlet-name>
         <url-pattern>/chat.do</url-pattern>
     </servlet-mapping>
+
+    <!-- =======================xfire webservice========================== -->
+    <servlet>
+        <servlet-name>XFireServlet</servlet-name>
+        <servlet-class>org.codehaus.xfire.transport.http.XFireConfigurableServlet</servlet-class>
+    </servlet>
+<!--
+    <servlet>
+        <servlet-name>XFireServlet</servlet-name>
+        <servlet-class>org.codehaus.xfire.spring.XFireSpringServlet</servlet-class>
+    </servlet>
+-->
+    <servlet-mapping>
+        <servlet-name>XFireServlet</servlet-name>
+        <url-pattern>/services/*</url-pattern>
+    </servlet-mapping>
+
 
     <!-- ====================================================================== -->
     <welcome-file-list>
