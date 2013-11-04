@@ -25,7 +25,7 @@ public class TestNext2Activity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = getIntent();
-                TestNext2Activity.this.setResult(0, intent);
+                TestNext2Activity.this.setResult(2, intent);
                 TestNext2Activity.this.finish();
             }
         });

@@ -33,16 +33,30 @@ public class TestNext1Activity extends Activity {
                 bundle.putString("pwd", pwd);;
                 Intent intent = new Intent(TestNext1Activity.this, TestNext2Activity.class);
                 intent.putExtras(bundle);
-                startActivityForResult(intent, 0);
+                startActivityForResult(intent, 1);
             }
         });
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        Bundle bundle = data.getExtras();
-        String name = bundle.getString("name");
-        String pwd = bundle.getString("pwd");
-        usrName.setText(name);
+        super.onActivityResult(requestCode, resultCode, data);
+        switch (requestCode)  {
+            case 1:
+                switch (resultCode) {
+                    case 2:
+                        Bundle bundle = data.getExtras();
+                        String name = bundle.getString("name");
+                        String pwd = bundle.getString("pwd");
+                        usrName.setText(name);
+                        break;
+
+                    default:
+                        break;
+                }
+
+            default:
+                break;
+        }
     }
 }

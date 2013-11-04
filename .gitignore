@@ -30,6 +30,12 @@
 *.plg
 *.positions
 *.egg-info
+*.sdf
+*.sln
+*.vcxproj
+*.filters
+*.opensdf
+*.txt.user
 tags
 .settings
 .checkstyle
@@ -41,5 +47,6 @@ tags
 .externalToolBuilders
 .idea
 __pycache__
+
 
 

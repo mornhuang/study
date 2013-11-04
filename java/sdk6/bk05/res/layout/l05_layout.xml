@@ -24,7 +24,7 @@
             </EditText>
         </TableRow>
 
-        <TableRow android:gravity="right" >
+        <TableRow>
             <Button
                 android:id="@+id/l0502_button"
                 android:layout_width="wrap_content"
