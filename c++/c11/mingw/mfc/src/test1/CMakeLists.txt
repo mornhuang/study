@@ -2,14 +2,7 @@
 aux_source_directory( . SRC_LIST )
 
 #设置生成的目标
-add_library( ${TEST1_MODULE}_dynamci SHARED ${SRC_LIST} )
-add_library( ${TEST1_MODULE}_static  STATIC ${SRC_LIST} )
-set_target_properties( ${TEST1_MODULE}_dynamci ${TEST1_MODULE}_static PROPERTIES
-    OUTPUT_NAME ${TEST1_MODULE}
-)
-
-#add_library( ${TEST1_MODULE} STATIC ${SRC_LIST} )
-#set_target_properties( ${TEST1_MODULE} PROPERTIES DEFINE_SYMBOL "COMPILING_DLL" )
+add_library( ${TEST1_MODULE} SHARED ${SRC_LIST} )
 
 #添加宏编译定义
 add_definitions( "-DTEST1_EXPORTS" )
@@ -31,4 +24,10 @@ message( STATUS "EXTR_INC_PATH_GET >>> " ${EXTR_INC_PATH_GET} )
 #             EXPORT_FILE_NAME ${TEST1_MODULE}_Export.h
 #             STATIC_DEFINE ${TEST1_MODULE}_BUILT_AS_STATIC
 #)
-
+#add_library( ${TEST1_MODULE} STATIC ${SRC_LIST} )
+#set_target_properties( ${TEST1_MODULE} PROPERTIES DEFINE_SYMBOL "COMPILING_DLL" )
+#add_library( ${TEST1_MODULE}_dynamci SHARED ${SRC_LIST} )
+#add_library( ${TEST1_MODULE}_static  STATIC ${SRC_LIST} )
+#set_target_properties( ${TEST1_MODULE}_dynamci ${TEST1_MODULE}_static PROPERTIES
+#    OUTPUT_NAME ${TEST1_MODULE}
+#)
