@@ -1,14 +1,15 @@
-project(mfc)
-cmake_minimum_required(VERSION 2.8)
+set( MAIN_APP_SRC "main" )
+set( TEST1_MODULE_SRC "test1" )
+set( TEST2_MODULE_SRC "test2" )
 
-set(PLATFORM X86)
-set(CMAKE_BUILD_TYPE Debug)
-set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} /MTd /EHsc")
+set( MAIN_APP     ${PROJECT_NAME}     )
+set( TEST1_MODULE ${TEST1_MODULE_SRC} )
+set( TEST2_MODULE ${TEST2_MODULE_SRC} )
 
-add_definitions("-D_WINDOWS -D__WIN__ -D_CRT_SECURE_NO_DEPRECATE")
-add_definitions("-D_WIN32_WINNT=0x0501")
-add_definitions("-D_AFXDLL")
+#添加下级其它编译内容
+add_subdirectory( ${MAIN_APP_SRC} )
+add_subdirectory( ${TEST1_MODULE_SRC} )
+add_subdirectory( ${TEST2_MODULE_SRC} )
 
-aux_source_directory(. SRC_LIST)
-add_executable(${PROJECT_NAME} ${SRC_LIST})
+
 

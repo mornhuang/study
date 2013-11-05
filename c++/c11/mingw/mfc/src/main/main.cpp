@@ -4,6 +4,8 @@ using namespace std;
 
 #include <afx.h>
 #include <stdio.h>
+#include "test1/test1.h"
+#include "test2/test2.h"
 
 int main() {
     int lo, hi;
@@ -30,6 +32,13 @@ int main() {
     }
 
     fFibo.Close();
+
+    A a;
+    a.show();
+
+    B b;
+    b.show();
+
     return 0;
 }
 
