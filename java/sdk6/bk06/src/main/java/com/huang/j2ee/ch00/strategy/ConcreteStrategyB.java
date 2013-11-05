@@ -6,6 +6,6 @@ package com.huang.j2ee.ch00.strategy;
 public class ConcreteStrategyB implements Strategy {
     @Override
     public void algorithm() {
-
+        System.out.println("ConcreteStrategyB.algorithm");
     }
 }

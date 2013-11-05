@@ -26,12 +26,4 @@ public class ConcreteSubject implements Subject {
         }
     }
 
-    public static void main(String[] args) {
-        Subject subject = new ConcreteSubject();
-        Observer observer = new ConcreteObserver();
-        subject.registerObserver(observer);
-
-        // when subject's state change, notify observer
-        subject.notifyObserver();
-    }
 }

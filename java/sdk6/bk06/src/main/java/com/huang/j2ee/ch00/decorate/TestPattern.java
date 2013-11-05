@@ -3,7 +3,7 @@ package com.huang.j2ee.ch00.decorate;
 /**
  * Date : 2013-11-01 23:35
  */
-public class DecoratorTest {
+public class TestPattern {
     public static void main(String[] args) {
         System.out.println("----Component out----------");
         Component component = new ConcreteComponent();

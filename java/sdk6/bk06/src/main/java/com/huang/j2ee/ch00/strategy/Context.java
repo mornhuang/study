@@ -13,11 +13,4 @@ public class Context {
     public void performAlgorithm() {
         strategy.algorithm();
     }
-
-    public static void main(String args[]) {
-        Context context = new Context();
-        // can use different strategy
-        context.setStrategy(new ConcreteStrategyA());
-        context.performAlgorithm();
-    }
 }
