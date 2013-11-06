@@ -16,12 +16,16 @@ set( PROJECT_SOURCE_DIR src )
 set( CMAKE_BUILD_TYPE Debug )
 
 #添加全局编译选项
-set( CMAKE_CXX_FLAGS "/EHsc" )
-set( CMAKE_CXX_FLAGS_DEBUG "/MDd" )
-set( CMAKE_C_FLAGS_DEBUG "/MDd" )
+if( WIN32)
+    set( CMAKE_CXX_FLAGS "/EHsc" )
+    set( CMAKE_CXX_FLAGS_DEBUG "/MDd" )
+    set( CMAKE_C_FLAGS_DEBUG "/MDd" )
+endif()
 
 #添加全局编译定义
-add_definitions( "-D_AFXDLL -DWIN32 -D_WIN32_WINNT=0x0403" )
+if( WIN32)
+    add_definitions( "-D_AFXDLL -DWIN32 -D_WIN32_WINNT=0x0403" )    
+endif()
 
 #添加下级编译内容
 add_subdirectory( src )

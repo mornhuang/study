@@ -1,5 +1,5 @@
 #工程名称
-project( YourProjectName )
+project( qtstudy )
 
 #CMake支持的最小版本
 cmake_minimum_required( VERSION 2.8 )
@@ -14,14 +14,6 @@ set( PROJECT_SOURCE_DIR src )
 
 #编译Debug版本
 set( CMAKE_BUILD_TYPE Debug )
-
-#添加全局编译选项
-set( CMAKE_CXX_FLAGS "/EHsc" )
-set( CMAKE_CXX_FLAGS_DEBUG "/MDd" )
-set( CMAKE_C_FLAGS_DEBUG "/MDd" )
-
-#添加全局编译定义
-add_definitions( "-D_AFXDLL -DWIN32 -D_WIN32_WINNT=0x0403" )
 
 #添加下级编译内容
 add_subdirectory( src )
