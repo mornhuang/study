@@ -36,6 +36,7 @@
 *.filters
 *.opensdf
 *.txt.user
+*.pro.user*
 tags
 .settings
 .checkstyle
