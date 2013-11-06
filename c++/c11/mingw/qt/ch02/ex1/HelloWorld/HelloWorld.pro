@@ -18,3 +18,6 @@ SOURCES += main.cpp\
 HEADERS  += hellodialog.h
 
 FORMS    += hellodialog.ui
+
+RESOURCES += \
+    HelloWorld.qrc
