@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>HelloDialog</class>
- <widget class="QDialog" name="HelloDialog">
+ <class>MyWidget</class>
+ <widget class="QWidget" name="MyWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,23 +11,32 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>HelloDialog</string>
-  </property>
-  <property name="windowIcon">
-   <iconset>
-    <normaloff>app.ico</normaloff>app.ico</iconset>
+   <string>MyWidget</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>150</y>
-     <width>54</width>
-     <height>12</height>
+     <x>150</x>
+     <y>100</y>
+     <width>131</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>Hello QT</string>
+    <string>Main UI</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showChildButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>180</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Show Child</string>
    </property>
   </widget>
  </widget>

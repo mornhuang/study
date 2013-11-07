@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2013-11-06T22:56:15
+# Project created by QtCreator 2013-11-07T12:25:20
 #
 #-------------------------------------------------
 
@@ -8,20 +8,15 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = HelloWorld
+TARGET = MyI18N
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        hellodialog.cpp
+        mainwindow.cpp
 
-HEADERS  += hellodialog.h
+HEADERS  += mainwindow.h
 
-FORMS    += hellodialog.ui
+FORMS    += mainwindow.ui
 
-RESOURCES += \
-    HelloWorld.qrc
-
-RC_FILE += \
-    HelloWorld.rc
-
+TRANSLATIONS += myi18n_zh_CN.ts
