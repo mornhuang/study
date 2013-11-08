@@ -9,10 +9,10 @@ MyWidget::MyWidget(QWidget *parent) :
     ui->setupUi(this);
 //    connect(ui->showChildButton, SIGNAL(clicked()), this, SLOT(showChildDialog()));
 
-//    QDialog dialog(this);
-//    dialog.setWindowTitle("Dialog");
-//    dialog.setModal(true);
-//    dialog.show();
+    QDialog dialog(this);
+    dialog.setWindowTitle("Dialog");
+    dialog.setModal(true);
+    dialog.show();
 //    dialog.exec();
 
 //    QDialog *dialog = new QDialog(this);
