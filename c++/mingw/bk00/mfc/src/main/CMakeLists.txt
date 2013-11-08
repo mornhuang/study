@@ -8,7 +8,7 @@ add_executable( ${MAIN_APP} ${SRC_LIST} )
 include_directories( ${CMAKE_HOME_DIRECTORY}/inc )
 
 #添加Library目录
-link_directories( ${PROJECT_BINARY_DIR}/lib )
+link_directories( ${PROJECT_BINARY_DIR}/bin )
 
 #设置目标要链接的静态库
 target_link_libraries( ${MAIN_APP}

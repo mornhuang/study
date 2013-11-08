@@ -5,9 +5,9 @@ project( mfc )
 cmake_minimum_required( VERSION 2.8 )
 
 #设置全局输出路径
-set( CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib )
-set( CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib )
-set( CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/dist )
+set( CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin )
+set( CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin )
+set( CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin )
 
 #设置全局源代码路径
 set( PROJECT_SOURCE_DIR src )
@@ -24,7 +24,7 @@ set( CMAKE_C_FLAGS_DEBUG "/MDd" )
 add_definitions( "-D_AFXDLL -DWIN32 -D_WIN32_WINNT=0x0403" )
 
 #添加下级编译内容
-add_subdirectory( src )
+add_subdirectory( src buid)
 
 #查找Boost库
 INCLUDE( FindBoost )

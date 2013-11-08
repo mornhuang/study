@@ -23,6 +23,9 @@ GoToCellDialog::GoToCellDialog(QWidget *parent)
 
 void GoToCellDialog::on_lineEdit_textChanged()
 {
-	okButton->setEnabled(lineEdit->hasAcceptableInput());
+    if (lineEdit->hasAcceptableInput())
+        okButton->setEnabled(true);
+    else
+        okButton->setEnabled(false);
 }
 

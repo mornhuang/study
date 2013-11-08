@@ -35,7 +35,7 @@
 *.vcxproj
 *.filters
 *.opensdf
-*.txt.user
+*.txt.user*
 *.pro.user*
 tags
 .settings
