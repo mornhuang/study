@@ -22,6 +22,14 @@ private slots:
 
     void on_fontButton_clicked();
 
+    void on_inputButton_clicked();
+
+    void on_messageButton_clicked();
+
+    void on_progressButton_clicked();
+
+    void on_guidButton_clicked();
+
 private:
     Ui::MyStdDialog *ui;
 };
