@@ -12,6 +12,8 @@ if __name__ == '__main__':
     # Flag value define in __init__ module, so import bk00 Flag will be assign to 3
     # should output 3
     print(bk00.Flag)
+    print(bk00._Flag)
+    print(bk00.__Flag)
 
 # change Flag's value
 bk00.Flag = 'A'
