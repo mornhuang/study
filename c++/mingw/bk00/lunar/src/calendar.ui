@@ -1,0 +1,130 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>Calendar</class>
+ <widget class="QDialog" name="Calendar" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>453</width>
+    <height>274</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Calendar</string>
+  </property>
+  <layout class="QGridLayout" >
+   <property name="margin" >
+    <number>9</number>
+   </property>
+   <property name="spacing" >
+    <number>6</number>
+   </property>
+   <item row="0" column="0" >
+    <layout class="QHBoxLayout" >
+     <property name="margin" >
+      <number>0</number>
+     </property>
+     <property name="spacing" >
+      <number>6</number>
+     </property>
+     <item>
+      <widget class="QToolButton" name="TbpreviousYear" >
+       <property name="toolTip" >
+        <string>Previous Year</string>
+       </property>
+       <property name="text" >
+        <string>previousYear</string>
+       </property>
+       <property name="icon" >
+        <iconset resource="mycalendar.qrc" >:/img/go-first.png</iconset>
+       </property>
+       <property name="autoRaise" >
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="TbpreviousMonth" >
+       <property name="toolTip" >
+        <string>Previous Month</string>
+       </property>
+       <property name="text" >
+        <string>previousMonth</string>
+       </property>
+       <property name="icon" >
+        <iconset resource="mycalendar.qrc" >:/img/go-previous.png</iconset>
+       </property>
+       <property name="autoRaise" >
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="monthCombo" />
+     </item>
+     <item>
+      <widget class="QDateEdit" name="YearSelect" >
+       <property name="sizePolicy" >
+        <sizepolicy>
+         <hsizetype>0</hsizetype>
+         <vsizetype>0</vsizetype>
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="displayFormat" >
+        <string>yyyy</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="TbnextMonth" >
+       <property name="toolTip" >
+        <string>Next Month</string>
+       </property>
+       <property name="text" >
+        <string>nextMonth</string>
+       </property>
+       <property name="icon" >
+        <iconset resource="mycalendar.qrc" >:/img/go-next.png</iconset>
+       </property>
+       <property name="autoRaise" >
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="TbnextYear" >
+       <property name="toolTip" >
+        <string>Next Year</string>
+       </property>
+       <property name="text" >
+        <string>nextYear</string>
+       </property>
+       <property name="icon" >
+        <iconset resource="mycalendar.qrc" >:/img/go-last.png</iconset>
+       </property>
+       <property name="autoRaise" >
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0" >
+    <widget class="QLabel" name="LabelInfo" />
+   </item>
+   <item row="1" column="0" >
+    <widget class="QTableWidget" name="tableCalendar" />
+   </item>
+  </layout>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources>
+  <include location="mycalendar.qrc" />
+ </resources>
+ <connections/>
+</ui>
