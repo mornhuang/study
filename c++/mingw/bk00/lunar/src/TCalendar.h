@@ -23,7 +23,7 @@
 #define M_PI 3.14159265358979323846264338327
 #endif
 
-	struct CTCalendar{
+struct CTCalendar{
 	int month;                  /*  农历月：无数据为0，闰月为负，如-3表示闰三月  */
 	int day;                    /*  农历日                                  */
 	int gan;                    /*  天干                                   */
@@ -36,15 +36,14 @@
 	QString caltype;            /*  公历类型：-1表示不存在                    */
 	QString weekday;            /*  星期几                                  */
 	QString zodiac;             /*  星座                                    */
-        QString holiday;            /*  公历节日                                 */
-        QString choliday;           /*  农历节日                                 */
-	};
+    QString holiday;            /*  公历节日                                 */
+    QString choliday;           /*  农历节日                                 */
+};
 
 class MyCTCalendar: public QObject
 {
 
 public:
-
 
 	MyCTCalendar(void);
 	~MyCTCalendar(void);
@@ -71,7 +70,7 @@ private:
 	int ctcl_leap_month(int y);/*  返回y年的闰月，无闰返回0  */
 	int ctcl_lunar_month(int y,int m,int d);/*  返回y年m月d日对应的农历月份，闰月用负数表示  */
 	QByteArray lunarstr;
-        int maxyear;
-        void logSqlError( const QString& Type, const QString& error);
-        QString ctcl_common_query(QString type,QString querystr);
+    int maxyear;
+    void logSqlError( const QString& Type, const QString& error);
+    QString ctcl_common_query(QString type,QString querystr);
 };

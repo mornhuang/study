@@ -24,6 +24,9 @@
 #include <QSqlQuery>  
 #include <QTextStream>  
 #include "TCalendar.h"  
+#include <tchar.h>
+#include <iostream>
+
 const int beginning_year=-849;  //记录从公元前850年开始  
 const int baseIndex = 0;  
   
@@ -369,116 +372,118 @@ int MyCTCalendar::ctcl_lunar_month(int y,int m,int d)
 // *功能：把公历y年m月d日转换为农历存放在ctc中  
 // *返回值：-1：输入日期不合法，0：农历无数据，1：一切正常  
 // ***************************************************************************/  
-  
+
 int MyCTCalendar::ctcl_solar_to_lunar(int y,int m,int d,struct CTCalendar* ctc)  
 {  
-  int r,i;  
-  char buf[10];  
-       ::qsnprintf(buf, 10, "%02d%02d", m,d);  
-  QString MD = QString::fromAscii(buf);  
-  QString QueryStr;  
-  
-  QueryStr=QString("select VALUE from holiday where DATA='"+MD+"'");   
-  ctc->holiday=ctcl_common_query("holiday",QueryStr);  
-  //logSqlError("holiday",QueryStr);  
-  
-  int type=ctcl_calendar_type(y,m,d,1);  
-  QueryStr=QString("select VALUE from caltype where ID=%1").arg(type);   
-  ctc->caltype=ctcl_common_query("caltype",QueryStr);  
-  
-  if(type==-1)return -1;  
-  
-  QueryStr=QString("select VALUE from weekday where ID=%1").arg(ctcl_day_of_week(y,m,d));  
-  ctc->weekday=ctcl_common_query("weekday",QueryStr);  
-  
-  QueryStr=QString("select VALUE from zodiac where DATEB<=%1 and DATEE>=%2").arg(MD.toInt()).arg(MD.toInt());  
-  ctc->zodiac=ctcl_common_query("zodiac",QueryStr);  
-  
-  ctc->gan=ctcl_gan(ctcl_year_ganzhi(y,m,d,12));  
-  ctc->zhi=ctcl_zhi(ctcl_year_ganzhi(y,m,d,12));  
-  
-  
-  QueryStr=QString("select VALUE from tiangan where ID=%1").arg(ctc->gan);  
-  ctc->ganzhi=ctcl_common_query("gan",QueryStr);  
-  QueryStr=QString("select VALUE from dizhi where ID=%1").arg(ctc->zhi);  
-  ctc->ganzhi.append(ctcl_common_query("zhi",QueryStr));  
-  
-  QueryStr=QString("select VALUE from shengxiao where ID=%1").arg(ctc->zhi);  
-  ctc->shengxiao=ctcl_common_query("shengxiao",QueryStr);  
-  
-  for(i=0;i<24;i++){  
-    r=ctcl_days_to_date(y,ctcl_solar_term(y,i+1,1));  
-    if(r>=m*100+d){  
-       QueryStr=QString("select VALUE from sterm where ID=%1").arg(i);  
-       ctc->sterm=ctcl_common_query("sterm",QueryStr);  
-     if(r!=m*100+d){  
-        ctc->sterm.insert(0,QString("%1%2").arg(r/10%10).arg(r%10)+QString::fromUtf8("\346\227\245"));  /*  日  */  
-      }  
-      break;  
-    }else if(i==23){  
-      QueryStr=QString("select VALUE from sterm where ID=0");  
-      ctc->sterm=ctcl_common_query("sterm",QueryStr);  
-      r=ctcl_days_to_date(y+1,ctcl_solar_term(y+1,1,1));  
-    }  
-  }  
-  
-  if(y>=maxyear){  
-    ctc->day=0;  
-    ctc->month=0;  
-    ctc->cday=tr("unknown");  
-    ctc->cmonth=tr("no data");  
-    return 0;  
-  }  
-  
- ctc->day=ctcl_lunar_date(y,m,d);  
-  if(ctc->day<=10){  
-   QueryStr=QString("select VALUE from cnumber where ID=%1").arg(ctc->day);  
-   ctc->cday=QString::fromUtf8("\345\210\235")+ctcl_common_query("day",QueryStr);/*  初  */  
-  }else if(ctc->day<20){  
-   QueryStr=QString("select VALUE from cnumber where ID=%1").arg(ctc->day%10);  
-   ctc->cday=QString::fromUtf8("\345\215\201")+ctcl_common_query("day",QueryStr);/*  十  */  
-  }else if(ctc->day==20){  
-    ctc->cday=QString::fromUtf8("\344\272\214\345\215\201");/*  二十  */  
-  }else if(ctc->day<30){  
-  QueryStr=QString("select VALUE from cnumber where ID=%1").arg(ctc->day%10);  
-  ctc->cday=QString::fromUtf8("\345\273\277")+ctcl_common_query("day",QueryStr);/*  廿  */  
-  }else if(ctc->day==30){  
-    ctc->cday=QString::fromUtf8("\344\270\211\345\215\201");/*  三十  */  
-  }  
-  
-  ctc->month=ctcl_lunar_month(y,m,d);  
-  if(ctc->month==-12){  
-    ctc->cmonth=QString::fromUtf8("\351\227\260\345\215\201\344\272\214\346\234\210");/*  "闰十二月"  */  
-  }else if(ctc->month==-11){  
-    ctc->cmonth=QString::fromUtf8("\351\227\260\345\215\201\344\270\200\346\234\210");       /*  "闰十一月"  */  
-  }else if(ctc->month==-1){  
-    ctc->cmonth=QString::fromUtf8("\351\227\260\346\255\243\346\234\210");       /*  "闰正月"  */  
-  }else if(ctc->month<0){  
-    ctc->cmonth=QString::fromUtf8("\351\227\260");                /*  "闰"  */  
-    QueryStr=QString("select VALUE from cnumber where ID=%1").arg(-ctc->month);  
-    ctc->cmonth.append(ctcl_common_query("month",QueryStr));  
-    ctc->cmonth.append(QString::fromUtf8("\346\234\210"));             /*   月  */  
-  }else if(ctc->month==13){  
-    ctc->cmonth=QString::fromUtf8("\346\255\243\346\234\210");              /*  "正月"  */  
-  }else{  
-    QueryStr=QString("select VALUE from cnumber where ID=%1").arg(ctc->month);  
-    ctc->cmonth=ctcl_common_query("month",QueryStr);  
-    ctc->cmonth.append(QString::fromUtf8("\346\234\210"));   /*   月  */  
-  }  
-  memset(buf,sizeof(buf),0x00);  
-  if(qAbs(ctc->month)<13)  
-   ::qsnprintf(buf, 10, "%02d%02d", qAbs(ctc->month),ctc->day);  
-  else if(qAbs(ctc->month)==13)  
-   ::qsnprintf(buf, 10, "%02d%02d", 1,ctc->day);  
-   MD = QString::fromAscii(buf);  
-   if(ctc->month>0){  
-    QueryStr=QString("select VALUE from choliday where DATA='"+MD+"'");   
-    ctc->choliday=ctcl_common_query("choliday",QueryStr);  
-    //logSqlError("choliday",QueryStr);  
-    }  
-  return 1;  
+    int r,i;
+    char buf[10];
+    ::qsnprintf(buf, 10, "%02d%02d", m,d);
+    QString MD = QString::fromAscii(buf);
+    QString QueryStr;
+
+    QueryStr=QString("select VALUE from holiday where DATA='"+MD+"'");
+    ctc->holiday=ctcl_common_query("holiday",QueryStr);
+    //logSqlError("holiday",QueryStr);
+
+    int type=ctcl_calendar_type(y,m,d,1);
+    QueryStr=QString("select VALUE from caltype where ID=%1").arg(type);
+    ctc->caltype=ctcl_common_query("caltype",QueryStr);
+
+    if(type==-1)return -1;
+
+    QueryStr=QString("select VALUE from weekday where ID=%1").arg(ctcl_day_of_week(y,m,d));
+    ctc->weekday=ctcl_common_query("weekday",QueryStr);
+
+    QueryStr=QString("select VALUE from zodiac where DATEB<=%1 and DATEE>=%2").arg(MD.toInt()).arg(MD.toInt());
+    ctc->zodiac=ctcl_common_query("zodiac",QueryStr);
+
+    ctc->gan=ctcl_gan(ctcl_year_ganzhi(y,m,d,12));
+    ctc->zhi=ctcl_zhi(ctcl_year_ganzhi(y,m,d,12));
+
+
+    QueryStr=QString("select VALUE from tiangan where ID=%1").arg(ctc->gan);
+    ctc->ganzhi=ctcl_common_query("gan",QueryStr);
+    QueryStr=QString("select VALUE from dizhi where ID=%1").arg(ctc->zhi);
+    ctc->ganzhi.append(ctcl_common_query("zhi",QueryStr));
+
+    QueryStr=QString("select VALUE from shengxiao where ID=%1").arg(ctc->zhi);
+    ctc->shengxiao=ctcl_common_query("shengxiao",QueryStr);
+
+    for(i=0;i<24;i++){
+        double x = ctcl_solar_term(y,i+1,1);
+        r=ctcl_days_to_date(y,ctcl_solar_term(y,i+1,1));
+        if(r>=m*100+d){
+            QueryStr=QString("select VALUE from sterm where ID=%1").arg(i);
+            ctc->sterm=ctcl_common_query("sterm",QueryStr);
+            if(r!=m*100+d){
+                ctc->sterm.insert(0,QString("%1%2").arg(r/10%10).arg(r%10)+QString::fromUtf8("\346\227\245"));  /*  日  */
+                std::wcout << ctc->sterm.toStdWString() << std::endl;
+            }
+            break;
+        }else if(i==23){
+            QueryStr=QString("select VALUE from sterm where ID=0");
+            ctc->sterm=ctcl_common_query("sterm",QueryStr);
+            r=ctcl_days_to_date(y+1,ctcl_solar_term(y+1,1,1));
+        }
+    }
+
+    if(y>=maxyear){
+        ctc->day=0;
+        ctc->month=0;
+        ctc->cday=tr("unknown");
+        ctc->cmonth=tr("no data");
+        return 0;
+    }
+
+    ctc->day=ctcl_lunar_date(y,m,d);
+    if(ctc->day<=10){
+        QueryStr=QString("select VALUE from cnumber where ID=%1").arg(ctc->day);
+        ctc->cday=QString::fromUtf8("\345\210\235")+ctcl_common_query("day",QueryStr);/*  初  */
+    }else if(ctc->day<20){
+        QueryStr=QString("select VALUE from cnumber where ID=%1").arg(ctc->day%10);
+        ctc->cday=QString::fromUtf8("\345\215\201")+ctcl_common_query("day",QueryStr);/*  十  */
+    }else if(ctc->day==20){
+        ctc->cday=QString::fromUtf8("\344\272\214\345\215\201");/*  二十  */
+    }else if(ctc->day<30){
+        QueryStr=QString("select VALUE from cnumber where ID=%1").arg(ctc->day%10);
+        ctc->cday=QString::fromUtf8("\345\273\277")+ctcl_common_query("day",QueryStr);/*  廿  */
+    }else if(ctc->day==30){
+        ctc->cday=QString::fromUtf8("\344\270\211\345\215\201");/*  三十  */
+    }
+
+    ctc->month=ctcl_lunar_month(y,m,d);
+    if(ctc->month==-12){
+        ctc->cmonth=QString::fromUtf8("\351\227\260\345\215\201\344\272\214\346\234\210");/*  "闰十二月"  */
+    }else if(ctc->month==-11){
+        ctc->cmonth=QString::fromUtf8("\351\227\260\345\215\201\344\270\200\346\234\210");       /*  "闰十一月"  */
+    }else if(ctc->month==-1){
+        ctc->cmonth=QString::fromUtf8("\351\227\260\346\255\243\346\234\210");       /*  "闰正月"  */
+    }else if(ctc->month<0){
+        ctc->cmonth=QString::fromUtf8("\351\227\260");                /*  "闰"  */
+        QueryStr=QString("select VALUE from cnumber where ID=%1").arg(-ctc->month);
+        ctc->cmonth.append(ctcl_common_query("month",QueryStr));
+        ctc->cmonth.append(QString::fromUtf8("\346\234\210"));             /*   月  */
+    }else if(ctc->month==13){
+        ctc->cmonth=QString::fromUtf8("\346\255\243\346\234\210");              /*  "正月"  */
+    }else{
+        QueryStr=QString("select VALUE from cnumber where ID=%1").arg(ctc->month);
+        ctc->cmonth=ctcl_common_query("month",QueryStr);
+        ctc->cmonth.append(QString::fromUtf8("\346\234\210"));   /*   月  */
+    }
+    memset(buf,sizeof(buf),0x00);
+    if(qAbs(ctc->month)<13)
+        ::qsnprintf(buf, 10, "%02d%02d", qAbs(ctc->month),ctc->day);
+    else if(qAbs(ctc->month)==13)
+        ::qsnprintf(buf, 10, "%02d%02d", 1,ctc->day);
+    MD = QString::fromAscii(buf);
+    if(ctc->month>0){
+        QueryStr=QString("select VALUE from choliday where DATA='"+MD+"'");
+        ctc->choliday=ctcl_common_query("choliday",QueryStr);
+        //logSqlError("choliday",QueryStr);
+    }
+    return 1;
 }  
-  
+
   
   
 // /***************************************************************************  

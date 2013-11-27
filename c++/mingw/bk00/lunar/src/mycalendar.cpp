@@ -84,34 +84,34 @@ void Mycalendar::insertCalendar()
             tableCalendar->item(0,weekDay-1)->setBackgroundColor(Qt::red);  
     }  
     //加入日期  
-     while (date.month() == selectedDate.month()) {  
-          int weekDay = date.dayOfWeek();  
-            
-         mycalendat->ctcl_solar_to_lunar(selectedDate.year(),selectedDate.month(),date.day(),&c);//获取农历信息  
-           QString mycday;  
-                    mycday=c.cday;  
-          if(c.sterm.at(0) >=QChar('0') && c.sterm.at(0) <= QChar('9'))  
-            mycday=c.cday;  
-          else  
-            mycday=c.sterm;  
-  
-          tableCalendar->setItem(tableCalendar->rowCount()-1,weekDay-1,new QTableWidgetItem(QString("%1\n%2").arg(date.day()).arg(mycday)));  
-  
-          QString CuText=tr("NongLi year");  
-          CuText.append(c.ganzhi+tr("year(")+c.shengxiao+")");  
-          CuText.append("\n"+tr("NongLi Day:")+c.cmonth+c.cday);  
-          CuText.append("\n"+tr("today constellation:")+c.zodiac);  
-          CuText.append("\n"+tr("forthcoming sterm:")+c.sterm);  
-                  if(!c.holiday.isNull())  
-                    CuText.append("\n"+tr("holiday:")+c.holiday);  
-                  if(!c.choliday.isNull())  
-                    CuText.append("\n"+tr("choliday:")+c.choliday);  
-  
-          tableCalendar->item(tableCalendar->rowCount()-1, weekDay-1)->setToolTip(CuText);  
-          date = date.addDays(1);  
-            if (weekDay == 7 && date.month() == selectedDate.month())  
-                tableCalendar->insertRow(tableCalendar->rowCount());  
-     }  
+    while (date.month() == selectedDate.month()) {
+        int weekDay = date.dayOfWeek();
+
+        mycalendat->ctcl_solar_to_lunar(selectedDate.year(),selectedDate.month(),date.day(),&c);//获取农历信息
+        QString mycday;
+        mycday=c.cday;
+        if(c.sterm.at(0) >=QChar('0') && c.sterm.at(0) <= QChar('9'))
+            mycday=c.cday;
+        else
+            mycday=c.sterm;
+
+        tableCalendar->setItem(tableCalendar->rowCount()-1,weekDay-1,new QTableWidgetItem(QString("%1\n%2").arg(date.day()).arg(mycday)));
+
+        QString CuText=tr("NongLi year");
+        CuText.append(c.ganzhi+tr("year(")+c.shengxiao+")");
+        CuText.append("\n"+tr("NongLi Day:")+c.cmonth+c.cday);
+        CuText.append("\n"+tr("today constellation:")+c.zodiac);
+        CuText.append("\n"+tr("forthcoming sterm:")+c.sterm);
+        if(!c.holiday.isNull())
+            CuText.append("\n"+tr("holiday:")+c.holiday);
+        if(!c.choliday.isNull())
+            CuText.append("\n"+tr("choliday:")+c.choliday);
+
+        tableCalendar->item(tableCalendar->rowCount()-1, weekDay-1)->setToolTip(CuText);
+        date = date.addDays(1);
+        if (weekDay == 7 && date.month() == selectedDate.month())
+            tableCalendar->insertRow(tableCalendar->rowCount());
+    }
 }  
   
 void Mycalendar::on_TbpreviousYear_clicked()  
@@ -132,4 +132,4 @@ void Mycalendar::on_TbnextMonth_clicked()
 void Mycalendar::on_TbnextYear_clicked()  
 {  
     YearSelect->setDate(selectedDate.addYears(1));  
-}  
+}

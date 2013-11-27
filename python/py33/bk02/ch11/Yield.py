@@ -19,12 +19,19 @@ def randGen(alist):
         yield alist.pop(randint(0, len(alist)-1))
 
 
+def counter(start_at=0):
+    count = start_at
+    while True:
+        val = (yield count)
+        if val is not None:
+            count = val
+        else:
+            count += 1
+
 if __name__ == '__main__':
-    #while True:
-    #    try:
-    #        print(iter(simpleGen()).next())
-    #    except StopIteration:
-    #        break
+    s = simpleGen()
+    print(next(s))
+    print(next(s))
 
     for eachItem in simpleGen():
         print(eachItem)
@@ -34,3 +41,10 @@ if __name__ == '__main__':
 
     for item in randGen(['rock', 'paper', 'cc']):
         print(item)
+
+    c = counter(5)
+    print(next(c))
+    print(next(c))
+    print(next(c))
+    c.send(9)
+    print(next(c))
