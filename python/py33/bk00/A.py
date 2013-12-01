@@ -8,6 +8,13 @@ Demonstrate value change in different namespace
 """
 import bk00
 
+X_Flag = 'Module A'
+
+
+def showFlag():
+    print(X_Flag)
+
+
 if __name__ == '__main__':
     # Flag value define in __init__ module, so import bk00 Flag will be assign to 3
     # should output 3

@@ -11,6 +11,7 @@ import bk00
 
 # import namespace bk00's Flag into local namespace.
 # now local space has a Flag object, it's initial value equal bk00.Flag
+
 from bk00 import Flag
 
 if __name__ == '__main__':

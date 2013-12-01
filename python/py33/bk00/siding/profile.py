@@ -64,18 +64,18 @@ package = None
 profile_path = None
 root_path = None
 cache_path = None
-  
+
+
 ###############################################################################
 # Internal Functions
 ###############################################################################
-  
 def assert_profile():
     """ Raise an exception if a profile hasn't been loaded. """
     if settings is None:
         raise RuntimeError("A profile hasn't been loaded.")
-  
+
+
 ##### Path Stuff ##############################################################
-  
 def ensure_paths():
     """ Ensure cache_path, profile_path, and root_path are set. """
     global cache_path
@@ -95,7 +95,7 @@ def ensure_paths():
   
         # Add the Profiles/<profile> bit to the profile path, and ensure the
         # path actually exists.
-        path = os.path.join(path, u'Profiles', name)
+        path = os.path.join(path, 'Profiles', name)
         if not os.path.exists(path):
             os.makedirs(path)
   
@@ -105,14 +105,14 @@ def ensure_paths():
         # The cache path is like the profile path, in that it varies based on
         # the portability flag.
         if portable:
-            path = os.path.join(root_path, u'cache')
+            path = os.path.join(root_path, 'cache')
         else:
             path = QDesktopServices.storageLocation(
                 QDesktopServices.CacheLocation)
   
         # Add the Profiles/<profile> bit to the cache path, and ensure the path
         # actually exists.
-        path = os.path.join(path, u'Profiles', name)
+        path = os.path.join(path, 'Profiles', name)
         if not os.path.exists(path):
             os.makedirs(path)
   
@@ -122,7 +122,8 @@ def ensure_paths():
 def get_home():
     """ Returns the path to the user's home directory. """
     return QDesktopServices.storageLocation(QDesktopServices.HomeLocation)
-  
+
+
 def get_data_path():
     """
     Returns the path that application data should be stored in. This acts a bit
@@ -142,11 +143,11 @@ def get_data_path():
         return path
   
     return QDesktopServices.storageLocation(QDesktopServices.DataLocation)
-  
+
+
 ###############################################################################
 # Settings Getters / Setters
 ###############################################################################
-  
 def contains(key):
     """
     Returns true if key exists in the loaded profile, or false if it does not.
@@ -183,11 +184,11 @@ def remove(key):
     """ Delete the key from the loaded profile. """
     assert_profile()
     settings.remove(key)
-  
+
+
 ###############################################################################
 # Path Manipulation Functions
 ###############################################################################
-  
 def get_file(path, mode='rb', source=SOURCE_ANY):
     """
     Find and open the file at the given ``path``.
@@ -317,7 +318,8 @@ def normpath(path):
     if os.name == 'nt':
         path = path.replace('\\', '/')
     return path
-  
+
+
 def listdir(path, source=SOURCE_ANY):
     """
     Returns a list of entries at the given path.
@@ -377,7 +379,8 @@ def exists(path, source=SOURCE_ANY):
         return os.path.exists(os.path.join(root_path, path))
   
     return False
-  
+
+
 def isdir(path, source=SOURCE_ANY):
     """ Returns True if the path is a directory, otherwise returns False. """
     if os.path.isabs(path):
@@ -434,7 +437,7 @@ def walk(top, topdown=True, onerror=None, followlinks=False,
     """
     try:
         names = listdir(top, source)
-    except OSError, err:
+    except OSError as err:
         if onerror is not None:
             onerror(err)
         return
@@ -459,11 +462,11 @@ def walk(top, topdown=True, onerror=None, followlinks=False,
                 yield x
     if not topdown:
         yield top, dirs, nondirs
-  
+
+
 ###############################################################################
 # Initialization
 ###############################################################################
-  
 def initialize(args=None, **kwargs):
     """
     Initialize the profile system. You may use the following arguments to
@@ -474,10 +477,13 @@ def initialize(args=None, **kwargs):
     =============  ============  ============
     portable       ``False``     If True, the profile system will attempt to live entirely in the root path.
     profile        ``default``   The name of the profile to load.
-    package                      If this is set, and ``pkg_resources`` is available, then attempt to find resources in this package or requirement.
+    package                      If this is set, and ``pkg_resources`` is available, then attempt to find resources
+                                    in this package or requirement.
     profile_path                 If this is set, load the profile from this path.
-    root_path                    The application root directory. If not set, this will be calculated with ``os.path.abspath(os.path.dirname(sys.argv[0]))``.
-    cache_path                   If this is set, this path will be used to cache data rather than a profile-specific path.
+    root_path                    The application root directory. If not set, this will be calculated with
+                                    ``os.path.abspath(os.path.dirname(sys.argv[0]))``.
+    cache_path                   If this is set, this path will be used to cache data
+                                    rather than a profile-specific path.
     =============  ============  ============
   
     In addition, you can provide a list of command line arguments to have
@@ -495,7 +501,8 @@ def initialize(args=None, **kwargs):
     ``--profile-path``   If this is set, load the profile from this path.
     ``--root-path``      The application root directory.
     ``--cache-path``     If this is set, this path will be used to cache data rather than a profile-specific path.
-    ``--package``        If this is set, and ``pkg_resources`` is available, then attempt to find resources in this package or requirement.
+    ``--package``        If this is set, and ``pkg_resources`` is available, then attempt to find resources
+                            in this package or requirement.
     ===================  ============
     """
     global name
@@ -558,10 +565,9 @@ def initialize(args=None, **kwargs):
   
     # Now, open the settings file with QSettings and we're done.
     ensure_paths()
-    file = os.path.join(profile_path, u'settings.ini')
+    file = os.path.join(profile_path, 'settings.ini')
     settings = QSettings(file, QSettings.IniFormat)
   
-    log.info(u'Using profile: %s (%s)' % (name, profile_path))
-    log.debug(u'settings.ini contains %d keys across %d groups.' % (
+    log.info('Using profile: %s (%s)' % (name, profile_path))
+    log.debug('settings.ini contains %d keys across %d groups.' % (
         len(settings.allKeys()), len(settings.childGroups())))
-  
