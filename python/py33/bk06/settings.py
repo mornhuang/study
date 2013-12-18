@@ -15,7 +15,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
 
         # Or path to database file if using sqlite3.
-        'NAME': 'django.db',
+        'NAME': 'blog/db/django.db',
 
         # The following settings are not used with sqlite3:
         'USER': 'test',
@@ -112,7 +112,7 @@ ROOT_URLCONF = 'urls'
 WSGI_APPLICATION = 'wsgi.application'
 
 import os
-TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), '../', 'templates').replace('\\','/'),)
+TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), 'blog/templates').replace('\\', '/'),)
 
 INSTALLED_APPS = (
     'django.contrib.auth',
