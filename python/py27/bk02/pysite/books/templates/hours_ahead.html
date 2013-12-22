@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{#{% extends 'panel.html' %}#}
+
+{% block title %}
+    Future time
+{% endblock %}
+
+{% block content %}
+    <p>In {{ hour_offset }} hours, it will be {{ next_time }}.</p>
+{#    {% block panel %}#}
+{#        {{ block.super }} {{ block.super }}#}
+{#    {% endblock %}#}
+{% endblock %}
+
+{% block footer %}
+    {{ block.super }}
+    你说呢
+{% endblock %}

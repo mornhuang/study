@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+<body>
+    {# 这里是单行注释 #}
+    {% comment %}
+    这里是多行注释的说明。
+    {% endcomment %}
+    {% for i in list %}
+        {{ i }}{% if not forloop.last %},{% endif %}
+        {% if i == 3 %}come on {% endif %}
+    {% endfor %}
+    <br/>列表长度{{ list|length }}
+</body>
+</html>

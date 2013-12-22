@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact us</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        ul.errorlist {
+            margin: 0;
+            padding: 0;
+        }
+
+        .errorlist li {
+            background-color: red;
+            color: #ffffff;
+            display: block;
+            font-size: 15px;
+            margin: 0 0 3px;
+            padding: 4px, 5px;
+        }
+    </style>
+</head>
+<body>
+    {% if form.errors %}
+    <p style="color: red;">please correct the error{{ form.errors|pluralize }}</p>
+    {% endif %}
+    <form action="" method="post">{% csrf_token %}
+        <table>
+            {{ form.as_table }}
+        </table>
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

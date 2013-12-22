@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search</title>
+</head>
+<body>
+{% if error %}
+    <p style="color: red;">Please submit a search term!</p>
+{% endif %}
+<form action="">
+    <input type="text" name="q"/>
+    <input type="submit" value="Submit"/>
+</form>
+</body>
+</html>
