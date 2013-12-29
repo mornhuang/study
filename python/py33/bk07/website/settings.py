@@ -1,13 +1,18 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
-#
-# Django settings for pysite project.
-#
+
+"""
+Django settings for pysite project.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/1.6/topics/settings/
+
+For the full list of settings and their values, see
+https://docs.djangoproject.com/en/1.6/ref/settings/
+"""
 
 import os
-
-
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 LOGGING = {
     'version': 1,
@@ -39,18 +44,25 @@ ADMINS = (
 MANAGERS = ADMINS
 
 SITE_ID = 1
-SECRET_KEY = '7$jn!@ukzcul-te403wl%$xo9gr+zepi28ekw_tkj(q4lhj6)&'
+SECRET_KEY = '6p@9oy(cl%&ycdc!a2&chitc3qik$$64(@qwks@s*21r=pt15l'
 TIME_ZONE = 'Asia/Shanghai'
 LANGUAGE_CODE = 'zh-cn'
-
-ALLOWED_HOSTS = []
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
-
-ROOT_URLCONF = 'pysite.urls'
-WSGI_APPLICATION = 'pysite.wsgi.application'
+ALLOWED_HOSTS = []
+ROOT_URLCONF = 'website.urls'
+WSGI_APPLICATION = 'website.wsgi.application'
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
+
+####################################################################
+###                     Static Content
+###################################################################
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+)
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media').replace('\\', '/')
 MEDIA_URL = '/media/'
@@ -60,16 +72,32 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
 )
 
-STATICFILES_FINDERS = (
-    'django.contrib.staticfiles.finders.FileSystemFinder',
-    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+###################################################################
+##                  Template Content
+###################################################################
+TEMPLATE_LOADERS = (
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader',
+    'django.template.loaders.eggs.Loader',
 )
 
+TEMPLATE_CONTEXT_PROCESSORS = {
+    'django.contrib.auth.context_processors.auth',
+    'django.core.context_processors.i18n',
+    'django.core.context_processors.media',
+}
+
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'templates').replace('\\', '/'),
+)
+
+#################################################################
+###             Application
+################################################################
 
 MIDDLEWARE_CLASSES = (
-    'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -85,53 +113,19 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.admin',
-    'south',
-    'pysite.gallery',
-    'pysite.books',
-    'pysite.contact',
-    'pysite',
+    'blog',
 )
 
-TEMPLATE_LOADERS = (
-    'django.template.loaders.filesystem.Loader',
-    'django.template.loaders.app_directories.Loader',
-    'django.template.loaders.eggs.Loader',
-)
-
-#TEMPLATE_CONTEXT_PROCESSORS = {
-#    'django.contrib.auth.context_processors.auth',
-#    'django.core.context_processors.i18n',
-#    'django.core.context_processors.media',
-#}
-
-#TEMPLATE_DIRS = (
-#    os.path.join(BASE_DIR, 'books/templates').replace('\\', '/'),
-#    os.path.join(BASE_DIR, 'contact/templates').replace('\\', '/'),
-#    os.path.join(BASE_DIR, 'templates').replace('\\', '/'),
-#)
+#################################################################
+###             Debug Setting
+################################################################
 
 TEMPLATE_DEBUG = DEBUG = True
 
 DATABASES = {
-    #'default': {
-    #    'ENGINE': 'django.db.backends.sqlite3',
-    #    'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    #    'USER': '',
-    #    'PASSWORD': '',
-    #    'HOST': '',
-    #    'PORT': '',
-    #}
-    #'default': {
-    #    'ENGINE': 'django.db.backends.mysql',
-    #    'NAME': 'django',
-    #    'USER': 'test',
-    #    'PASSWORD': 'test',
-    #    'HOST': '',
-    #    'PORT': '',
-    #}
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django',
+        'NAME': 'mz_cms',
         'USER': 'test',
         'PASSWORD': 'test',
         'HOST': '',

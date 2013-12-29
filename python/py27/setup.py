@@ -22,5 +22,5 @@ setup(
     license='LGPL',
     author='Morn',
     author_email='morn.huang@gmail.com',
-    description='Application tool set', requires=['django']
+    description='Application tool set', requires=['django', 'PIL']
 )

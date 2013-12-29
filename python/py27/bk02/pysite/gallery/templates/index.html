@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% get_media_prefix as MEDIA_PREFIX %}
+
+{% block title %}Home{% endblock %}
+{% block content %}
+    <h2>Welcome to the gallery</h2>
+    <p>Here you find pictures of various items</p>
+    <h3>showcase</h3>
+    <table>
+        <tr>
+            {% for item in item_list %}
+                <td>
+                    <a href="{{ item.get_absolute_url }}"><b>{{ item.name }}</b><br/>
+                        {% if item.photo_set.count %}
+                            <img src="{{ MEDIA_URL }}{{ item.photo_set.all.0.image.thumb_url }}"/>
+                        {% else %}
+                            <span>No photos (yet)</span>
+                        {% endif %}
+                    </a>
+                </td>
+            {% endfor %}
+        </tr>
+    </table>
+    <p><a href="{% url 'item_list' %}">View the full list &raquo;</a></p>
+{% endblock %}

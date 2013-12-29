@@ -1,0 +1,3 @@
+bk00 =
+bk01 =
+bk02 = DjangoBook2.0
