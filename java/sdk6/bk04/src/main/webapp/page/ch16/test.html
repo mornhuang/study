@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <script type="text/javascript">
+        var a = [1, 2, 3, 4, 5, 5];
+        a.splice(4);
+        a.splice(1, 2);
+        a.splice(1, 1);
+
+        var b =  [1, 2, 3, 4, 5];
+        b.slice(0, 3);
+        b.slice(3);
+        b.slice(1, -1);
+
+        var c = [];
+        c.push(3);
+        c.push(4);
+        c.push(5);
+        c.pop();
+
+        var d = [];
+        d.unshift(1);
+        d.unshift(2);
+        d.unshift(3);
+        d.shift();
+
+        function inspect(inspector, title) {
+            var expression, result;
+            if ("ignore" in arguments.callee) return;
+
+            while (true) {
+                var message = "";
+                if (title) message = title + "\n";
+                if (expression) message += "\n" + expression + "==>" + result + "\n";
+                else expression = "";
+                message += "Enter an expression to evalute";
+                expression = prompt(message, expression);
+                if (!expression) return;
+                result = inspector(expression);
+            }
+        }
+
+        function factorial(n) {
+            var inspector = function($) {return eval($);}
+            inspect(inspector, "Enter factorial");
+            var result = 1;
+            while (n > 1) {
+                result = result * n;
+                n--;
+                inspect(inspector, "factorial loop");
+            }
+            inspect(inspector, "Exiting factorail");
+            return result;
+        }
+
+        factorial(4);
+
+    </script>
+</body>
+</html>

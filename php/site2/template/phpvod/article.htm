@@ -1,0 +1,34 @@
+<div class="w960 mt10 fl">
+
+	<div class="w700 fl">
+		<dl class="box mb10">
+			<dt>文档内容</dt>
+			<dd class="article">
+				<h3>$article[subject]</h3>
+				<span class="artinfo">
+					<span>发布人：<a href="profile?uid=$article[authorid]" target="_blank">$article[author]</a></span> &nbsp;&nbsp;&nbsp;
+					<span>发布时间：<!--{echo get_date($article[timestamp])}--></span> &nbsp;&nbsp;&nbsp;
+					<span>点击数：$article[hits]</span>
+				</span>
+				<span class="article_content">
+					$article[content]
+				</span>					
+			</dd>	
+		</dl>
+	</div>
+
+	<div class="w245 fr">
+		<dl class="box">
+			<dt>栏目列表</dt>
+			<dd>
+				<ul class="artclass">
+					<li><a href="arthome.php">文档首页</a></li>
+					<!--{loop $_artclass $classid $classname}-->
+					<li><a href="artlist.php?classid=$classid">$classname</a></li>
+					<!--{/loop}-->					
+				</ul>				
+			</dd>			
+		</dl>		
+	</div>
+	
+</div>

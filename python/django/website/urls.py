@@ -4,20 +4,17 @@
 from django.conf import settings
 from django.conf.urls import patterns, include, url, static
 from django.contrib import admin
-from zinnia.views.channels import EntryChannel
+from filebrowser.sites import site
 
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+    url(r'^admin/filebrowser/', include(site.urls)),
+    url(r'^grappelli/', include('grappelli.urls')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^comments/', include('django.contrib.comments.urls')),
-    url(r'^weblog/$',
-        EntryChannel.as_view(
-            query='category:blog OR category:django'
-        )
-    ),
-    url(r'^weblog/', include('zinnia.urls')),
+    url(r'^', include('zinnia.urls')),
+    url(r'^tinymce/', include('tinymce.urls')),
 )
 
 if settings.DEBUG:

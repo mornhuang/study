@@ -1,0 +1,19 @@
+<script type="text/javascript"> 
+	document.writeln("<object classid=\"clsid:F3D0D36F-23F8-4682-A195-74C92B03D4AF\" width=\"550\" height=\"400\" id=\"QvodPlayer\" name=\"QvodPlayer\" onError=if(window.confirm(\"请您先安装快播播放器,然后刷新本页才可以正常播放.\")){window.open(\"http://www.kuaibo.com/\")}else{self.location=\"http://www.kuaibo.com/\"}>");
+	document.writeln("<param name=\"URL\" value=\""+$urlpath+"\">"); //影片地址
+	document.writeln("<param name=\"Autoplay\" value=\"1\">"); //自动播放
+	document.writeln("<param name=\"NextWebPage\" value=\"$nextpage\">"); //下一集的网页地址
+	document.writeln("<param name=\"QvodAdUrl\" value=\"\">"); //播放前缓冲广告页面地址
+	document.writeln("<embed id=\"playerFF\" url=\""+$urlpath+"\" type=\"application/qvod-plugin\" width=\"550\" height=\"400\"></embed>");
+	document.writeln("</object>");
+	setInterval("StartNextDownFile()",5000);
+	var bstartnextplay = false;
+	function StartNextDownFile()
+	{
+		if(QvodPlayer.get_CurTaskProcess() > 990 && !bstartnextplay)
+		{
+			var rv = QvodPlayer.StartNextDown($nexturl);
+			bstartnextplay = true;
+		}
+	}
+</script>

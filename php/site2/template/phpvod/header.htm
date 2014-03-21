@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<base href="$db_wwwurl/" />
+	<meta http-equiv="Content-Type" content="text/html; charset=$db_charset" />
+<!--{if PHPFUNC=='showmsg'}-->	
+	<title>提示信息 - powered by PHPvod.com</title>	
+	<meta name="keywords" content="$db_keywords" />
+	<meta name="description" content="$db_description" />
+<!--{elseif PHPSELF=='index'}-->
+	<title>$db_wwwname - powered by PHPvod.com</title>	
+	<meta name="keywords" content="$db_keywords" />
+	<meta name="description" content="$db_description" />
+<!--{elseif PHPSELF=='category'}-->
+	<title>$_class[$cid][caption] - $db_wwwname - powered by PHPvod.com</title>
+	<meta name="keywords" content="$db_keywords" />
+	<meta name="description" content="$db_description" />	
+<!--{elseif PHPSELF=='class'}-->
+	<title>$_class[$cid][caption] - $db_wwwname - powered by PHPvod.com</title>
+	<meta name="keywords" content="$db_keywords" />
+	<meta name="description" content="$db_description" />
+<!--{elseif PHPSELF=='read'}-->
+	<title>$video[subject] - $db_wwwname - powered by PHPvod.com</title>
+	<meta name="keywords" content="<!--{eval echo str_replace(array('"',"\'",'&nbsp;'), '', strip_tags($video['subject']))}-->" />
+	<meta name="description" content="<!--{eval echo pv_substr(str_replace(array('"',"\'","\n",'&nbsp;',' ','　'), '', strip_tags($video['synopsis'])), 200, 1);}-->" />
+<!--{elseif PHPSELF=='play'}-->
+	<title>$video[subject]({$urlcaption}) - $db_wwwname - powered by PHPvod.com</title>
+	<meta name="keywords" content="$db_keywords" />
+	<meta name="description" content="$db_description" />
+<!--{else}-->
+	<!--{if PHPSELF == 'post'}-->
+		<title>发布视频 - $db_wwwname - powered by PHPvod.com</title>
+	<!--{elseif PHPSELF == 'faq'}-->
+		<title>帮助 - $db_wwwname - powered by PHPvod.com</title>
+	<!--{elseif PHPSELF == 'hack'}-->	
+		<title>$_hack[$hackname][name] - 插件 - $db_wwwname - powered by PHPvod.com</title>
+	<!--{elseif PHPSELF == 'login'}-->	
+		<title>会员登录 - $db_wwwname - powered by PHPvod.com</title>
+	<!--{elseif PHPSELF == 'message'}-->
+		<title>短消息 - $db_wwwname - powered by PHPvod.com</title>
+	<!--{elseif PHPSELF == 'notice'}-->	
+		<title>网站公告 - $db_wwwname - powered by PHPvod.com</title>
+	<!--{elseif PHPSELF == 'profile'}-->
+		<title>个人中心 - $db_wwwname - powered by PHPvod.com</title>		
+	<!--{elseif PHPSELF == 'register'}-->
+		<title>会员注册 - $db_wwwname - powered by PHPvod.com</title>
+	<!--{elseif PHPSELF == 'report'}-->
+		<title>举报 - $db_wwwname - powered by PHPvod.com</title>
+	<!--{elseif PHPSELF == 'search'}-->
+		<!--{eval if(!empty($keyword)) $search_keyword = $keyword . ' - '; else $search_keyword = '';}-->
+		<title>{$search_keyword}搜索 - $db_wwwname - powered by PHPvod.com</title>
+	<!--{elseif PHPSELF == 'sendpwd'}-->
+		<title>找回密码 - $db_wwwname - powered by PHPvod.com</title>
+	<!--{else}-->
+		<title>$db_wwwname</title>
+	<!--{/if}-->
+	<meta name="keywords" content="$db_keywords" />
+	<meta name="description" content="$db_description" />
+<!--{/if}-->
+	<!-- <meta content="IE=7.0000" http-equiv="X-UA-Compatible"> -->
+	<link rel="stylesheet" type="text/css" href="$imgpath/$stylepath/style.css" />
+	<script language="javascript" src="js/jquery.js"></script>
+	<script language="javascript" src="js/function.js"></script>
+</head>
+<body>
+<!--{eval $adcode = ad('header');}-->
+<!--{if $adcode!=''}--><div class="adheader">$adcode</div><!--{/if}-->	
+<div id="header">
+	<div id="logo"><a href="$db_bfn"><img src="$imgpath/$stylepath/logo.gif" alt="$db_wwwname"/></a></div>
+	<div id="banner">
+		<div id="nav">
+			您好，
+			<!--{if $groupid=='guest'}-->
+			请 <a href="register.php">注册</a> 或 <a href="login.php">登录</a>
+			<!--{else}-->
+			{$username}！<a href="login.php?action=quit">[退出]</a>
+			┆ <a href="profile.php?action=show&id=$uid">个人中心</a>
+			┆ <a href="message.php">短消息</a> <!--{if $user[newpm]==1}--><img src="$imgpath/$stylepath/new.gif" /><!--{/if}-->
+			<!--{/if}-->
+			
+			<!--{if $gp_allowpost=='1'}-->
+			┆ <a href="post.php" class="stylecolor">发布视频</a>
+			<!--{/if}-->
+			
+			<!--{loop $hackdb[1] $h}-->
+			┆ <a href="hack.php?hackname=$h[directory]">$h[name]</a>
+			<!--{/loop}-->
+			
+			<!--{if $SYSTEM[allowadmincp]=='1'}-->
+			┆ <a href="admin.php" target="_blank">后台管理</a>
+			<!--{/if}-->
+			
+			┆ <a href="search.php">搜索</a>
+			
+			<!--{if $db_mergesystype=='ucenter' && $db_mergeshowapp=='1'}-->
+				<!--{eval include_once PHPVOD_ROOT . 'uc_client/data/cache/apps.php';}-->
+				<!--{loop $_CACHE['apps'] $key $app}-->
+					<!--{if $app[appid] != UC_APPID && is_numeric($key)}-->
+					┆ <a href="$app[url]" target="_blank">$app[name]</a>	
+					<!--{/if}-->
+				<!--{/loop}-->
+			<!--{/if}-->
+			
+			┆ <a href="arthome.php">文档</a>
+			┆ <a href="rss.php" target="_blank">RSS</a>			
+		</div>
+					
+		<div id="bdy">
+			<div id="search">
+				<form method="post" action="search.php">
+					<div class="sch-left"></div>
+					<div class="sch-input">
+						<input type="hidden" name="action" value="search" />
+						<input type="hidden" name="field" value="subject" />
+						<input type="hidden" name="cid" value="" />
+						<input type="hidden" name="nid" value="" />
+						<input type="hidden" name="orderway" value="postdate" />
+						<input type="hidden" name="asc" value="DESC" />
+						<input type="hidden" name="lines" value="10" />
+						<input type="hidden" name="showtype" value="0" />
+						<input type="text" name="keyword" maxlength="30" />					
+					</div>
+					<input id="search-btn" name="submit" type="submit" value="" class="sch-btn"/>
+				</form>
+			</div>
+		</div>		
+	</div>
+	
+	<script type="text/javascript">
+		$('#search-btn').bind('mouseenter mouseleave', function() {
+		  $(this).toggleClass('on-sch-btn');
+		});	
+	</script>		
+	
+</div><!-- header end -->
+
+<div id="menu">
+	<div id="menubar">
+		<div id="menuitem">
+			<!--{eval 
+			if(PHPSELF=='category') $t=$cid; elseif(PHPSELF=='class' || PHPSELF=='read') $t=$top; elseif(PHPSELF=='index') $t=0;
+			$t>=0 && $ms[$t]=' class="current"';
+			}-->
+			<a href="$db_bfn"{$ms[0]}>首页</a>
+			<!--{loop:class:$c cid=0}-->
+			<a href="category.php?cid=$c[cid]"{$ms[$c[cid]]}>$c[caption]</a>
+			<!--{/loop:class}-->
+			
+			<!--{loop $hackdb[2] $h}-->
+			<a href="hack.php?hackname=$h[directory]">$h[name]</a>
+			<!--{/loop}-->			
+			<div class="menu-left"></div>			
+		</div>
+		<div class="siteinfo">今日:<!--{echo get_today_vodnum('60')}--> ┆ 影片:$siteinfo[totalvideo] ┆ 会员:$siteinfo[totalmember] ┆ 新会员:$siteinfo[newmember]</div>
+	</div>
+	<div class="menu-right"></div>
+</div>
+
+<div id="mainbody">

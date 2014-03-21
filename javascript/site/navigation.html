@@ -1,0 +1,43 @@
+<script>
+    function back() {
+        document.navbar.url.value = "";
+        try { parent.main.history.back();}
+        catch (e) { alert("same-origin policy blocks history.back: " + e.message); }
+        setTimeout(updateURL, 1000);
+    }
+
+    function forward() {
+        document.navbar.url.value = "";
+        try { parent.main.history.forward();}
+        catch (e) { alert("same-origin policy blocks history.back: " + e.message); }
+        setTimeout(updateURL, 1000);
+    }
+
+    function updateURL() {
+        try { document.navbar.url.value = parent.main.location.href; }
+        catch (e) {
+            document.navbar.url.value = "<same-origin policy prevents URL access>";
+        }
+    }
+
+    function fix(url) {
+        if (url.substring(0, 7) != "http://") url = "http://" + url;
+        return url;
+    }
+
+    function go() {
+        parent.main.location = fix(document.navbar.url.value);
+    }
+
+    function displayInNewWindow() {
+        window.open(fix(document.navbar.url.value));
+    }
+</script>
+
+<form name="navbar" onsubmit="go(); return false;">
+    <input type="button" value="back" onclick="back();">
+    <input type="button" value="forward" onclick="forward();">
+    URL：<input type="text" name="url" size="50">
+    <input type="button" value="go" onclick="go();">
+    <input type="button" value="open new window" onclick="displayInNewWindow();">
+</form>

@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+// 变量示例
+$colors: #111;
+
+// 选择符嵌套
+ul.nav {
+    float: right;
+    li {
+        float: left;
+        a {
+            color: $colors;
+        }
+        &.current {
+            font-weight: bold;
+        }
+    }
+}
+
+// mixin示例
+@mixin horizontal-list {
+    li {
+        float: left;
+        margin-right: 10px;
+    }
+}
+
+#header ul.nav {
+    @include horizontal-list;
+    margin-top: 10px;
+}
+
+// 选择符继承
+.error {
+    border: 1px #f00;
+    background: #fdd;
+}
+
+.error.intrusion {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.badError {
+    @extend .error;
+    border-width: 4px;
+}
+
+// 占位选择符
+%button-reset {
+    margin: 0;
+    padding: .5em 1.2em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.save {
+    @extend %button-reset;
+    color: white;
+    background: blue;
+}
+
+.delete {
+    @extend %button-reset;
+    color: white;
+    background: #ff0000;
+}
+
+// compass
+@import "compass/reset";
+@import "compass/utilities/tables";
+
+table {
+    $table-color: #666;
+    @include table-scaffolding;
+    @include inner-table-borders(1px, darken($table-color, 40%));
+    @include outer-table-borders(2px);
+    @include alternating-rows-and-columns($table-color,
+        adjust-hue($table-color, -120deg), #222222);
+}
+
+#content aside {
+    color: red;
+    body.ie & { color: green }
+}
+
+article a {
+    color: blue;
+    &:hover { color: red }
+}
+
+// Test tag out
+@import "tag-cloud";
+
+.zinnia {
+    @include tag-cloud(28px);
+    @include tag-cloud-colors(blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

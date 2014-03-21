@@ -1,0 +1,33 @@
+<div class="navpath blue">当前位置: $navpath</div>
+
+<!--{eval $adcode = ad('nav');}-->
+<!--{if $adcode!=''}--><div class="adnav">$adcode</div><!--{/if}-->
+
+<dl class="box w958 mt10">
+	<dt>$video[subject] - $urlcaption</dt>
+	<dd class="tc p5">
+		<!--{eval $adcode = ad('play',1);}-->	<!-- 播放器左侧广告 190*550-->
+		<!--{if $adcode!=''}--><div class="fl adplayside">$adcode</div><!--{/if}-->
+		
+		<!--{eval $adcode = ad('play',2);}-->	<!-- 播放器右侧广告 190*550-->
+		<!--{if $adcode!=''}--><div class="fr adplayside">$adcode</div><!--{/if}-->
+
+		<div class="play">$player</div>
+	</dd>	
+</dl>
+
+<!--{loop $urldb $pg $msg}-->
+<dl class="box w958 mt10">
+	<dt><span class="fr">$msg[player]</span>播放组{$msg[playgroup]}</dt>
+	<dd class="playlist">
+		<!--{loop $msg[urls] $key $value}-->
+		<a href="play.php?vid=$msg[vid]&playgroup=$msg[playgroup]&index=$key" title="$value[caption]" <!--{if $msg[playgroup]==$playgroup && $key==$index}-->class="sel"<!--{/if}-->>$value[caption]</a>
+		<!--{/loop}-->
+		<div class="cb"></div>							
+	</dd>
+</dl>
+<!--{/loop}-->
+
+<!--{eval $adcode = ad('play',3);}-->
+<!--{if $adcode!=''}--><div class="adplay">$adcode</div><!--{/if}-->
+

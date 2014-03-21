@@ -1,0 +1,19 @@
+<script type="text/javascript"> 
+	document.writeln("<object classid=\"clsid:73BAB958-AC02-5108-B2B8-665834A9C63A\" width=\"550\" height=\"400\" id=\"CoolPlayer\" name=\"CoolPlayer\" onError=if(window.confirm(\"请您先安装酷播播放器,然后刷新本页才可以正常播放.\")){window.open(\"http://www.mycoolplayer.com/err/playerError.htm\")}else{self.location=\"http://www.mycoolplayer.com/err/playerError.htm\"}>");
+	document.writeln("<PARAM NAME=\"URL\" VALUE=\""+$urlpath+"\">");
+	document.writeln("<PARAM NAME=\"Autoplay\" VALUE=\"1\">");
+	document.writeln("<param name=\"CoolAdUrl\" value=\"\">"); //广告地址
+	document.writeln("<PARAM NAME=\"NextWebPage\" VALUE=\"$nextpage\">");
+	document.writeln("<embed id=\"playerFF\" url=\""+$urlpath+"\" type=\"application/cool-plugin\" width=\"550\" height=\"400\"></embed>");
+	document.writeln("</object>");
+	setInterval("StartNextDownFile()",5000);
+	var bstartnextplay = false;
+	function StartNextDownFile()
+	{
+		if(CoolPlayer.get_CurTaskProcess() > 990 && !bstartnextplay)
+		{
+			var rv = CoolPlayer.StartNextDown($nexturl);
+			bstartnextplay = true;
+		}
+	}
+</script>

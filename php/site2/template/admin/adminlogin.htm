@@ -1,0 +1,85 @@
+<!--<?php
+include_once gettpl("css");
+print <<<EOT
+-->
+</head>
+<body>
+<style type="text/css">
+a{text-decoration: none; color: #0f6;}
+a:link,a:visited{color:#0044dd;	text-decoration: none;}
+a:hover,a:active{color:#ff5500;	text-decoration: underline;}
+body {background-color: #CED4E8;}
+.i_table{border: 1px solid #739ACE;background:#DEE3EF;}
+.b{background:#F7F7F7;}
+</style>
+<br><br><br><br><br><br><br>
+<form action="$request_uri" method="post">
+<input type="hidden" name="login_f" value="1">
+<table width="50%" class="i_table" align=center cellspacing=1 cellpadding=0>
+<tr>
+	<td valign=middle align=center class=b>
+		<br><br>
+		<b>PHPvod Studio 管理中心</b>
+		<br><br>
+		<table width=350 align=center cellspacing=0 cellpadding=0 class=i_table>
+		<tr><td align="center" class="b">
+
+			<table width=100% cellspacing=0 cellpadding=0 bgcolor='#ffffff'>
+		
+			<tr bgcolor='#ffffff'>
+			<td valign=middle width=40% align=right>
+				请输入管理员ID
+			</td>
+			<td valign=middle align="left">
+				<input type="text" name="admin_name" style="width: 150px;">
+			</td>
+			</tr>
+			
+			<tr bgcolor='#ffffff'>
+			<td valign=middle width=40% align=right>
+				请输入管理员密码
+			</td>
+			<td valign=middle align="left">
+				<input type=password name="admin_password" style="width: 150px;">
+			</td>
+			</tr>
+
+<!--
+EOT;
+if($db_gdcheck & 32){
+print <<<EOT
+-->	
+			<tr bgcolor='#ffffff'>
+			<td valign=middle width=40% align=right>
+				请输入验证码
+			</td>
+			<td valign=middle align="left">
+				<input name="login_num" type="text" style="width: 100px;">
+				<div style="margin-top: 2px;">
+					<img src="ck.php?admin=1&nowtime=$timestamp" align="absmiddle" style="cursor:pointer;" id="ckcode" onclick="this.src='ck.php?admin=1&nowtime='+new Date().getTime();" alt="看不清楚，换一张" />
+				</div>
+			</td>
+			</tr>
+<!--
+EOT;
+}print <<<EOT
+-->
+
+			</table>
+
+		</td></tr>
+		</table>
+
+		<br><input type=submit name="submit" value="提 交">
+		<br><br>
+
+	</td>
+</tr>
+</table>
+
+</body></html>
+<!--
+EOT;
+include_once gettpl('adminbottom');
+?>
+-->
