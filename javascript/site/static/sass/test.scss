@@ -1,4 +1,7 @@
 @charset "utf-8";
+/** charset 必须放在第一行，即使上面是一行注释也不行  **/
+/*! Copyright hray.info */
+
 
 // 变量示例
 $colors: #111;
@@ -79,6 +82,7 @@ table {
         adjust-hue($table-color, -120deg), #222222);
 }
 
+// test & parent hold
 #content aside {
     color: red;
     body.ie & { color: green }
@@ -97,9 +101,11 @@ article a {
     @include tag-cloud-colors(blue);
 }
 
-
-
-
+// Test CSS3
+@import "compass/css3";
+.rounded {
+    @include border-radius(5px);
+}
 
 
 

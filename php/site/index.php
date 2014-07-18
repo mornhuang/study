@@ -6,7 +6,9 @@
  * Time: 上午3:27
  */
 //echo "hello";
-echo '<pre>';
-echo `dir`;
-echo '</pre>';
+//echo '<pre>';
+//echo `dir`;
+//echo '</pre>';
+
+phpinfo();
 
