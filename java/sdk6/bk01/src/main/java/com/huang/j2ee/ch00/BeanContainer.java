@@ -5,8 +5,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
 /**
- * spring bean容器
- * @description spring bean容器
+ * @description 学习ApplicationContextAware（为什么要用静态？单实例方式也不好)
+ * @see com.huang.j2ee.ch02.SingletonExam
  * @time Mar 13, 2009 3:44:27 PM create
  * @version 1.0
  */

@@ -11,7 +11,7 @@ package com.huang.j2ee.ch01.model;
 /**
  * Created By User : Morn
  * Created DateTime: 13-9-23 下午5:25
- * Descriptions    :
+ * Descriptions    : 学习hibernate\jpa
  */
 public enum Season {
    春季,夏季,秋季,冬季

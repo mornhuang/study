@@ -5,7 +5,7 @@ import javax.persistence.Embeddable;
 /**
  * Created By User : Morn
  * Created DateTime: 13-9-23 下午7:00
- * Descriptions    :
+ * Descriptions    : 学习hibernate\jpa
  */
 @Embeddable
 public class Cat {

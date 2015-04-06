@@ -20,7 +20,7 @@ echo "这里是转义过后的: ,$str, <hr />";
 //-----magic_quotes_gpc只会转义：     通过Get/Post/Cookies获得的数据
 //-----magic_quotes_runtime会转义：从文件中读取的数据或执行exec()的结果或是从ＳＱＬ查询中得到的
 //=====================================================================================
-$data = implode(file('try.php'));      // 我们在里面依然写"这几个字符，用来测试
+$data = implode(file('try.txt'));      // 我们在里面依然写"这几个字符，用来测试
 echo '这里是try.php的数据';
 if (get_magic_quotes_runtime()) {
     echo "被系统自带转义的" . $data;

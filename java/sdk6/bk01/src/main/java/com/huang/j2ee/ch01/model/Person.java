@@ -6,7 +6,7 @@ import java.util.Date;
 /**
  * Created By User : Morn
  * Created DateTime: 13-9-23 下午5:41
- * Descriptions    :
+ * Descriptions    : 学习hibernate\jpa
  */
 @Entity
 @Table(name = "person_table")
@@ -51,4 +51,5 @@ public class Person {
     public void setPic(byte[] pic) {
         this.pic = pic;
     }
+
 }

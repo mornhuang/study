@@ -6,6 +6,9 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.springframework.aop.AfterReturningAdvice;
 
+/**
+ * 学习spring的AOP，通过继承spring的类的方式
+ */
 public class LogAfter implements AfterReturningAdvice {
 	private Logger logger = Logger.getLogger(this.getClass().getName());
 

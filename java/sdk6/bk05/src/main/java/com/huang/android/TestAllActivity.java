@@ -3,6 +3,7 @@ package com.huang.android;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import com.huang.android.ch01.*;
 
@@ -11,8 +12,11 @@ import com.huang.android.ch01.*;
  * Created DateTime: 13-6-22 下午8:40
  */
 public class TestAllActivity extends Activity {
+    private String TAG = this.getClass().getSimpleName();
 
     public void onCreate(Bundle savedInstanceState) {
+        Log.w(TAG, "OnCreate TaskId:" + this.getTaskId());
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.l00_all);
 
@@ -215,5 +219,41 @@ public class TestAllActivity extends Activity {
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.w(TAG, "onStart");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.w(TAG, "onRestart");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.w(TAG, "onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.w(TAG, "onPause");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.w(TAG, "onStop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.w(TAG, "onDestroy");
     }
 }

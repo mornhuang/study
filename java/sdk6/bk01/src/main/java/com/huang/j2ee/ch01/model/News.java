@@ -13,7 +13,7 @@ import javax.persistence.*;
 /**
  * Created By User : Morn
  * Created DateTime: 13-9-23 下午2:54
- * Descriptions    :
+ * Descriptions    : 学习hibernate\jpa
  */
 @Entity
 @Table(name = "news_table")

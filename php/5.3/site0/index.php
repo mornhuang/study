@@ -2,13 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: Morn
- * Date: 14-3-16
- * Time: 上午3:27
+ * Date: 14-8-2
+ * Time: 上午11:20
  */
-//echo "hello";
-//echo '<pre>';
-//echo `dir`;
-//echo '</pre>';
 
 phpinfo();
-

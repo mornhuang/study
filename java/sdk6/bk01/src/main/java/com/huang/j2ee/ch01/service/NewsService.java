@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created By User : Morn
  * Created DateTime: 13-10-6 下午6:02
- * Descriptions    :
+ * Descriptions    : spring 自动装配
  */
 @Service
 public class NewsService {

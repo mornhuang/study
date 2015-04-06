@@ -18,6 +18,9 @@ import com.huang.j2ee.ch00.BeanContainer;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 
+/**
+ * 通过Struts，学习测试Jasper报表工具
+ */
 @SuppressWarnings("rawtypes")
 public class JasperAction extends ActionSupport implements ServletContextAware {
 	private static final long serialVersionUID = -2657479265527219661L;

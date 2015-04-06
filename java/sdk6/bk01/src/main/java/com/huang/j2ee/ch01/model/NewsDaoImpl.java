@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created By User : Morn
  * Created DateTime: 13-10-6 下午5:49
- * Descriptions    :
+ * Descriptions    : 学习hibernate\jpa
  */
 @Repository("newsDao")
 public class NewsDaoImpl extends JpaDaoSupport implements NewsDao {

@@ -10,10 +10,10 @@
             jdbc:mysql://localhost/study
         </property>
         <property name="connection.username">
-            test
+            root
         </property>
         <property name="connection.password">
-            test
+            huangmeng
         </property>
         <property name="connection.driver_class">
             com.mysql.jdbc.Driver

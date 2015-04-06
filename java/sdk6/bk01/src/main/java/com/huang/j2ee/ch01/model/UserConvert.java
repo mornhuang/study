@@ -7,7 +7,8 @@ import java.util.Map;
 /**
  * Created By User : Morn
  * Created DateTime: 13-9-22 上午7:42
- * Descriptions    :
+ * Descriptions    : 学习struts的类型转换
+ * 参见 resources\xwork-conversion.properties
  */
 public class UserConvert extends DefaultTypeConverter {
     @Override

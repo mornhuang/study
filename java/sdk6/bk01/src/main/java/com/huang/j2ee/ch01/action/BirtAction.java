@@ -18,6 +18,9 @@ import org.eclipse.birt.report.engine.api.IRunAndRenderTask;
 
 import com.opensymphony.xwork2.ActionSupport;
 
+/**
+ * 通过struts启动Birt报表
+ */
 public class BirtAction extends ActionSupport {
 
 	public String execute() throws Exception {

@@ -1,0 +1,46 @@
+
+['war', 'java', 'maven', 'maven-publish'].each {
+    apply plugin : it
+}
+
+group = 'com.huang.j2ee'
+version = '1.0'
+
+repositories {
+    mavenLocal()
+    maven {
+        url "http://192.168.0.235:8081/nexus/content/groups/public/"
+    }
+    mavenCentral()
+}
+
+uploadArchives {
+    repositories {
+/*        mavenDeployer {
+            repository(url: "file://localhost/tmp/myRepo/")
+            pom.artifactId = 'bk00'
+        }*/
+
+/*        mavenDeployer {
+            repositorys {
+                url 'http://192.168.0.235:8081/nexus/content/repositories/snapshots/'
+                credentials {
+                    username = 'admin'
+                    password = 'admin123'
+                }
+            }
+        }*/
+    }
+}
+
+//[compileJava,compileTestJava,javadoc]*.options*.encoding = "UTF-8"
+dependencies {
+    providedCompile 'javax.servlet:servlet-api:2.5'
+    testCompile 'junit:junit:4.11+'
+    compile 'net.sf.json-lib:json-lib:2.4:jdk15'
+}
+
+
+
+
+

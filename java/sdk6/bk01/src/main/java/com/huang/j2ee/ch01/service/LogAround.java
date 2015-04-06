@@ -5,6 +5,9 @@ import org.aopalliance.intercept.MethodInvocation;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
+/**
+ * 学习spring的AOP，通过继承spring的类的方式
+ */
 public class LogAround implements MethodInterceptor {
 	private Logger logger = Logger.getLogger(this.getClass().getName());
 

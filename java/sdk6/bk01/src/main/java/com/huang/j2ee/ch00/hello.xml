@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+<!--suppress SpringFacetInspection -->
+
+<beans>
+    <!-- set注入会覆盖构造注入 -->
+    <bean id="greetingService"
+          class="com.huang.j2ee.ch00.service.GreetingServiceImpl">
+<!--
+        <property name="greeting">
+            <value>Set Ioc</value>
+        </property>
+-->
+        <constructor-arg>
+            <value>That rascally rabbit!</value>
+        </constructor-arg>
+    </bean>
+
+    <!-- BeanPostProcessor会影响所有bean -->
+    <bean id="fuddier" class="com.huang.j2ee.ch00.service.Fuddifer" />
+
+    <!-- BeanFactoryPostProcessor -->
+    <bean id="beanCounter" class="com.huang.j2ee.ch00.service.BeanCounter" />
+
+    <!-- 单独注入方式 -->
+<!--
+    <bean id="phoneInfo" class="com.huang.j2ee.ch00.service.PhoneNumber">
+        <constructor-arg index="0">
+            <value>888</value>
+        </constructor-arg>
+        <constructor-arg index="1">
+            <value>555</value>
+        </constructor-arg>
+        <constructor-arg index="2">
+            <value>1212</value>
+        </constructor-arg>
+    </bean>
+    <bean id="contact" class="com.huang.j2ee.ch00.service.Contact">
+        <property name="phoneNumber">
+            <ref bean="phoneInfo" />
+        </property>
+    </bean>
+-->
+
+    <!-- 注入时对属性进行转换 -->
+    <bean id="customEditorConfigurer" class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+        <property name="customEditors">
+            <map>
+                <entry key="com.huang.j2ee.ch00.service.PhoneNumber">
+                    <bean id="phoneEditor" class="com.huang.j2ee.ch00.service.PhoneEditor" />
+                </entry>
+            </map>
+        </property>
+    </bean>
+    <bean id="contact" class="com.huang.j2ee.ch00.service.Contact">
+        <property name="phoneNumber">
+            <value>888-555-1212</value>
+        </property>
+    </bean>
+
+</beans>

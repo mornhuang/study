@@ -5,6 +5,10 @@ import com.opensymphony.xwork2.ActionSupport;
 
 import java.sql.SQLException;
 
+/**
+ * 学习Struts的validate
+ * @see com/huang/j2ee/ch01/action/Login2Action-validation.xml
+ */
 public class Login1Action extends ActionSupport{
 	private String username;
 	private String password;

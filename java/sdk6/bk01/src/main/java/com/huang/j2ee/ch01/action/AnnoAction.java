@@ -6,7 +6,7 @@ import org.apache.struts2.convention.annotation.*;
 /**
  * Created By User : Morn
  * Created DateTime: 13-9-20 下午6:40
- * Descriptions    :
+ * Descriptions    : 学习Struts的注解
  */
 @ParentPackage("default")
 @Namespace("/")

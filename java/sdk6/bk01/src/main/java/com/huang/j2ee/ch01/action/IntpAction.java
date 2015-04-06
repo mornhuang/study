@@ -5,6 +5,9 @@ import java.util.Date;
 import com.opensymphony.xwork2.ActionInvocation;
 import com.opensymphony.xwork2.interceptor.AbstractInterceptor;
 
+/**
+ * 学习Struts的拦截器
+ */
 public class IntpAction extends AbstractInterceptor {
 	private static final long serialVersionUID = 1295197047564036956L;
 	private String name;

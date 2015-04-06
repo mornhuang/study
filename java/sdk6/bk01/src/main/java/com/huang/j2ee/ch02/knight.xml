@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress SpringFacetInspection -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+                           http://www.springframework.org/schema/util
+                           http://www.springframework.org/schema/util/spring-util-3.0.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context-3.0.xsd
+                           http://www.w3.org/2001/XMLSchema-instance ">
+    <!-- 自动扫描 -->
+    <!--<context:annotation-config />-->
+    <context:component-scan base-package="com.huang.j2ee.ch02">
+        <!--<context:include-filter type="assignable" expression="com.huang.j2ee.ch00.service.PhoneEditor" />-->
+        <!--<context:exclude-filter type="annotation" expression="com.huang.j2ee.ch00.SkipIt*" />-->
+    </context:component-scan>
+
+    <!-- 测试切面 -->
+    <bean id="quest" class="com.huang.j2ee.ch02.SlayDragonQuest"/>
+    <bean id="knight" class="com.huang.j2ee.ch02.BraveKnight">
+        <constructor-arg ref="quest"/>
+    </bean>
+    <bean id="minstrel" class="com.huang.j2ee.ch02.Minstrel"/>
+
+    <bean id="magician" class="com.huang.j2ee.ch02.Magician"/>
+    <bean id="volunteer" class="com.huang.j2ee.ch02.Volunteer"/>
+
+    <bean id="audience" class="com.huang.j2ee.ch02.pullin.Audience" />
+
+    <aop:config>
+        <aop:aspect ref="minstrel">
+            <aop:pointcut id="embark" expression="execution(* *.embarkOnQuest(..))"/>
+            <aop:before method="singBeforeQuest" pointcut-ref="embark"/>
+            <aop:after method="singAfterQuest" pointcut-ref="embark"/>
+        </aop:aspect>
+        <aop:aspect ref="magician">
+            <aop:pointcut id="thinking"
+                          expression="execution(* com.huang.j2ee.ch02.Thinker.thinkOfSomething(String)) and args(thoughts)"/>
+            <aop:before pointcut-ref="thinking" method="interceptThought" arg-names="thoughts"/>
+        </aop:aspect>
+        <aop:aspect ref="audience">
+            <aop:pointcut id="performance" expression="execution(* com.huang.j2ee..*.Performer(..))" />
+            <aop:around method="watchPerformance" pointcut-ref="performance" />
+        </aop:aspect>
+    </aop:config>
+
+    <!-- 测试list\p\properties\systemEnvironment 和 SpEL语法  -->
+    <util:list id="cities">
+        <bean class="com.huang.j2ee.ch02.City" p:name="Chicago" p:state="IL" p:population="2853114"/>
+        <bean class="com.huang.j2ee.ch02.City" p:name="Atlanta" p:state="GA" p:population="537958"/>
+    </util:list>
+
+    <util:properties id="settings" location="classpath:gconf.properties"/>
+
+    <bean id="person" class="com.huang.j2ee.ch02.Person"
+          p:city="#{cities[0]}" p:setting="#{settings['debug']}" p:homePath="#{systemEnvironment['HOME']}"/>
+
+    <!-- 测试引入方法 -->
+    <aop:config>
+        <aop:aspect>
+            <aop:declare-parents types-matching="com.huang.j2ee.ch02.pullin.Performer+"
+                                 implement-interface="com.huang.j2ee.ch02.pullin.Contestant"
+                                 default-impl="com.huang.j2ee.ch02.pullin.GraciousContestant"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

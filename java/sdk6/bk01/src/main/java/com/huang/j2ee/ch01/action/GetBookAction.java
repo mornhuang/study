@@ -4,6 +4,9 @@ import com.huang.j2ee.ch01.service.BookService;
 import com.opensymphony.xwork2.Action;
 import com.opensymphony.xwork2.ActionContext;
 
+/**
+ * 测试Struts的action
+ */
 public class GetBookAction implements Action {
 	private String[] books;
 	

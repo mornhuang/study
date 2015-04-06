@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created By User : Morn
  * Created DateTime: 13-10-6 下午5:47
- * Descriptions    :
+ * Descriptions    : 学习hibernate\jpa
  */
 public interface NewsDao {
     News get(int id);
