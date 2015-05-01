@@ -1,0 +1,7 @@
+P3_bk00 = 其它练习
+P3_bk01 = Python3程序开发指南
+P3_bk02 = Python核心编程
+P3_bk03 = Jython程序设计
+
+P3_bk05 = Rapid GUI Programming with Python and Qt
+P3_bk06 = Django Web开发指南

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#-*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 
 """
 Django settings for pysite project.
@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 """
 
 import os
+
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SITE_NAME = os.path.basename(os.path.dirname(__file__))
 
