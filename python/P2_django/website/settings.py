@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#-*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 
 """
 Django settings for pysite project.
@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 """
 
 import os
+import socket
+
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SITE_NAME = os.path.basename(os.path.dirname(__file__))
 
@@ -23,7 +25,7 @@ MANAGERS = ADMINS
 SITE_ID = 1
 SECRET_KEY = '6p@9oy(cl%&ycdc!a2&chitc3qik$$64(@qwks@s*21r=pt15l'
 TIME_ZONE = 'Asia/Shanghai'
-LANGUAGE_CODE = 'zh-cn'
+LANGUAGE_CODE = 'zh-hans'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
@@ -31,6 +33,12 @@ USE_TZ = True
 ROOT_URLCONF = '%s.urls' % SITE_NAME
 WSGI_APPLICATION = '%s.wsgi.application' % SITE_NAME
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
+
+HOST_NAME = socket.gethostname()
+if HOST_NAME.endswith('.hray.info'):
+    TEMPLATE_DEBUG = DEBUG = False
+else:
+    TEMPLATE_DEBUG = DEBUG = True
 
 ####################################################################
 ###               Static/Media Content
@@ -41,12 +49,19 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
-MEDIA_URL = '/media/'
-STATIC_URL = '/static/'
-
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static').replace('\\', '/'),
 )
+
+MEDIA_URL = '/media/'
+STATIC_URL = '/static/'
+
+if not DEBUG:
+    MEDIA_ROOT = '/srv/www/blog/media'
+    STATIC_ROOT = '/srv/www/blog/static'
+else:
+    MEDIA_ROOT = "F:/Cache/django/media"
+    STATIC_ROOT = "F:/Cache/django/static"
 
 ###################################################################
 ##                  Template Content
@@ -90,39 +105,36 @@ INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.sites',
+    # 'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'grappelli',
-    'filebrowser',
+    # 'grappelli',
+    # 'filebrowser',
     'django.contrib.admin',
-    'django.contrib.comments',
-    'south',
-    'tagging',
-    'mptt',
-    'tinymce',
+    # 'django.contrib.comments',
+    # 'tagging',
+    # 'mptt',
+    # 'tinymce',
     # 'zinnia_bootstrap',
-    'zinnia',
+    # 'zinnia',
+    'books',
+    # 'south',
 )
 
 #################################################################
 ###             Debug Setting
 ################################################################
 import socket
+
 HOST_NAME = socket.gethostname()
 
 # Product environment
-if HOST_NAME.endswith('.hray.info'):
-    TEMPLATE_DEBUG = DEBUG = False
-
+if not DEBUG:
     if HOST_NAME == 'rsc.hray.info':
         SERVER_EMAIL = 'admin@hray.info'
         ALLOWED_HOSTS = ['.hray.info', '192.168.1.10']
     elif HOST_NAME == 'vsc.hray.info':
         ALLOWED_HOSTS = ['.hray.info', '192.168.1.20', '192.168.111.20']
-
-    MEDIA_ROOT = '/srv/www/blog/media'
-    STATIC_ROOT = '/srv/www/blog/static'
 
     DATABASES = {
         'default': {
@@ -177,17 +189,12 @@ if HOST_NAME.endswith('.hray.info'):
 
 # Development environment
 else:
-    TEMPLATE_DEBUG = DEBUG = True
-
-    MEDIA_ROOT = "G:/Cache/blog/media"
-    STATIC_ROOT = "G:/Cache/blog/static"
-
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'ENGINE': 'django.db.backends.mysql',
             'NAME': 'django',
-            'USER': 'test',
-            'PASSWORD': 'test',
+            'USER': 'root',
+            'PASSWORD': 'huangmeng',
             'HOST': '127.0.0.1',
             'PORT': '',
         }
@@ -232,6 +239,13 @@ else:
 #################################################################
 ###             FileBrowser
 ################################################################
-FILEBROWSER_URL_FILEBROWSER_MEDIA = MEDIA_URL + 'filebrowser/'
-FILEBROWSER_PATH_FILEBROWSER_MEDIA = MEDIA_ROOT + 'filebrowser/'
-FILEBROWSER_DIRECTORY = 'uploads/'
+# FILEBROWSER_URL_FILEBROWSER_MEDIA = MEDIA_URL + 'filebrowser/'
+# FILEBROWSER_PATH_FILEBROWSER_MEDIA = MEDIA_ROOT + 'filebrowser/'
+# FILEBROWSER_DIRECTORY = 'uploads/'
+
+#################################################################
+###             South
+################################################################
+SOUTH_DATABASE_ADAPTERS = {
+    'default': "south.db.mysql"
+}
