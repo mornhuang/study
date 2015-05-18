@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ul>
+    <li>list item 1</li>
+    <li>list item 2</li>
+    <li>list item 3</li>
+</ul>
+<p>a paragraph</p>
+<canvas width="300px" height="200px"></canvas>
+<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript">
+//    $("li").add("p").css("background-color", "red");
+//$("p").add("div");
+$('li').add('<p id="new">new paragraph</p>')
+        .css('background-color', 'red');
+</script>
+</body>
+</html>

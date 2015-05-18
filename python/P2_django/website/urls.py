@@ -5,7 +5,7 @@ from django.conf import settings
 from django.conf.urls import patterns, include, url, static
 from django.contrib import admin
 # from filebrowser.sites import site
-import books
+
 
 admin.autodiscover()
 
@@ -16,7 +16,7 @@ urlpatterns = patterns('',
     # url(r'^comments/', include('django.contrib.comments.urls')),
     # url(r'^', include('zinnia.urls')),
     # url(r'^tinymce/', include('tinymce.urls')),
-    url(r'^book/$', include(books.urls)),
+    url(r'^book/', include('books.urls')),
 )
 
 if settings.DEBUG:

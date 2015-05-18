@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .focused {
+            background: #abcdef;
+        }
+    </style>
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="content">
+    <input tabIndex="1">
+    <input tabIndex="2">
+    <select tabIndex="3">
+        <option>select menu</option>
+    </select>
+    <div tabIndex="4">
+        a div
+    </div>
+</div>
+
+<script>
+    $( "#content" ).delegate( "*", "focus blur", function( event ) {
+        console.log(event);
+        var elem = $( this );
+//        elem.addClass("focused");
+//        elem.toggleClass("focused", elem.is(":focus"));
+        setTimeout(function() {
+//            console.log(!!elem.is(":focus"));
+            elem.toggleClass( "focused", elem.is( ":focus" ) );
+        }, 0);
+    });
+</script>
+
+</body>
+</html>

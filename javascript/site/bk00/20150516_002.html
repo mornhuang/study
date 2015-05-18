@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    function show_map(position) {
+        var latitude = position.coords.latitude;
+        var longitude = position.coords.longitude;
+
+    }
+
+    function handle_err(err) {
+        alert(err.code);
+    }
+
+    navigator.geolocation.getCurrentPosition(show_map, handle_err);
+</script>
+</body>
+</html>
