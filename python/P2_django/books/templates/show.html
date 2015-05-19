@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Show Information</title>
+    <style type="text/css">
+        tr:nth-child(odd) {background-color: #e0e0e0}
+        td:nth-child(even) {word-wrap: break-word; word-break: break-all}
+    </style>
+</head>
+<body>
+    <table>
+        {% for k, v in vals %}
+            <tr>
+                <td>{{ k }}</td>
+                <td>{{ v }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
