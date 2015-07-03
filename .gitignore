@@ -48,6 +48,8 @@ tags
 .externalToolBuilders
 .idea
 __pycache__
+bower_components
+node_modules
 
 
 

@@ -49,19 +49,19 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static').replace('\\', '/'),
-)
-
-MEDIA_URL = '/media/'
-STATIC_URL = '/static/'
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'static').replace('\\', '/'),
+# )
 
 if not DEBUG:
     MEDIA_ROOT = '/srv/www/blog/media'
     STATIC_ROOT = '/srv/www/blog/static'
 else:
-    MEDIA_ROOT = "F:/Cache/django/media"
-    STATIC_ROOT = "F:/Cache/django/static"
+    MEDIA_ROOT = os.path.join(BASE_DIR, 'media').replace('\\', '/')
+    STATIC_ROOT = os.path.join(BASE_DIR, 'static').replace('\\', '/')
+
+MEDIA_URL = '/media/'
+STATIC_URL = '/static/'
 
 ###################################################################
 ##                  Template Content
@@ -117,15 +117,13 @@ INSTALLED_APPS = (
     # 'tinymce',
     # 'zinnia_bootstrap',
     # 'zinnia',
+    #'south',
     'books',
 )
 
 #################################################################
 ###             Debug Setting
 ################################################################
-import socket
-
-HOST_NAME = socket.gethostname()
 
 # Product environment
 if not DEBUG:
@@ -191,7 +189,7 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'django',
+            'NAME': 's_study_djangoX',
             'USER': 'root',
             'PASSWORD': 'huangmeng',
             'HOST': '127.0.0.1',
